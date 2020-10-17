@@ -13326,15 +13326,32 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">runcode2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Test variables&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">runcode2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Test variables&#39;</span><span class="p">)</span>
 <span class="n">output2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+</pre></div>
 
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
 <span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
     <span class="c1">#global dataframe</span>
     <span class="c1">#%run Optimization_Tool_Online.ipynb</span>
@@ -13342,9 +13359,6 @@ div#notebook {
     <span class="k">with</span> <span class="n">output2</span><span class="p">:</span>
         <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;These are my variables:&#39;</span><span class="p">,</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
     <span class="k">return</span>
-
-<span class="n">display</span><span class="p">(</span><span class="n">runcode2</span><span class="p">,</span><span class="n">output2</span><span class="p">)</span>
-<span class="n">runcode2</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13361,7 +13375,61 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gender</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;female&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;male&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">runcode2</span><span class="p">,</span><span class="n">output2</span><span class="p">)</span>
+<span class="n">runcode2</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">gender</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;female&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;male&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">}</span>
 <span class="n">preferences</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;vegetarian&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;vegan&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">}</span>
 <span class="n">indicator</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;climate change&#39;</span><span class="p">:</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;biodiversity loss&#39;</span><span class="p">:</span><span class="s1">&#39;BIO&#39;</span><span class="p">,</span><span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="s1">&#39;any&#39;</span><span class="p">}</span>
 <span class="n">activity</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;sedentary&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;moderate&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;vigorous&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">}</span>
@@ -13618,13 +13686,50 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">output3</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_df</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="c1">#global dataframe</span>
+    <span class="c1">#global df</span>
     <span class="c1">#%run Optimization_Tool_Online.ipynb</span>
     <span class="c1">#print (var1.value,var2.value)</span>
-    <span class="k">with</span> <span class="n">output3</span><span class="p">:</span>
-        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;CH_aug.p&#39;</span><span class="p">)</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;GET DF&#39;</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;CH_aug.p&#39;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;GET DF&#39;</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">df</span>
 </pre></div>
 
@@ -13644,6 +13749,124 @@ div#notebook {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">runcode3</span><span class="p">,</span><span class="n">output3</span><span class="p">)</span>
 <span class="n">runcode3</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">get_df</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>GET DF
+GET DF
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">runcode4</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Read other&#39;</span><span class="p">)</span>
+<span class="n">output4</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">readothernb</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="c1">#global df</span>
+    <span class="o">%</span><span class="k">run</span> readother.ipynb
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">runcode4</span><span class="p">,</span><span class="n">output4</span><span class="p">)</span>
+<span class="n">runcode4</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">readothernb</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#df = pd.read_pickle(&#39;CH_aug.p&#39;)</span>
 </pre></div>
 
     </div>
@@ -13799,27 +14022,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -13873,27 +14075,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -13927,27 +14108,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -13987,27 +14147,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -14041,27 +14180,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -14099,25 +14217,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[(&#39;blueberries, frozen_FAT&#39;, 400)]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -14134,27 +14233,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -14194,27 +14272,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -14251,27 +14308,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -14305,27 +14341,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -14382,34 +14397,6 @@ r1,r2,r3,r4,r5 = testopt(df_for_opt,var8,'yes',var3,var4,var5,var6,var7,var1.val
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;beans&#39;: {&#39;mass&#39;: 700, &#39;names&#39;: &#39;beans, blackeye, whole, dried, raw_DBR&#39;},
- &#39;blueberries&#39;: {&#39;mass&#39;: 400, &#39;names&#39;: &#39;blueberries, frozen_FAT&#39;},
- &#39;broccoli&#39;: {&#39;mass&#39;: 1100,
-  &#39;names&#39;: &#39;broccoli, green, boiled in salted water_DGC&#39;},
- &#39;butter&#39;: {&#39;mass&#39;: 450, &#39;names&#39;: &#39;butter, salted_OA&#39;},
- &#39;cheese&#39;: {&#39;mass&#39;: 850, &#39;names&#39;: &#39;cheese, caerphilly_BLH&#39;},
- &#39;oil&#39;: {&#39;mass&#39;: 750, &#39;names&#39;: &#39;oil, coconut_OC&#39;},
- &#39;rabbit&#39;: {&#39;mass&#39;: 650, &#39;names&#39;: &#39;rabbit, raw, meat only&#39;},
- &#39;tortilla&#39;: {&#39;mass&#39;: 550, &#39;names&#39;: &#39;tortilla, wheat, soft_AF&#39;},
- &#39;venison&#39;: {&#39;mass&#39;: 550, &#39;names&#39;: &#39;venison, roast&#39;}}</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
