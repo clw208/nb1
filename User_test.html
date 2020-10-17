@@ -13120,13 +13120,14 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">widgets</span><span class="p">,</span> <span class="n">interact</span><span class="p">,</span> <span class="n">Dropdown</span><span class="p">,</span><span class="n">SelectMultiple</span><span class="p">,</span> <span class="n">Checkbox</span><span class="p">,</span><span class="n">VBox</span><span class="p">,</span><span class="n">FloatSlider</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">widgets</span><span class="p">,</span> <span class="n">interact</span><span class="p">,</span> <span class="n">Dropdown</span><span class="p">,</span><span class="n">SelectMultiple</span><span class="p">,</span> <span class="n">Checkbox</span><span class="p">,</span><span class="n">VBox</span><span class="p">,</span><span class="n">FloatSlider</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 <span class="c1">#https://stackoverflow.com/questions/18398929/passing-multiple-variables-from-dropdowns-using-django-python</span>
 <span class="c1">#https://towardsdatascience.com/bring-your-jupyter-notebook-to-life-with-interactive-widgets-bc12e03f0916</span>
@@ -13175,13 +13176,14 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN </span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">re</span>
 <span class="kn">import</span> <span class="nn">os</span>
@@ -13330,6 +13332,35 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">runcode2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Test variables&#39;</span><span class="p">)</span>
+<span class="n">output2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="c1">#global dataframe</span>
+    <span class="c1">#%run Optimization_Tool_Online.ipynb</span>
+    <span class="c1">#print (var1.value,var2.value)</span>
+    <span class="k">with</span> <span class="n">output2</span><span class="p">:</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;These are my variables:&#39;</span><span class="p">,</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">runcode2</span><span class="p">,</span><span class="n">output2</span><span class="p">)</span>
+<span class="n">runcode2</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gender</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;female&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;male&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">}</span>
 <span class="n">preferences</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;vegetarian&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;vegan&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">}</span>
 <span class="n">indicator</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;climate change&#39;</span><span class="p">:</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;biodiversity loss&#39;</span><span class="p">:</span><span class="s1">&#39;BIO&#39;</span><span class="p">,</span><span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="s1">&#39;any&#39;</span><span class="p">}</span>
@@ -13346,13 +13377,14 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">weighting</span><span class="p">(</span><span class="n">impact</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#HIDDEN</span>
+<span class="k">def</span> <span class="nf">weighting</span><span class="p">(</span><span class="n">impact</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">impact</span> <span class="o">==</span> <span class="s1">&#39;GHG&#39;</span> <span class="ow">or</span> <span class="s1">&#39;BIO&#39;</span><span class="p">:</span> <span class="n">w</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="k">elif</span> <span class="n">impact</span> <span class="o">==</span> <span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="n">w</span> <span class="o">=</span> <span class="mf">0.5</span>
     <span class="k">else</span><span class="p">:</span> <span class="n">w</span> <span class="o">=</span> <span class="mi">0</span>
@@ -13367,13 +13399,14 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">imp</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">indicator</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Impact&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#HIDDEN</span>
+<span class="n">imp</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">indicator</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Impact&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">imp</span><span class="p">)</span>
 <span class="n">gen</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">gender</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Gender:&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">gen</span><span class="p">)</span>
@@ -13534,13 +13567,14 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">var10</span> <span class="o">=</span> <span class="n">diettype</span><span class="o">.</span><span class="n">value</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">var10</span> <span class="o">=</span> <span class="n">diettype</span><span class="o">.</span><span class="n">value</span>
 <span class="n">var9</span> <span class="o">=</span> <span class="n">days</span><span class="o">.</span><span class="n">value</span>
 <span class="n">var4</span> <span class="o">=</span> <span class="n">weight</span><span class="o">.</span><span class="n">value</span>
 <span class="n">var5</span> <span class="o">=</span> <span class="n">height</span><span class="o">.</span><span class="n">value</span>
@@ -13566,7 +13600,67 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df1</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;CH_aug.p&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">runcode3</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Get DF&#39;</span><span class="p">)</span>
+<span class="n">output3</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_df</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="c1">#global dataframe</span>
+    <span class="c1">#%run Optimization_Tool_Online.ipynb</span>
+    <span class="c1">#print (var1.value,var2.value)</span>
+    <span class="k">with</span> <span class="n">output3</span><span class="p">:</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;CH_aug.p&#39;</span><span class="p">)</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;GET DF&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">runcode3</span><span class="p">,</span><span class="n">output3</span><span class="p">)</span>
+<span class="n">runcode3</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">get_df</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#df1=pd.read_pickle(&#39;CH_aug.p&#39;)</span>
 </pre></div>
 
     </div>
