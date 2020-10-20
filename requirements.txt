@@ -4,3 +4,4 @@ nbinteract
 pandas
 display
 pulp
+xlrd
