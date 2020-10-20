@@ -1,7 +1,7 @@
 numpy
 ipywidgets
 nbinteract
+xlrd
 pandas
 display
 pulp
-xlrd
