@@ -5,4 +5,3 @@ xlrd
 pandas
 display
 pulp
-jupyter-math
