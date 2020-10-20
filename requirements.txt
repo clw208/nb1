@@ -3,3 +3,5 @@ ipywidgets
 nbinteract
 pandas
 display
+math
+pulp
