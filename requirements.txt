@@ -6,3 +6,4 @@ pandas
 display
 pulp
 jupyter-math
+get_ipython

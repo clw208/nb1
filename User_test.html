@@ -13196,7 +13196,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">var1</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">cntry</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+<span class="n">var1</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">cntry</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;Switzerland&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
 <span class="n">var2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">mnths</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;aug&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">var2</span><span class="p">)</span>
@@ -13270,7 +13270,6 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">readothernb_new</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="c1">#global df</span>
     <span class="k">with</span> <span class="n">output4</span><span class="p">:</span>
         <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run readother.ipynb&#39;</span><span class="p">)</span>
 </pre></div>
