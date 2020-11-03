@@ -13252,15 +13252,18 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="c1">## ADD A PROGRESS BAR</span>
 <span class="n">runcode2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Build the database&#39;</span><span class="p">)</span>
 <span class="n">output2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
     <span class="k">global</span> <span class="n">dftest2</span>
     <span class="k">with</span> <span class="n">output2</span><span class="p">:</span>
         <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;I want a diet for:&#39;</span><span class="p">,</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">for the month of:&#39;</span><span class="p">,</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take awhile.&#39;</span><span class="p">)</span>
         <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Build_Optimization_Database.ipynb&#39;</span><span class="p">)</span>
         <span class="n">dftest2</span> <span class="o">=</span> <span class="n">calc_impacts</span><span class="p">(</span><span class="n">cntry</span><span class="p">[</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">],</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">dftest2</span>
+        <span class="c1">#return dftest2</span>
+        <span class="k">return</span>
 </pre></div>
 
     </div>
@@ -13278,7 +13281,6 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take awhile.&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">runcode2</span><span class="p">,</span><span class="n">output2</span><span class="p">)</span>
 <span class="n">runcode2</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
 </pre></div>
@@ -13651,12 +13653,128 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">testwidget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
+<span class="n">testwidget</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">testwidget</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
 <span class="c1">#Generate the vbox, search</span>
 <span class="n">multi_select</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">search_widget</span><span class="p">,</span> <span class="n">options_widget</span><span class="p">,</span><span class="n">mass_widget</span><span class="p">,</span><span class="n">button_wid</span><span class="p">])</span>
 <span class="n">search_widget</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">whentextischanged</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">multi_select</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
 </div>
 </div>
 
@@ -13763,6 +13881,23 @@ div#notebook {
 
 </div>
 
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
 </div>
 </div>
 
