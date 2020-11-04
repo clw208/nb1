@@ -13207,6 +13207,64 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">listofcheckboxes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;no preferences&#39;</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;fruits&#39;</span><span class="p">:[</span><span class="s1">&#39;FAT&#39;</span><span class="p">],</span><span class="s1">&#39;vegetables&#39;</span><span class="p">:[</span><span class="s1">&#39;DGR&#39;</span><span class="p">,</span><span class="s1">&#39;DGC&#39;</span><span class="p">],</span>
+     <span class="s1">&#39;legumes&#39;</span><span class="p">:[</span><span class="s1">&#39;DBR&#39;</span><span class="p">,</span><span class="s1">&#39;DBC&#39;</span><span class="p">,</span><span class="s1">&#39;DFR&#39;</span><span class="p">,</span><span class="s1">&#39;DFC&#39;</span><span class="p">],</span><span class="s1">&#39;grains&#39;</span><span class="p">:[</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">,</span><span class="s1">&#39;DAR&#39;</span><span class="p">,</span><span class="s1">&#39;DAC&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;AI&#39;</span><span class="p">,</span><span class="s1">&#39;AI_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AA&#39;</span><span class="p">,</span><span class="s1">&#39;AA_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AF&#39;</span><span class="p">,</span><span class="s1">&#39;AF_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AD&#39;</span><span class="p">,</span><span class="s1">&#39;AD_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">],</span><span class="s1">&#39;nuts_seeds&#39;</span><span class="p">:</span>
+     <span class="p">[</span><span class="s1">&#39;GAT&#39;</span><span class="p">],</span><span class="s1">&#39;milk&#39;</span><span class="p">:[</span><span class="s1">&#39;BAE&#39;</span><span class="p">,</span><span class="s1">&#39;BAH&#39;</span><span class="p">,</span><span class="s1">&#39;BAK&#39;</span><span class="p">,</span><span class="s1">&#39;BLS&#39;</span><span class="p">,</span><span class="s1">&#39;BLM&#39;</span><span class="p">,</span><span class="s1">&#39;BLH&#39;</span><span class="p">,</span><span class="s1">&#39;BLF&#39;</span><span class="p">,</span><span class="s1">&#39;BN&#39;</span><span class="p">],</span>
+     <span class="s1">&#39;vegetarianproducts&#39;</span><span class="p">:[</span><span class="s1">&#39;BAV&#39;</span><span class="p">,</span><span class="s1">&#39;BNV&#39;</span><span class="p">,</span><span class="s1">&#39;VEG&#39;</span><span class="p">],</span>
+     <span class="s1">&#39;fish&#39;</span><span class="p">:[</span><span class="s1">&#39;JAC&#39;</span><span class="p">,</span> <span class="s1">&#39;JAR&#39;</span><span class="p">,</span> <span class="s1">&#39;JCC&#39;</span><span class="p">,</span> <span class="s1">&#39;JCR&#39;</span><span class="p">,</span> <span class="s1">&#39;JKC&#39;</span><span class="p">,</span> <span class="s1">&#39;JKR&#39;</span><span class="p">,</span> <span class="s1">&#39;JMC&#39;</span><span class="p">,</span> <span class="s1">&#39;JMR&#39;</span><span class="p">,</span> <span class="s1">&#39;JRC&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;meat&#39;</span><span class="p">:[</span><span class="s1">&#39;MBGR&#39;</span><span class="p">,</span><span class="s1">&#39;MBGC&#39;</span><span class="p">,</span><span class="s1">&#39;MACR&#39;</span><span class="p">,</span><span class="s1">&#39;MACC&#39;</span><span class="p">,</span><span class="s1">&#39;MAER&#39;</span><span class="p">,</span><span class="s1">&#39;MECC&#39;</span><span class="p">,</span><span class="s1">&#39;MECR&#39;</span><span class="p">,</span><span class="s1">&#39;MEER&#39;</span><span class="p">,</span><span class="s1">&#39;MEEC&#39;</span><span class="p">,</span><span class="s1">&#39;MAIC&#39;</span><span class="p">,</span><span class="s1">&#39;MAIR&#39;</span><span class="p">,</span><span class="s1">&#39;MAE&#39;</span><span class="p">,</span>\
+    <span class="s1">&#39;MAIR&#39;</span><span class="p">,</span><span class="s1">&#39;MAIC&#39;</span><span class="p">,</span><span class="s1">&#39;MCOR&#39;</span><span class="p">,</span><span class="s1">&#39;MCOC&#39;</span><span class="p">,</span><span class="s1">&#39;MCAR&#39;</span><span class="p">,</span><span class="s1">&#39;MCAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAGR&#39;</span><span class="p">,</span><span class="s1">&#39;MAGC&#39;</span><span class="p">,</span><span class="s1">&#39;MAHR&#39;</span><span class="p">,</span><span class="s1">&#39;MAHC&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;MI&#39;</span><span class="p">,</span><span class="s1">&#39;MAAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAAR&#39;</span><span class="p">],</span><span class="s1">&#39;eggs_oil&#39;</span><span class="p">:[</span><span class="s1">&#39;CA&#39;</span><span class="p">,</span><span class="s1">&#39;OA&#39;</span><span class="p">,</span> <span class="s1">&#39;OC&#39;</span><span class="p">,</span> <span class="s1">&#39;OE&#39;</span><span class="p">,</span><span class="s1">&#39;BTM&#39;</span><span class="p">,</span><span class="s1">&#39;BJC&#39;</span><span class="p">]}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="k">def</span> <span class="nf">joinlists_new</span><span class="p">(</span><span class="n">widgetname</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">selectedfoods</span>
+    <span class="n">rs1</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgetname</span><span class="o">.</span><span class="n">description</span> <span class="k">for</span> <span class="n">widgetname</span> <span class="ow">in</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">children</span> <span class="k">if</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
+    <span class="n">rs2</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgetname</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">widgetname</span> <span class="ow">in</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">children</span> <span class="k">if</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
+    <span class="n">food</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">rs1</span><span class="p">,</span><span class="n">rs2</span><span class="p">))</span>
+    
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">food</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">food</span><span class="p">:</span>
+            <span class="n">selectedfoods</span><span class="p">[</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="p">{}</span><span class="c1">#&#39;names&#39;</span>
+            <span class="n">selectedfoods</span><span class="p">[</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]][</span><span class="s1">&#39;names&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">selectedfoods</span><span class="p">[</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]][</span><span class="s1">&#39;mass&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">j</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+        <span class="k">pass</span>   
+    <span class="k">return</span> <span class="c1">#selectedfoods</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
 <span class="n">selectedfoods</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="c1">#Generate a dummy list</span>
 <span class="n">Allfileslist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">],</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Group&#39;</span><span class="p">]))</span>
@@ -13318,7 +13376,9 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>{&#39;apples&#39;: {&#39;names&#39;: &#39;apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT&#39;,
+<pre>{&#39;apples&#39;: {&#39;names&#39;: &#39;apples, eating, raw, flesh and skin, weighed with core&#39;,
+  &#39;mass&#39;: 200},
+ &#39;avocado&#39;: {&#39;names&#39;: &#39;avocado, flesh only, average, weighed with skin and stone&#39;,
   &#39;mass&#39;: 200}}</pre>
 </div>
 
@@ -13351,41 +13411,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -13436,41 +13461,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -13543,171 +13533,6 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="k">def</span> <span class="nf">joinlists_new</span><span class="p">(</span><span class="n">widgetname</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">selectedfoods</span>
-    <span class="n">rs1</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgetname</span><span class="o">.</span><span class="n">description</span> <span class="k">for</span> <span class="n">widgetname</span> <span class="ow">in</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">children</span> <span class="k">if</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
-    <span class="n">rs2</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgetname</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">widgetname</span> <span class="ow">in</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">children</span> <span class="k">if</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
-    <span class="n">food</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">rs1</span><span class="p">,</span><span class="n">rs2</span><span class="p">))</span>
-    
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">food</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">food</span><span class="p">:</span>
-            <span class="n">selectedfoods</span><span class="p">[</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="p">{}</span><span class="c1">#&#39;names&#39;</span>
-            <span class="n">selectedfoods</span><span class="p">[</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]][</span><span class="s1">&#39;names&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="n">selectedfoods</span><span class="p">[</span><span class="n">j</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]][</span><span class="s1">&#39;mass&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">j</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
-        <span class="k">pass</span>   
-    <span class="k">return</span> <span class="c1">#selectedfoods</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13715,32 +13540,6 @@ div#notebook {
 </div>
 </div>
 </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">listofcheckboxes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;no preferences&#39;</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;fruits&#39;</span><span class="p">:[</span><span class="s1">&#39;FAT&#39;</span><span class="p">],</span><span class="s1">&#39;vegetables&#39;</span><span class="p">:[</span><span class="s1">&#39;DGR&#39;</span><span class="p">,</span><span class="s1">&#39;DGC&#39;</span><span class="p">],</span>
-     <span class="s1">&#39;legumes&#39;</span><span class="p">:[</span><span class="s1">&#39;DBR&#39;</span><span class="p">,</span><span class="s1">&#39;DBC&#39;</span><span class="p">,</span><span class="s1">&#39;DFR&#39;</span><span class="p">,</span><span class="s1">&#39;DFC&#39;</span><span class="p">],</span><span class="s1">&#39;grains&#39;</span><span class="p">:[</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">,</span><span class="s1">&#39;DAR&#39;</span><span class="p">,</span><span class="s1">&#39;DAC&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;AI&#39;</span><span class="p">,</span><span class="s1">&#39;AI_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AA&#39;</span><span class="p">,</span><span class="s1">&#39;AA_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AF&#39;</span><span class="p">,</span><span class="s1">&#39;AF_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AD&#39;</span><span class="p">,</span><span class="s1">&#39;AD_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">],</span><span class="s1">&#39;nuts_seeds&#39;</span><span class="p">:</span>
-     <span class="p">[</span><span class="s1">&#39;GAT&#39;</span><span class="p">],</span><span class="s1">&#39;milk&#39;</span><span class="p">:[</span><span class="s1">&#39;BAE&#39;</span><span class="p">,</span><span class="s1">&#39;BAH&#39;</span><span class="p">,</span><span class="s1">&#39;BAK&#39;</span><span class="p">,</span><span class="s1">&#39;BLS&#39;</span><span class="p">,</span><span class="s1">&#39;BLM&#39;</span><span class="p">,</span><span class="s1">&#39;BLH&#39;</span><span class="p">,</span><span class="s1">&#39;BLF&#39;</span><span class="p">,</span><span class="s1">&#39;BN&#39;</span><span class="p">],</span>
-     <span class="s1">&#39;vegetarianproducts&#39;</span><span class="p">:[</span><span class="s1">&#39;BAV&#39;</span><span class="p">,</span><span class="s1">&#39;BNV&#39;</span><span class="p">,</span><span class="s1">&#39;VEG&#39;</span><span class="p">],</span>
-     <span class="s1">&#39;fish&#39;</span><span class="p">:[</span><span class="s1">&#39;JAC&#39;</span><span class="p">,</span> <span class="s1">&#39;JAR&#39;</span><span class="p">,</span> <span class="s1">&#39;JCC&#39;</span><span class="p">,</span> <span class="s1">&#39;JCR&#39;</span><span class="p">,</span> <span class="s1">&#39;JKC&#39;</span><span class="p">,</span> <span class="s1">&#39;JKR&#39;</span><span class="p">,</span> <span class="s1">&#39;JMC&#39;</span><span class="p">,</span> <span class="s1">&#39;JMR&#39;</span><span class="p">,</span> <span class="s1">&#39;JRC&#39;</span><span class="p">],</span>
-    <span class="s1">&#39;meat&#39;</span><span class="p">:[</span><span class="s1">&#39;MBGR&#39;</span><span class="p">,</span><span class="s1">&#39;MBGC&#39;</span><span class="p">,</span><span class="s1">&#39;MACR&#39;</span><span class="p">,</span><span class="s1">&#39;MACC&#39;</span><span class="p">,</span><span class="s1">&#39;MAER&#39;</span><span class="p">,</span><span class="s1">&#39;MECC&#39;</span><span class="p">,</span><span class="s1">&#39;MECR&#39;</span><span class="p">,</span><span class="s1">&#39;MEER&#39;</span><span class="p">,</span><span class="s1">&#39;MEEC&#39;</span><span class="p">,</span><span class="s1">&#39;MAIC&#39;</span><span class="p">,</span><span class="s1">&#39;MAIR&#39;</span><span class="p">,</span><span class="s1">&#39;MAE&#39;</span><span class="p">,</span>\
-    <span class="s1">&#39;MAIR&#39;</span><span class="p">,</span><span class="s1">&#39;MAIC&#39;</span><span class="p">,</span><span class="s1">&#39;MCOR&#39;</span><span class="p">,</span><span class="s1">&#39;MCOC&#39;</span><span class="p">,</span><span class="s1">&#39;MCAR&#39;</span><span class="p">,</span><span class="s1">&#39;MCAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAGR&#39;</span><span class="p">,</span><span class="s1">&#39;MAGC&#39;</span><span class="p">,</span><span class="s1">&#39;MAHR&#39;</span><span class="p">,</span><span class="s1">&#39;MAHC&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;MI&#39;</span><span class="p">,</span><span class="s1">&#39;MAAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAAR&#39;</span><span class="p">],</span><span class="s1">&#39;eggs_oil&#39;</span><span class="p">:[</span><span class="s1">&#39;CA&#39;</span><span class="p">,</span><span class="s1">&#39;OA&#39;</span><span class="p">,</span> <span class="s1">&#39;OC&#39;</span><span class="p">,</span> <span class="s1">&#39;OE&#39;</span><span class="p">,</span><span class="s1">&#39;BTM&#39;</span><span class="p">,</span><span class="s1">&#39;BJC&#39;</span><span class="p">]}</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
 
   
 
@@ -13858,41 +13657,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
