@@ -13291,6 +13291,41 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13329,6 +13364,139 @@ div#notebook {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
 </div>
 </div>
 
@@ -13382,111 +13550,95 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Are-there-certain-foods-you-must-have?">Are there certain foods you must have?<a class="anchor-link" href="#Are-there-certain-foods-you-must-have?">&#182;</a></h1>
 </div>
 </div>
-</div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">selectedfoods</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="c1">#Generate a dummy list</span>
-<span class="n">Allfileslist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">df_foods</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">],</span><span class="n">df_foods</span><span class="p">[</span><span class="s1">&#39;Group&#39;</span><span class="p">]))</span>
-<span class="c1">#Search box + generate ALL the checkboxes, this seems to be the bottleneck</span>
-<span class="n">search_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">listofcheckboxes</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
-<span class="n">experiments</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">experiments_mass</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">options_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;overflow&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">})</span>
-<span class="n">mass_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;overflow&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">})</span>
-<span class="n">button_wid</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Save Choices&#39;</span><span class="p">)</span>
-<span class="n">but_out</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">with</span> <span class="n">but_out</span><span class="p">:</span>
-        <span class="n">joinlists_new</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
-<span class="n">button_wid</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">save</span><span class="p">)</span>    
+</div># HIDDEN
+selectedfoods = {}
+#Generate a dummy list
+Allfileslist = list(zip(df_foods['Food Name'],df_foods['Group']))
+#Search box + generate ALL the checkboxes, this seems to be the bottleneck
+search_widget = widgets.Dropdown(options = listofcheckboxes.keys(),layout={'width': 'initial'})
+experiments = {}
+experiments_mass = {}
+options_widget = widgets.VBox(layout={'overflow': 'auto'})
+mass_widget = widgets.VBox(layout={'overflow': 'auto'})
+button_wid = widgets.Button(description='Save Choices')
+but_out = widgets.Output()
+def save(b):
+    with but_out:
+        joinlists_new(multi_select)
+button_wid.on_click(save)    
     
-<span class="k">def</span> <span class="nf">whentextischanged</span> <span class="p">(</span><span class="n">change</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Dynamically update the widget experiments&quot;&quot;&quot;</span>
-    <span class="n">search_input</span> <span class="o">=</span> <span class="n">change</span><span class="p">[</span><span class="s1">&#39;new&#39;</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">search_input</span> <span class="o">==</span> <span class="s1">&#39;no preferences&#39;</span><span class="p">:</span>
-        <span class="c1"># Reset search field, default to last 9 experiments</span>
-        <span class="n">new_options</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Proceed with optimization&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">True</span><span class="p">)]</span>
-        <span class="n">new_options_mass</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Proceed with optimization&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">True</span><span class="p">)]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Filter by search</span>
-        <span class="n">close_matches</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])][</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
-        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">experiments</span><span class="p">:</span>
-                <span class="n">experiments</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
-                <span class="n">experiments_mass</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Mass (grams)&#39;</span><span class="p">,</span> <span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span><span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-        <span class="c1">### magic code that generates only the match boxes ###</span>
-        <span class="n">new_options</span> <span class="o">=</span> <span class="p">[</span><span class="n">experiments</span><span class="p">[</span><span class="n">eachfilename</span><span class="p">]</span> <span class="k">for</span> <span class="n">eachfilename</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">]</span>
-        <span class="n">new_options_mass</span> <span class="o">=</span> <span class="p">[</span><span class="n">experiments_mass</span><span class="p">[</span><span class="n">eachfilename</span><span class="p">]</span> <span class="k">for</span> <span class="n">eachfilename</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">]</span>
-    <span class="n">options_widget</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">new_options</span>
-    <span class="n">mass_widget</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">new_options_mass</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">runcodefoods</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Select Must Haves&#39;</span><span class="p">)</span>
-<span class="n">outputfoods</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">selectfoods</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">multi_select</span>
-    <span class="k">with</span> <span class="n">outputfoods</span><span class="p">:</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Choose the food items and mass from the dropdown&#39;</span><span class="p">)</span>
-        <span class="n">multi_select</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">search_widget</span><span class="p">,</span> <span class="n">options_widget</span><span class="p">,</span><span class="n">mass_widget</span><span class="p">,</span><span class="n">button_wid</span><span class="p">])</span>
-        <span class="n">search_widget</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">whentextischanged</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>
-        <span class="n">display</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
-        <span class="k">return</span>
-<span class="n">display</span><span class="p">(</span><span class="n">runcodefoods</span><span class="p">,</span><span class="n">outputfoods</span><span class="p">)</span>
-<span class="n">runcodefoods</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">selectfoods</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selectedfoods</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
+def whentextischanged (change):
+    """Dynamically update the widget experiments"""
+    search_input = change['new']
+    if search_input == 'no preferences':
+        # Reset search field, default to last 9 experiments
+        new_options = [widgets.Checkbox(description='Proceed with optimization', value=True)]
+        new_options_mass = [widgets.Checkbox(description='Proceed with optimization', value=True)]
+    else:
+        # Filter by search
+        close_matches = [x[0] for x in Allfileslist if x[1] in(listofcheckboxes[search_widget.value])][0:5]
+        for name in close_matches:
+            if name not in experiments:
+                experiments[name] = widgets.Checkbox(description=name, value=False,style={'description_width': 'initial'})
+                experiments_mass[name] = widgets.IntSlider(description='Mass (grams)', min=0,max=500,step=50,value=0)
+        ### magic code that generates only the match boxes ###
+        new_options = [experiments[eachfilename] for eachfilename in close_matches]
+        new_options_mass = [experiments_mass[eachfilename] for eachfilename in close_matches]
+    options_widget.children = new_options
+    mass_widget.children = new_options_mass# HIDDEN
+runcodefoods = widgets.Button(description='Select Must Haves')
+outputfoods = widgets.Output()
+def selectfoods(b):
+    global multi_select
+    with outputfoods:
+        print ('Choose the food items and mass from the dropdown')
+        multi_select = widgets.HBox([search_widget, options_widget,mass_widget,button_wid])
+        search_widget.observe(whentextischanged, names='value')
+        display(multi_select)
+        return
+display(runcodefoods,outputfoods)
+runcodefoods.on_click(selectfoods)
 
   
 
@@ -13510,6 +13662,58 @@ div#notebook {
         <span class="k">return</span> <span class="n">df_opt</span><span class="p">[(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">!=</span><span class="mi">0</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">())]</span>
 <span class="n">display</span><span class="p">(</span><span class="n">runcode5</span><span class="p">,</span><span class="n">output5</span><span class="p">)</span>
 <span class="n">runcode5</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">run_tool</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
