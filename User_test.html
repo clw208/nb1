@@ -13183,23 +13183,6 @@ div#notebook {
 
   
 
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;CH_aug.p&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
   <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
@@ -13237,8 +13220,7 @@ div#notebook {
     <span class="k">global</span> <span class="n">selectedfoods</span>
     <span class="n">rs1</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgetname</span><span class="o">.</span><span class="n">description</span> <span class="k">for</span> <span class="n">widgetname</span> <span class="ow">in</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">children</span> <span class="k">if</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
     <span class="n">rs2</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgetname</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">widgetname</span> <span class="ow">in</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">children</span> <span class="k">if</span> <span class="n">widgetname</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
-    <span class="n">food</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">rs1</span><span class="p">,</span><span class="n">rs2</span><span class="p">))</span>
-    
+    <span class="n">food</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">rs1</span><span class="p">,</span><span class="n">rs2</span><span class="p">))</span>  
     <span class="k">try</span><span class="p">:</span>
         <span class="n">food</span>
         <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">food</span><span class="p">:</span>
@@ -13248,216 +13230,6 @@ div#notebook {
     <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
         <span class="k">pass</span>   
     <span class="k">return</span> <span class="c1">#selectedfoods</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">selectedfoods</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="c1">#Generate a dummy list</span>
-<span class="n">Allfileslist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">],</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Group&#39;</span><span class="p">]))</span>
-<span class="c1">#Search box + generate ALL the checkboxes, this seems to be the bottleneck</span>
-<span class="n">search_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">listofcheckboxes</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
-<span class="n">experiments</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">experiments_mass</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">options_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;overflow&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">})</span>
-<span class="n">mass_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;overflow&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">})</span>
-<span class="n">button_wid</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Save Choices&#39;</span><span class="p">)</span>
-<span class="n">but_out</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">with</span> <span class="n">but_out</span><span class="p">:</span>
-        <span class="n">joinlists_new</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
-<span class="n">button_wid</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">save</span><span class="p">)</span>    
-    
-<span class="k">def</span> <span class="nf">whentextischanged</span> <span class="p">(</span><span class="n">change</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Dynamically update the widget experiments&quot;&quot;&quot;</span>
-    <span class="n">search_input</span> <span class="o">=</span> <span class="n">change</span><span class="p">[</span><span class="s1">&#39;new&#39;</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">search_input</span> <span class="o">==</span> <span class="s1">&#39;no preferences&#39;</span><span class="p">:</span>
-        <span class="c1"># Reset search field, default to last 9 experiments</span>
-        <span class="n">new_options</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Proceed with optimization&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">True</span><span class="p">)]</span>
-        <span class="n">new_options_mass</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Proceed with optimization&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">True</span><span class="p">)]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Filter by search</span>
-        <span class="n">close_matches</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])][</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
-        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">experiments</span><span class="p">:</span>
-                <span class="n">experiments</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
-                <span class="n">experiments_mass</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Mass (grams)&#39;</span><span class="p">,</span> <span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span><span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-        <span class="c1">### magic code that generates only the match boxes ###</span>
-        <span class="n">new_options</span> <span class="o">=</span> <span class="p">[</span><span class="n">experiments</span><span class="p">[</span><span class="n">eachfilename</span><span class="p">]</span> <span class="k">for</span> <span class="n">eachfilename</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">]</span>
-        <span class="n">new_options_mass</span> <span class="o">=</span> <span class="p">[</span><span class="n">experiments_mass</span><span class="p">[</span><span class="n">eachfilename</span><span class="p">]</span> <span class="k">for</span> <span class="n">eachfilename</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">]</span>
-    <span class="n">options_widget</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">new_options</span>
-    <span class="n">mass_widget</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">new_options_mass</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Generate the vbox, search</span>
-<span class="n">multi_select</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">search_widget</span><span class="p">,</span> <span class="n">options_widget</span><span class="p">,</span><span class="n">mass_widget</span><span class="p">,</span><span class="n">button_wid</span><span class="p">])</span>
-<span class="n">search_widget</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">whentextischanged</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>
-
-<span class="n">multi_select</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selectedfoods</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;apples&#39;: {&#39;names&#39;: &#39;apples, eating, raw, flesh and skin, weighed with core&#39;,
-  &#39;mass&#39;: 200},
- &#39;avocado&#39;: {&#39;names&#39;: &#39;avocado, flesh only, average, weighed with skin and stone&#39;,
-  &#39;mass&#39;: 200}}</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-  </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Choose-your-country-and-the-month-for-which-you'd-like-a-diet">Choose your country and the month for which you'd like a diet<a class="anchor-link" href="#Choose-your-country-and-the-month-for-which-you'd-like-a-diet">&#182;</a></h1>
-</div>
-</div>
-</div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">var1</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">cntry</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;Switzerland&#39;</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
-<span class="n">var2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">mnths</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;aug&#39;</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">var2</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="c1">## ADD A PROGRESS BAR</span>
-<span class="n">runcode2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Build the database&#39;</span><span class="p">)</span>
-<span class="n">output2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">df_foods</span>
-    <span class="k">with</span> <span class="n">output2</span><span class="p">:</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;I want a diet for:&#39;</span><span class="p">,</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">for the month of:&#39;</span><span class="p">,</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take awhile.&#39;</span><span class="p">)</span>
-        <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Build_Optimization_Database.ipynb&#39;</span><span class="p">)</span>
-        <span class="n">dftest2</span> <span class="o">=</span> <span class="n">calc_impacts</span><span class="p">(</span><span class="n">cntry</span><span class="p">[</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">],</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
-        <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Foods_to_Include.ipynb&#39;</span><span class="p">)</span>
-        <span class="n">df_foods</span> <span class="o">=</span> <span class="n">editdf</span><span class="p">(</span><span class="n">dftest2</span><span class="p">,</span><span class="n">imp</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">diettype</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">supp</span><span class="p">[</span><span class="n">sup</span><span class="o">.</span><span class="n">value</span><span class="p">])</span>
-        
-        <span class="k">return</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">display</span><span class="p">(</span><span class="n">runcode2</span><span class="p">,</span><span class="n">output2</span><span class="p">)</span>
-<span class="n">runcode2</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13489,6 +13261,68 @@ div#notebook {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Choose-your-country-and-the-month-for-which-you'd-like-a-diet">Choose your country and the month for which you'd like a diet<a class="anchor-link" href="#Choose-your-country-and-the-month-for-which-you'd-like-a-diet">&#182;</a></h1>
+</div>
+</div>
+</div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">var1</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">cntry</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;Switzerland&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
+<span class="n">var2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">mnths</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;aug&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">var2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
 </div>
 </div>
 
@@ -13533,13 +13367,224 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
   </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Are-there-certain-foods-you-must-have?">Are there certain foods you must have?<a class="anchor-link" href="#Are-there-certain-foods-you-must-have?">&#182;</a></h1>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
 </div>
 </div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="c1">## ADD A PROGRESS BAR</span>
+<span class="n">runcode2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Build the database&#39;</span><span class="p">)</span>
+<span class="n">output2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">df_foods</span>
+    <span class="k">with</span> <span class="n">output2</span><span class="p">:</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;I want a diet for:&#39;</span><span class="p">,</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">for the month of:&#39;</span><span class="p">,</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take awhile.&#39;</span><span class="p">)</span>
+        <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Build_Optimization_Database.ipynb&#39;</span><span class="p">)</span>
+        <span class="n">dftest2</span> <span class="o">=</span> <span class="n">calc_impacts</span><span class="p">(</span><span class="n">cntry</span><span class="p">[</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">],</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+        <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Foods_to_Include.ipynb&#39;</span><span class="p">)</span>
+        <span class="n">df_foods</span> <span class="o">=</span> <span class="n">editdf</span><span class="p">(</span><span class="n">dftest2</span><span class="p">,</span><span class="n">imp</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">diettype</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">supp</span><span class="p">[</span><span class="n">sup</span><span class="o">.</span><span class="n">value</span><span class="p">])</span>      
+        <span class="k">return</span> <span class="n">df_foods</span>
+</pre></div>
+
+    </div>
 </div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">display</span><span class="p">(</span><span class="n">runcode2</span><span class="p">,</span><span class="n">output2</span><span class="p">)</span>
+<span class="n">runcode2</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
 
   
 
@@ -13549,14 +13594,39 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_foods</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(11, 415)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
   </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Are-there-certain-foods-you-must-have?">Are there certain foods you must have?<a class="anchor-link" href="#Are-there-certain-foods-you-must-have?">&#182;</a></h1>
+</div>
+</div>
+</div>
 
   
 
@@ -13630,6 +13700,64 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selectedfoods</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;apples&#39;: {&#39;names&#39;: &#39;apples, eating, raw, flesh and skin, weighed with core_FAT&#39;,
+  &#39;mass&#39;: 300}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
   </div>
 
   
@@ -13657,6 +13785,41 @@ div#notebook {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
 </div>
 </div>
 
