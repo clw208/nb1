@@ -371,29 +371,30 @@ PUFA_constraints: 0.9414 almonds,_flaked_and_ground_GAT
  + 0.027 asparagus,_boiled_in_unsalted_water_DGC + 0.018 asparagus,_raw_DGR
  >= 1880.05125
 TFA_constraints: __dummy <= 85.456875
-_C1: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT >= 300
-_C10: almonds,_flaked_and_ground_GAT
+_C1: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT >= 200
+_C10: asparagus,_raw_DGR - 700 food_status_asparagus,_raw_DGR <= 0
+_C11: almonds,_flaked_and_ground_GAT
  - 140 food_status_almonds,_flaked_and_ground_GAT <= 0
-_C11: almonds,_toasted_GAT - 140 food_status_almonds,_toasted_GAT <= 0
-_C2: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
- - 330 food_status_apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
+_C12: almonds,_toasted_GAT - 140 food_status_almonds,_toasted_GAT <= 0
+_C2: apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT >= 250
+_C3: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
+ - 220 food_status_apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
  <= 0
-_C3: apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
+_C4: apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  - 1050 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  <= 0
-_C4: apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
- - 1050 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
+_C5: apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
+ - 275 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
  <= 0
-_C5: artichoke,_globe,_base_of_leaves_and_heart,_boiled_in_unsalted_water_DGC
+_C6: artichoke,_globe,_base_of_leaves_and_heart,_boiled_in_unsalted_water_DGC
  - 700 food_status_artichoke,_globe,_base_of_leaves_and_heart,_boiled_in_unsalted_water_DGC
  <= 0
-_C6: artichoke,_globe,_boiled,_weighed_as_served_DGC
+_C7: artichoke,_globe,_boiled,_weighed_as_served_DGC
  - 700 food_status_artichoke,_globe,_boiled,_weighed_as_served_DGC <= 0
-_C7: artichoke,_globe,_raw_DGR - 700 food_status_artichoke,_globe,_raw_DGR
+_C8: artichoke,_globe,_raw_DGR - 700 food_status_artichoke,_globe,_raw_DGR
  <= 0
-_C8: asparagus,_boiled_in_unsalted_water_DGC
+_C9: asparagus,_boiled_in_unsalted_water_DGC
  - 700 food_status_asparagus,_boiled_in_unsalted_water_DGC <= 0
-_C9: asparagus,_raw_DGR - 700 food_status_asparagus,_raw_DGR <= 0
 kcal: 6.12 almonds,_flaked_and_ground_GAT + 6.21 almonds,_toasted_GAT
  + 0.43 apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
  + 0.29 apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
