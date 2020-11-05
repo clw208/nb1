@@ -13740,7 +13740,7 @@ button_wid.on_click(save)
         <span class="n">multi_select</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">search_widget</span><span class="p">,</span> <span class="n">options_widget</span><span class="p">,</span><span class="n">mass_widget</span><span class="p">,</span><span class="n">button_wid</span><span class="p">])</span>
         <span class="n">search_widget</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">whentextischanged</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>
         <span class="n">display</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
-        <span class="k">return</span>
+        <span class="k">return</span> <span class="n">multi_select</span>
 <span class="n">display</span><span class="p">(</span><span class="n">runcodefoods</span><span class="p">,</span><span class="n">outputfoods</span><span class="p">)</span>
 <span class="n">runcodefoods</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">selectfoods</span><span class="p">)</span>
 </pre></div>
@@ -13820,26 +13820,6 @@ button_wid.on_click(save)
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;apples&#39;: {&#39;names&#39;: &#39;apples, eating, raw, flesh and skin, weighed with core_FAT&#39;,
-  &#39;mass&#39;: 250}}</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
   </div>
 
   
@@ -13859,41 +13839,6 @@ button_wid.on_click(save)
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
@@ -13973,41 +13918,6 @@ runcodefoods.on_click(selectfoods)
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
