@@ -13644,6 +13644,57 @@ div#notebook {
 
   
 
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
   <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
@@ -13651,6 +13702,23 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="n">selectedfoods</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="c1">#Generate a dummy list</span>
+<span class="c1">#Allfileslist = list(zip(df_foods[&#39;Food Name&#39;],df_foods[&#39;Group&#39;]))</span>
+<span class="c1">#Search box + generate ALL the checkboxes, this seems to be the bottleneck</span>
+<span class="n">search_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">listofcheckboxes</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
+<span class="n">experiments</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">experiments_mass</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">options_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;overflow&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">})</span>
+<span class="n">mass_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;overflow&#39;</span><span class="p">:</span> <span class="s1">&#39;auto&#39;</span><span class="p">})</span>
+<span class="n">button_wid</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Save Choices&#39;</span><span class="p">)</span>
+<span class="n">but_out</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">but_out</span><span class="p">:</span>
+        <span class="n">joinlists_new</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
+<span class="n">button_wid</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">save</span><span class="p">)</span> 
+
+<span class="c1"># HIDDEN</span>
 <span class="k">def</span> <span class="nf">whentextischanged</span> <span class="p">(</span><span class="n">change</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Dynamically update the widget experiments&quot;&quot;&quot;</span>
     <span class="n">search_input</span> <span class="o">=</span> <span class="n">change</span><span class="p">[</span><span class="s1">&#39;new&#39;</span><span class="p">]</span>
@@ -13687,74 +13755,9 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#multi_select = widgets.HBox([search_widget, options_widget,mass_widget,button_wid])</span>
-<span class="c1">#search_widget.observe(whentextischanged, names=&#39;value&#39;)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="nbinteract-hide_in
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">runcodefoods</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Select Must Haves&#39;</span><span class="p">)</span>
-<span class="n">outputfoods</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">selectfoods</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">multi_select</span>
-    <span class="n">multi_select</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">search_widget</span><span class="p">,</span> <span class="n">options_widget</span><span class="p">,</span><span class="n">mass_widget</span><span class="p">,</span><span class="n">button_wid</span><span class="p">])</span>
-    <span class="n">search_widget</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">whentextischanged</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>   
-
-    <span class="k">with</span> <span class="n">outputfoods</span><span class="p">:</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Choose the food items and mass from the dropdown&#39;</span><span class="p">)</span>
-        <span class="c1">#foods()</span>
-        <span class="c1">#multi_select = widgets.HBox([search_widget, options_widget,mass_widget,button_wid])</span>
-        <span class="c1">#search_widget.observe(whentextischanged, names=&#39;value&#39;)</span>
-        <span class="n">display</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">multi_select</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">runcodefoods</span><span class="p">,</span><span class="n">outputfoods</span><span class="p">)</span>
-<span class="n">runcodefoods</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">selectfoods</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">multi_select</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">search_widget</span><span class="p">,</span> <span class="n">options_widget</span><span class="p">,</span><span class="n">mass_widget</span><span class="p">,</span><span class="n">button_wid</span><span class="p">])</span>
+<span class="n">search_widget</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">whentextischanged</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">multi_select</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13779,24 +13782,21 @@ div#notebook {
 
 </div>
 
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
-  </div>
+  </div># HIDDEN
+runcodefoods = widgets.Button(description='Select Must Haves')
+outputfoods = widgets.Output()
+def selectfoods(b):
+    global multi_select
+    with outputfoods:
+        print ('Choose the food items and mass from the dropdown')
+        #foods()
+        multi_select = widgets.HBox([search_widget, options_widget,mass_widget,button_wid])
+        search_widget.observe(whentextischanged, names='value')
+        display(multi_select)display(runcodefoods,outputfoods)
+runcodefoods.on_click(selectfoods)
 
   
 
@@ -13824,8 +13824,8 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>{&#39;artichoke&#39;: {&#39;names&#39;: &#39;artichoke, globe, base of leaves and heart, boiled in unsalted water_DGC&#39;,
-  &#39;mass&#39;: 250}}</pre>
+<pre>{&#39;apples&#39;: {&#39;names&#39;: &#39;apples, eating, raw, flesh and skin, weighed with core_FAT&#39;,
+  &#39;mass&#39;: 150}}</pre>
 </div>
 
 </div>
