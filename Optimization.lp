@@ -371,12 +371,12 @@ PUFA_constraints: 0.9414 almonds,_flaked_and_ground_GAT
  + 0.027 asparagus,_boiled_in_unsalted_water_DGC + 0.018 asparagus,_raw_DGR
  >= 1880.05125
 TFA_constraints: __dummy <= 85.456875
-_C1: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT >= 250
+_C1: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT >= 50
 _C10: almonds,_flaked_and_ground_GAT
  - 140 food_status_almonds,_flaked_and_ground_GAT <= 0
 _C11: almonds,_toasted_GAT - 140 food_status_almonds,_toasted_GAT <= 0
 _C2: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
- - 275 food_status_apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
+ - 55 food_status_apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
  <= 0
 _C3: apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  - 1050 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
