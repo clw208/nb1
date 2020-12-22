@@ -13153,7 +13153,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">threading</span>
 <span class="kn">import</span> <span class="nn">time</span>
 <span class="kn">from</span> <span class="nn">IPython</span> <span class="k">import</span> <span class="n">get_ipython</span>
-<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span><span class="p">,</span> <span class="n">display</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span><span class="p">,</span> <span class="n">display</span><span class="p">,</span> <span class="n">Image</span>
 <span class="n">ipython</span> <span class="o">=</span> <span class="n">get_ipython</span><span class="p">()</span>
 <span class="n">data_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;..&#39;</span><span class="p">,</span><span class="s1">&#39;nb1&#39;</span><span class="p">,</span><span class="s1">&#39;Input&#39;</span><span class="p">)</span>
 <span class="c1"># input files from other python scripts</span>
@@ -13164,6 +13164,37 @@ div#notebook {
 </div>
 
   </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><font color='green'>this text</font></p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#![title](Test1.png)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="Test1.png" alt="title"></p>
+
+</div>
+</div>
+</div>
 
   
 
@@ -13186,14 +13217,32 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-right
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cntry</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span><span class="s1">&#39;trandict.npy&#39;</span><span class="p">),</span><span class="n">allow_pickle</span><span class="o">=</span><span class="s1">&#39;TRUE&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
-<span class="n">cntry</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">cntry</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nbi:right</span>
+<span class="n">cntry_rev</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span><span class="s1">&#39;trandict.npy&#39;</span><span class="p">),</span><span class="n">allow_pickle</span><span class="o">=</span><span class="s1">&#39;TRUE&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-left
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nbi:left</span>
+<span class="n">cntry</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">cntry_rev</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
 </pre></div>
 
     </div>
@@ -13211,15 +13260,15 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">listofcheckboxes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;no preferences&#39;</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;fruits&#39;</span><span class="p">:[</span><span class="s1">&#39;FAT&#39;</span><span class="p">],</span><span class="s1">&#39;vegetables&#39;</span><span class="p">:[</span><span class="s1">&#39;DGR&#39;</span><span class="p">,</span><span class="s1">&#39;DGC&#39;</span><span class="p">],</span>
-     <span class="s1">&#39;legumes&#39;</span><span class="p">:[</span><span class="s1">&#39;DBR&#39;</span><span class="p">,</span><span class="s1">&#39;DBC&#39;</span><span class="p">,</span><span class="s1">&#39;DFR&#39;</span><span class="p">,</span><span class="s1">&#39;DFC&#39;</span><span class="p">],</span><span class="s1">&#39;grains&#39;</span><span class="p">:[</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">,</span><span class="s1">&#39;DAR&#39;</span><span class="p">,</span><span class="s1">&#39;DAC&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;AI&#39;</span><span class="p">,</span><span class="s1">&#39;AI_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AA&#39;</span><span class="p">,</span><span class="s1">&#39;AA_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AF&#39;</span><span class="p">,</span><span class="s1">&#39;AF_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AD&#39;</span><span class="p">,</span><span class="s1">&#39;AD_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">],</span><span class="s1">&#39;nuts_seeds&#39;</span><span class="p">:</span>
-     <span class="p">[</span><span class="s1">&#39;GAT&#39;</span><span class="p">],</span><span class="s1">&#39;milk&#39;</span><span class="p">:[</span><span class="s1">&#39;BAE&#39;</span><span class="p">,</span><span class="s1">&#39;BAH&#39;</span><span class="p">,</span><span class="s1">&#39;BAK&#39;</span><span class="p">,</span><span class="s1">&#39;BLS&#39;</span><span class="p">,</span><span class="s1">&#39;BLM&#39;</span><span class="p">,</span><span class="s1">&#39;BLH&#39;</span><span class="p">,</span><span class="s1">&#39;BLF&#39;</span><span class="p">,</span><span class="s1">&#39;BN&#39;</span><span class="p">],</span>
-     <span class="s1">&#39;vegetarianproducts&#39;</span><span class="p">:[</span><span class="s1">&#39;BAV&#39;</span><span class="p">,</span><span class="s1">&#39;BNV&#39;</span><span class="p">,</span><span class="s1">&#39;VEG&#39;</span><span class="p">],</span>
+<span class="n">listofcheckboxes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;no food preferences&#39;</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;fruits&#39;</span><span class="p">:[</span><span class="s1">&#39;FAT&#39;</span><span class="p">],</span><span class="s1">&#39;vegetables&#39;</span><span class="p">:[</span><span class="s1">&#39;DGR&#39;</span><span class="p">,</span><span class="s1">&#39;DGC&#39;</span><span class="p">],</span>
+     <span class="s1">&#39;legumes or beans&#39;</span><span class="p">:[</span><span class="s1">&#39;DBR&#39;</span><span class="p">,</span><span class="s1">&#39;DBC&#39;</span><span class="p">,</span><span class="s1">&#39;DFR&#39;</span><span class="p">,</span><span class="s1">&#39;DFC&#39;</span><span class="p">],</span><span class="s1">&#39;grains&#39;</span><span class="p">:[</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">,</span><span class="s1">&#39;DAR&#39;</span><span class="p">,</span><span class="s1">&#39;DAC&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;AI&#39;</span><span class="p">,</span><span class="s1">&#39;AI_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AA&#39;</span><span class="p">,</span><span class="s1">&#39;AA_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AF&#39;</span><span class="p">,</span><span class="s1">&#39;AF_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AD&#39;</span><span class="p">,</span><span class="s1">&#39;AD_wg&#39;</span><span class="p">],</span><span class="s1">&#39;nuts and seeds&#39;</span><span class="p">:</span>
+     <span class="p">[</span><span class="s1">&#39;GAT&#39;</span><span class="p">],</span><span class="s1">&#39;dairy products&#39;</span><span class="p">:[</span><span class="s1">&#39;BAE&#39;</span><span class="p">,</span><span class="s1">&#39;BAH&#39;</span><span class="p">,</span><span class="s1">&#39;BAK&#39;</span><span class="p">,</span><span class="s1">&#39;BLS&#39;</span><span class="p">,</span><span class="s1">&#39;BLM&#39;</span><span class="p">,</span><span class="s1">&#39;BLH&#39;</span><span class="p">,</span><span class="s1">&#39;BLF&#39;</span><span class="p">,</span><span class="s1">&#39;BN&#39;</span><span class="p">,</span><span class="s1">&#39;BJC&#39;</span><span class="p">],</span>
+     <span class="s1">&#39;vegetarian/vegan food items&#39;</span><span class="p">:[</span><span class="s1">&#39;BAV&#39;</span><span class="p">,</span><span class="s1">&#39;BNV&#39;</span><span class="p">,</span><span class="s1">&#39;VEG&#39;</span><span class="p">],</span>
      <span class="s1">&#39;fish&#39;</span><span class="p">:[</span><span class="s1">&#39;JAC&#39;</span><span class="p">,</span> <span class="s1">&#39;JAR&#39;</span><span class="p">,</span> <span class="s1">&#39;JCC&#39;</span><span class="p">,</span> <span class="s1">&#39;JCR&#39;</span><span class="p">,</span> <span class="s1">&#39;JKC&#39;</span><span class="p">,</span> <span class="s1">&#39;JKR&#39;</span><span class="p">,</span> <span class="s1">&#39;JMC&#39;</span><span class="p">,</span> <span class="s1">&#39;JMR&#39;</span><span class="p">,</span> <span class="s1">&#39;JRC&#39;</span><span class="p">],</span>
     <span class="s1">&#39;meat&#39;</span><span class="p">:[</span><span class="s1">&#39;MBGR&#39;</span><span class="p">,</span><span class="s1">&#39;MBGC&#39;</span><span class="p">,</span><span class="s1">&#39;MACR&#39;</span><span class="p">,</span><span class="s1">&#39;MACC&#39;</span><span class="p">,</span><span class="s1">&#39;MAER&#39;</span><span class="p">,</span><span class="s1">&#39;MECC&#39;</span><span class="p">,</span><span class="s1">&#39;MECR&#39;</span><span class="p">,</span><span class="s1">&#39;MEER&#39;</span><span class="p">,</span><span class="s1">&#39;MEEC&#39;</span><span class="p">,</span><span class="s1">&#39;MAIC&#39;</span><span class="p">,</span><span class="s1">&#39;MAIR&#39;</span><span class="p">,</span><span class="s1">&#39;MAE&#39;</span><span class="p">,</span>\
     <span class="s1">&#39;MAIR&#39;</span><span class="p">,</span><span class="s1">&#39;MAIC&#39;</span><span class="p">,</span><span class="s1">&#39;MCOR&#39;</span><span class="p">,</span><span class="s1">&#39;MCOC&#39;</span><span class="p">,</span><span class="s1">&#39;MCAR&#39;</span><span class="p">,</span><span class="s1">&#39;MCAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAGR&#39;</span><span class="p">,</span><span class="s1">&#39;MAGC&#39;</span><span class="p">,</span><span class="s1">&#39;MAHR&#39;</span><span class="p">,</span><span class="s1">&#39;MAHC&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;MI&#39;</span><span class="p">,</span><span class="s1">&#39;MAAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAAR&#39;</span><span class="p">],</span><span class="s1">&#39;eggs_oil&#39;</span><span class="p">:[</span><span class="s1">&#39;CA&#39;</span><span class="p">,</span><span class="s1">&#39;OA&#39;</span><span class="p">,</span> <span class="s1">&#39;OC&#39;</span><span class="p">,</span> <span class="s1">&#39;OE&#39;</span><span class="p">,</span><span class="s1">&#39;BTM&#39;</span><span class="p">,</span><span class="s1">&#39;BJC&#39;</span><span class="p">]}</span>
+    <span class="s1">&#39;MI&#39;</span><span class="p">,</span><span class="s1">&#39;MAAC&#39;</span><span class="p">,</span><span class="s1">&#39;MAAR&#39;</span><span class="p">],</span><span class="s1">&#39;eggs, oils, and others&#39;</span><span class="p">:[</span><span class="s1">&#39;CA&#39;</span><span class="p">,</span><span class="s1">&#39;OA&#39;</span><span class="p">,</span> <span class="s1">&#39;OC&#39;</span><span class="p">,</span> <span class="s1">&#39;OE&#39;</span><span class="p">,</span><span class="s1">&#39;BTM&#39;</span><span class="p">,</span><span class="s1">&#39;BH&#39;</span><span class="p">,</span><span class="s1">&#39;BP&#39;</span><span class="p">,</span><span class="s1">&#39;BPV&#39;</span><span class="p">,</span><span class="s1">&#39;PAC&#39;</span><span class="p">,</span><span class="s1">&#39;SC&#39;</span><span class="p">,</span><span class="s1">&#39;SEA&#39;</span><span class="p">,</span><span class="s1">&#39;WCN&#39;</span><span class="p">]}</span>
 </pre></div>
 
     </div>
@@ -13290,16 +13339,12 @@ except NameError:
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
 <span class="n">gender</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;female&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;male&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">}</span>
-<span class="n">preferences</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;vegetarian&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;vegan&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">}</span>
-<span class="n">indicator</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;climate change&#39;</span><span class="p">:</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;biodiversity loss&#39;</span><span class="p">:</span><span class="s1">&#39;BIO&#39;</span><span class="p">,</span><span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="s1">&#39;any&#39;</span><span class="p">}</span>
+<span class="n">preferences</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;vegetarian&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;vegan&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;pescatarian&#39;</span><span class="p">:</span><span class="mi">3</span><span class="p">}</span>
+<span class="n">indicator</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;climate change&#39;</span><span class="p">:</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;biodiversity loss&#39;</span><span class="p">:</span><span class="s1">&#39;BIO&#39;</span><span class="p">,</span><span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="s1">&#39;both&#39;</span><span class="p">}</span>
 <span class="n">activity</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;sedentary&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;moderate&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;vigorous&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">}</span>
 <span class="n">supp</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;yes&#39;</span><span class="p">:</span><span class="s1">&#39;yes_sup&#39;</span><span class="p">,</span><span class="s1">&#39;no&#39;</span><span class="p">:</span><span class="s1">&#39;no_sup&#39;</span><span class="p">}</span>
+<span class="n">vitd</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;yes&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;no&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">}</span>
 <span class="n">weighting</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;climate change&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;biodiversity loss&#39;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="mf">0.5</span><span class="p">}</span>
-<span class="k">def</span> <span class="nf">weighting</span><span class="p">(</span><span class="n">impact</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">impact</span> <span class="o">==</span> <span class="s1">&#39;GHG&#39;</span> <span class="ow">or</span> <span class="s1">&#39;BIO&#39;</span><span class="p">:</span> <span class="n">w</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">elif</span> <span class="n">impact</span> <span class="o">==</span> <span class="s1">&#39;both&#39;</span><span class="p">:</span><span class="n">w</span> <span class="o">=</span> <span class="mf">0.5</span>
-    <span class="k">else</span><span class="p">:</span> <span class="n">w</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">return</span> <span class="n">w</span>
 </pre></div>
 
     </div>
@@ -13310,13 +13355,14 @@ except NameError:
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
+<span class="k">def</span> <span class="nf">display_table</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
     <span class="n">html</span> <span class="o">=</span> <span class="s2">&quot;&lt;table&gt;&quot;</span>
     <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
         <span class="n">html</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span>
@@ -13334,7 +13380,25 @@ except NameError:
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Choose-your-country-and-the-month-for-which-you'd-like-a-diet">Choose your country and the month for which you'd like a diet<a class="anchor-link" href="#Choose-your-country-and-the-month-for-which-you'd-like-a-diet">&#182;</a></h1>
+<h2 id="People-may-have-difficulty-coming-up-with-a-diet-that:">People may have difficulty coming up with a diet that:<a class="anchor-link" href="#People-may-have-difficulty-coming-up-with-a-diet-that:">&#182;</a></h2><h2 id="1)-meets-their-nutrient-needs,">1) meets their nutrient needs,<a class="anchor-link" href="#1)-meets-their-nutrient-needs,">&#182;</a></h2><h2 id="2)-follows-the-Global-Burden-of-Disease-food-recommendations">2) follows the Global Burden of Disease food recommendations<a class="anchor-link" href="#2)-follows-the-Global-Burden-of-Disease-food-recommendations">&#182;</a></h2><h2 id="3)-incorporates-the-environmental-impacts-of-producing-their-food">3) incorporates the environmental impacts of producing their food<a class="anchor-link" href="#3)-incorporates-the-environmental-impacts-of-producing-their-food">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="This-tool-was-developed-to-help-an-individual-build-their-own-healthful,-low-environmental-impact-diet,-and-takes-into-account-where,-when,-and-how-their-food-is-produced.">This tool was developed to help an individual build their own healthful, low environmental impact diet, and takes into account where, when, and how their food is produced.<a class="anchor-link" href="#This-tool-was-developed-to-help-an-individual-build-their-own-healthful,-low-environmental-impact-diet,-and-takes-into-account-where,-when,-and-how-their-food-is-produced.">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="In-order-to-personalize-a-low-impact-diet-for-your-specific-conditions,-please-answer-the-following-questions:">In order to personalize a low impact diet for your specific conditions, please answer the following questions:<a class="anchor-link" href="#In-order-to-personalize-a-low-impact-diet-for-your-specific-conditions,-please-answer-the-following-questions:">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Choose-your-country-and-the-month-for-which-you'd-like-a-diet">Choose your country and the month for which you'd like a diet<a class="anchor-link" href="#Choose-your-country-and-the-month-for-which-you'd-like-a-diet">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13396,7 +13460,7 @@ except NameError:
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Please-answer-the-following-questions-to-personalize-the-diet-to-your-needs">Please answer the following questions to personalize the diet to your needs<a class="anchor-link" href="#Please-answer-the-following-questions-to-personalize-the-diet-to-your-needs">&#182;</a></h1>
+<h3 id="Please-answer-the-following-questions-to-personalize-the-diet-to-your-needs">Please answer the following questions to personalize the diet to your needs<a class="anchor-link" href="#Please-answer-the-following-questions-to-personalize-the-diet-to-your-needs">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13412,8 +13476,6 @@ except NameError:
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#HIDDEN</span>
 <span class="n">personweight</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntText</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Weight (kg):&#39;</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">60</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">personweight</span><span class="p">)</span>
-<span class="n">imp</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">indicator</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Impact&#39;</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">imp</span><span class="p">)</span>
 <span class="n">gen</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">gender</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Gender:&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">gen</span><span class="p">)</span>
 <span class="n">height</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntText</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Height (cm):&#39;</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">165</span><span class="p">)</span>
@@ -13422,12 +13484,8 @@ except NameError:
 <span class="n">display</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
 <span class="n">act</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">activity</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Activity Level:&#39;</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;moderate&#39;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">act</span><span class="p">)</span>
-<span class="n">sup</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">supp</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Include supplements?&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">)</span>
+<span class="n">sup</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">supp</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Include a multi-vitamin supplement?&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">sup</span><span class="p">)</span>
-<span class="n">days</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">BoundedIntText</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Number of Days for the Diet:&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">days</span><span class="p">)</span>
-<span class="n">diettype</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">preferences</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Dietary Preferences:&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">diettype</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13522,52 +13580,16 @@ except NameError:
 
 </div>
 
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
   </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Vitamin-D-can-be-difficult-to-get-through-the-diet-because-of-its-lack-of-availability-in-foods.-Therefore,-we-suggest-taking-a-supplement-rather-than-consuming-it-through-food.-If-you-want-it-through-food,-however,-we-will-include-it-in-the-optimization.">Vitamin D can be difficult to get through the diet because of its lack of availability in foods. Therefore, we suggest taking a supplement rather than consuming it through food. If you want it through food, however, we will include it in the optimization.<a class="anchor-link" href="#Vitamin-D-can-be-difficult-to-get-through-the-diet-because-of-its-lack-of-availability-in-foods.-Therefore,-we-suggest-taking-a-supplement-rather-than-consuming-it-through-food.-If-you-want-it-through-food,-however,-we-will-include-it-in-the-optimization.">&#182;</a></h3>
+</div>
+</div>
+</div>
 
   
 
@@ -13577,10 +13599,168 @@ except NameError:
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vitamind</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">vitd</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Include Vitamin D through food?&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;no&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">vitamind</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="What-environmental-impacts-would-you-like-to-priorititze?">What environmental impacts would you like to priorititze?<a class="anchor-link" href="#What-environmental-impacts-would-you-like-to-priorititze?">&#182;</a></h3><h5 id="Currently,-climate-change-(GHG)-and-biodiversity-loss-(BIO)-are-available">Currently, climate change (GHG) and biodiversity loss (BIO) are available<a class="anchor-link" href="#Currently,-climate-change-(GHG)-and-biodiversity-loss-(BIO)-are-available">&#182;</a></h5>
+</div>
+</div>
+</div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#HIDDEN</span>
+<span class="n">imp</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">indicator</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Impact&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">imp</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="For-how-many-days-would-you-like-the-diet?">For how many days would you like the diet?<a class="anchor-link" href="#For-how-many-days-would-you-like-the-diet?">&#182;</a></h3><h5 id="Seven-or-more-is-recommended">Seven or more is recommended<a class="anchor-link" href="#Seven-or-more-is-recommended">&#182;</a></h5>
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">days</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">BoundedIntText</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Number of Days for the Diet:&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">days</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Do-you-have-dietary-preferences-(i.e.-vegetarian-or-vegan)?">Do you have dietary preferences (i.e. vegetarian or vegan)?<a class="anchor-link" href="#Do-you-have-dietary-preferences-(i.e.-vegetarian-or-vegan)?">&#182;</a></h3>
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diettype</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">preferences</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Dietary Preferences:&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">diettype</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
 </div>
 </div>
 
@@ -13649,7 +13829,7 @@ except NameError:
     <span class="k">global</span> <span class="n">df_foods</span>
     <span class="k">with</span> <span class="n">output2</span><span class="p">:</span>
         <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;I want a diet for:&#39;</span><span class="p">,</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">for the month of:&#39;</span><span class="p">,</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take awhile.&#39;</span><span class="p">)</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take a couple minutes.&#39;</span><span class="p">)</span>
         <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Build_Optimization_Database.ipynb&#39;</span><span class="p">)</span>
         <span class="n">dftest2</span> <span class="o">=</span> <span class="n">calc_impacts</span><span class="p">(</span><span class="n">cntry</span><span class="p">[</span><span class="n">var1</span><span class="o">.</span><span class="n">value</span><span class="p">],</span><span class="n">var2</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
         <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Foods_to_Include.ipynb&#39;</span><span class="p">)</span>
@@ -13700,9 +13880,579 @@ except NameError:
 </div>
 
   </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_foods</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Food Code</th>
+      <th>Food Name</th>
+      <th>Description</th>
+      <th>Previous</th>
+      <th>Main data references</th>
+      <th>Footnote</th>
+      <th>Edible proportion</th>
+      <th>Specific gravity</th>
+      <th>Total solids</th>
+      <th>Nitrogen conversion factor</th>
+      <th>...</th>
+      <th>optimization_country_BIO_1_trade</th>
+      <th>GHG_bioopt_value1</th>
+      <th>Food</th>
+      <th>Trade</th>
+      <th>Non_edible</th>
+      <th>optimization_value_GHG_1_tradeopt</th>
+      <th>bio_GHGopt_value1opt</th>
+      <th>optimization_value_BIO_1_tradeopt</th>
+      <th>GHG_bioopt_value1opt</th>
+      <th>Grams</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>14-870</td>
+      <td>almonds,_flaked_and_ground_GAT</td>
+      <td>10 samples</td>
+      <td>14-801 14-855 50-972</td>
+      <td>Reviewed 2013. LGC, Snacks and nuts, 1989-1991...</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5.18</td>
+      <td>...</td>
+      <td>AU</td>
+      <td>0.006993</td>
+      <td>almonds shelled</td>
+      <td>[(US, 63.0), (ES, 26.0), (DE, 3.0), (AU, 2.0),...</td>
+      <td>NaN</td>
+      <td>1.023474</td>
+      <td>0.607941</td>
+      <td>0.433305</td>
+      <td>1.826339</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>1 rows × 420 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>        <span class="c1"># Filter by search</span>
+<span class="n">Allfileslist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">df_foods</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">],</span><span class="n">df_foods</span><span class="p">[</span><span class="s1">&#39;Group&#39;</span><span class="p">]))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Allfileslist</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[(&#39;almonds,_flaked_and_ground_GAT&#39;, &#39;GAT&#39;)]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT&#39;,
+ &#39;apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT&#39;,
+ &#39;apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT&#39;,
+ &#39;avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT&#39;,
+ &#39;bananas,_raw,_flesh_only,_weighed_with_skin_FAT&#39;,
+ &#39;blackberries,_raw_FAT&#39;,
+ &#39;elderberries,_whole_fruit_FAT&#39;,
+ &#39;mulberries,_whole_fruit,_raw_FAT&#39;,
+ &#39;raspberries,_raw_FAT&#39;,
+ &#39;blackberries,_raw,_frozen_FAT&#39;,
+ &#39;elderberries,_whole_fruit,_frozen_FAT&#39;,
+ &#39;mulberries,_whole_fruit,_raw,_frozen_FAT&#39;,
+ &#39;raspberries,_raw,_frozen_FAT&#39;,
+ &#39;blueberries_FAT&#39;,
+ &#39;blueberries,_frozen_FAT&#39;,
+ &#39;rhubarb,_stems_only,_raw_FAT&#39;,
+ &#39;cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT&#39;,
+ &#39;cherries,_flesh_and_skin,_raw,_weighed_with_stones,_frozen_FAT&#39;,
+ &#39;coconut,_flesh_only,_fresh_FAT&#39;,
+ &#39;coconut,_desiccated_FAT&#39;,
+ &#39;cranberries_FAT&#39;,
+ &#39;cranberries,_frozen_FAT&#39;,
+ &#39;dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT&#39;,
+ &#39;olives,_green,_in_brine,_drained,_flesh_and_skin,_weighed_with_stones_FAT&#39;,
+ &#39;figs,_whole_green_fruit,_raw_FAT&#39;,
+ &#39;fruit_cocktail,_canned_in_juice,_whole_contents_FAT&#39;,
+ &#39;guava,_raw,_weighed_with_skin_and_pips_FAT&#39;,
+ &#39;passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT&#39;,
+ &#39;pomegranate,_flesh_and_pips,_weighed_with_skin_FAT&#39;,
+ &#39;star_fruit_FAT&#39;,
+ &#39;grapefruit,_canned_in_juice,_whole_contents_FAT&#39;,
+ &#39;grapefruit,_flesh_only,_raw,_weighed_with_peel_and_pips_FAT&#39;,
+ &#39;pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT&#39;,
+ &#39;kiwi_fruit,_flesh_and_seeds,_weighed_with_skin_FAT&#39;,
+ &#39;kumquats,_whole_fruit,_raw_FAT&#39;,
+ &#39;mandarin_oranges,_canned_in_juice,_whole_contents_FAT&#39;,
+ &#39;mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone_FAT&#39;,
+ &#39;mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone,_frozen_FAT&#39;,
+ &#39;melon,_flesh_only,_average,_weighed_with_skin_FAT&#39;,
+ &#39;nectarines,_flesh_and_skin,_weighed_with_stones_FAT&#39;,
+ &#39;peaches,_canned_in_juice,_whole_contents_FAT&#39;,
+ &#39;peaches,_canned_in_syrup,_whole_contents_FAT&#39;,
+ &#39;peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT&#39;,
+ &#39;peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT&#39;,
+ &#39;oranges,_flesh_only,_weighed_with_peel_and_pips_FAT&#39;,
+ &#39;papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT&#39;,
+ &#39;pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT&#39;,
+ &#39;pears,_canned_in_juice,_whole_contents_FAT&#39;,
+ &#39;pears,_raw,_flesh_only,_peeled,_weighed_with_skin_and_core_FAT&#39;,
+ &#39;pineapple,_canned_in_juice,_whole_contents_FAT&#39;,
+ &#39;pineapple,_canned_in_syrup,_whole_contents_FAT&#39;,
+ &#39;pineapple,_flesh_only,_raw,_weighed_with_skin_and_top_FAT&#39;,
+ &#39;plums,_average,_raw,_flesh_and_skin,_weighed_with_stones_FAT&#39;,
+ &#39;plums,_average,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT&#39;,
+ &#39;strawberries,_raw_FAT&#39;,
+ &#39;strawberries,_raw,_frozen_FAT&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">search_widget</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">listofcheckboxes</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">layout</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">search_widget</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;fruits&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;FAT&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;cereal,_bran_flakes,_fortified_AI_wg&#39;,
+ &#39;cereal,_bran_type_cereal,_fortified_AI_wg&#39;,
+ &#39;couscous,_plain,_raw_AD&#39;,
+ &#39;tortilla,_wheat,_soft_AF&#39;,
+ &#39;bread,_seeded_AF&#39;,
+ &#39;bread,_white,_average_AF&#39;,
+ &#39;bread,_wholemeal,_average_AF_wg&#39;,
+ &#39;cereal,_cornflakes,_fortified_AI&#39;,
+ &#39;cereal,_cornflakes,_frosted,_fortified_AI&#39;,
+ &#39;cereal,_cornflakes,_unfortified_AI&#39;,
+ &#39;cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI&#39;,
+ &#39;cereal,_crunchy/crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg&#39;,
+ &#39;cereal,_fruit_and_fibre_type,_fortified_AI&#39;,
+ &#39;cereal,_instant_hot_oat,_plain,_raw,_fortified_AI&#39;,
+ &#39;cereal,_malted_flake,_fortified_AI&#39;,
+ &#39;cereal,_malted_wheat,_fortified_AI&#39;,
+ &#39;cereal,_multigrain_hoops,_fortified_AI&#39;,
+ &#39;cereal,_oat,_instant,_flavoured,_unfortified,_made_up_with_semi-skimmed_milk_AI&#39;,
+ &#39;cereal,_oat,_instant,_plain,_fortified,_cooked,_made_up_with_semi-skimmed_milk_AI&#39;,
+ &#39;cereal,_puffed_wheat,_unfortified_AI&#39;,
+ &#39;cereal,_rice,_chocolate_flavoured,_fortified_AI&#39;,
+ &#39;cereal,_rice,_toasted/crisp,_fortified_AI&#39;,
+ &#39;cereal,_shredded_wheat_type_with_fruit,_unfortified_AI&#39;,
+ &#39;cereal,_shredded_wheat_type,_unfortified_AI&#39;,
+ &#39;cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI&#39;,
+ &#39;cereal,_wheat_biscuits,_weetabix_type,_fortified_AI&#39;,
+ &#39;cereal,_wheat_biscuits,_weetabix_type,_unfortified_AI&#39;,
+ &#39;noodles,_egg,_dried,_raw_AD&#39;,
+ &#39;pasta,_white,_dried,_raw_AD&#39;,
+ &#39;pasta,_wholewheat,_spaghetti,_dried,_raw_AD_wg&#39;,
+ &#39;cassava,_baked_DAC&#39;,
+ &#39;cassava,_boiled_in_unsalted_water_DAC&#39;,
+ &#39;cassava,_frozen,_raw_DAR&#39;,
+ &#39;cassava,_raw_DAR&#39;,
+ &#39;cassava,_steamed_DAC&#39;,
+ &#39;polenta,_hydrated,_raw_AD&#39;,
+ &#39;rice_white_AC&#39;,
+ &#39;rice_brown_AC_wg&#39;,
+ &#39;muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg&#39;,
+ &#39;muesli,_swiss_style,_unfortified_AI_wg&#39;,
+ &#39;plantain,_boiled_in_unsalted_water,_flesh_only_DAC&#39;,
+ &#39;plantain,_green_flesh,_raw_DAR&#39;,
+ &#39;plantain,_ripe,_fried_in_rapeseed_oil_DAC&#39;,
+ &#39;potatoes,_new_and_salad,_boiled_in_salted_water,_flesh_and_skin_DAC&#39;,
+ &#39;potatoes,_new_and_salad,_boiled_in_unsalted_water,_flesh_and_skin_DAC&#39;,
+ &#39;potatoes,_new_and_salad,_flesh_only,_raw_DAR&#39;,
+ &#39;potatoes,_old,_baked,_flesh_and_skin_DAC&#39;,
+ &#39;potatoes,_old,_baked,_flesh_only_DAC&#39;,
+ &#39;potatoes,_old,_baked,_flesh_only,_weighed_with_skin_DAC&#39;,
+ &#39;potatoes,_old,_boiled_in_salted_water,_flesh_only_DAC&#39;,
+ &#39;potatoes,_old,_boiled_in_unsalted_water,_flesh_only_DAC&#39;,
+ &#39;potatoes,_old,_microwaved,_flesh_and_skin_DAC&#39;,
+ &#39;potatoes,_old,_raw,_flesh_only_DAR&#39;,
+ &#39;yam,_baked_DAC&#39;,
+ &#39;yam,_boiled_in_unsalted_water,_flesh_only_DAC&#39;,
+ &#39;yam,_flesh_only,_raw_DAR&#39;,
+ &#39;yam,_steamed_DAC&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">close_matches</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Are-there-certain-foods-you-must-have?">Are there certain foods you must have?<a class="anchor-link" href="#Are-there-certain-foods-you-must-have?">&#182;</a></h1>
+<h3 id="Are-there-certain-foods-you-must-have?">Are there certain foods you must have?<a class="anchor-link" href="#Are-there-certain-foods-you-must-have?">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13743,9 +14493,10 @@ except NameError:
         <span class="c1"># Filter by search</span>
         <span class="n">Allfileslist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">df_foods</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">],</span><span class="n">df_foods</span><span class="p">[</span><span class="s1">&#39;Group&#39;</span><span class="p">]))</span>
         <span class="n">close_matches</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])]</span>
-        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">:</span>
+        <span class="n">display</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Allfileslist</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span><span class="p">(</span><span class="n">listofcheckboxes</span><span class="p">[</span><span class="n">search_widget</span><span class="o">.</span><span class="n">value</span><span class="p">])]</span>
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span><span class="n">dis</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">close_matches</span><span class="p">,</span><span class="n">display</span><span class="p">):</span>
             <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">experiments</span><span class="p">:</span>
-                <span class="n">experiments</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
+                <span class="n">experiments</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="n">dis</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">})</span>
                 <span class="n">experiments_mass</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Mass (grams)&#39;</span><span class="p">,</span> <span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span><span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
         <span class="c1">### magic code that generates only the match boxes ###</span>
         <span class="n">new_options</span> <span class="o">=</span> <span class="p">[</span><span class="n">experiments</span><span class="p">[</span><span class="n">eachfilename</span><span class="p">]</span> <span class="k">for</span> <span class="n">eachfilename</span> <span class="ow">in</span> <span class="n">close_matches</span><span class="p">]</span>
@@ -13867,6 +14618,42 @@ except NameError:
 
   
 
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selectedfoods</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;artichoke, globe, raw&#39;: {&#39;names&#39;: &#39;artichoke, globe, raw_DGR&#39;, &#39;mass&#39;: 150}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
   <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
@@ -13876,32 +14663,288 @@ except NameError:
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
 <span class="n">runcode5</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Click Here to Build your Low Impact and Healthful Diet&#39;</span><span class="p">)</span>
 <span class="n">output5</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">run_tool</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">global</span> <span class="n">df_opt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_foods</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Food Code</th>
+      <th>Food Name</th>
+      <th>Description</th>
+      <th>Previous</th>
+      <th>Main data references</th>
+      <th>Footnote</th>
+      <th>Edible proportion</th>
+      <th>Specific gravity</th>
+      <th>Total solids</th>
+      <th>Nitrogen conversion factor</th>
+      <th>...</th>
+      <th>optimization_country_BIO_1_trade</th>
+      <th>GHG_bioopt_value1</th>
+      <th>Food</th>
+      <th>Trade</th>
+      <th>Non_edible</th>
+      <th>optimization_value_GHG_1_tradeopt</th>
+      <th>bio_GHGopt_value1opt</th>
+      <th>optimization_value_BIO_1_tradeopt</th>
+      <th>GHG_bioopt_value1opt</th>
+      <th>Grams</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>14-870</td>
+      <td>almonds,_flaked_and_ground_GAT</td>
+      <td>10 samples</td>
+      <td>14-801 14-855 50-972</td>
+      <td>Reviewed 2013. LGC, Snacks and nuts, 1989-1991...</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5.18</td>
+      <td>...</td>
+      <td>AU</td>
+      <td>0.006993</td>
+      <td>almonds shelled</td>
+      <td>[(US, 63.0), (ES, 26.0), (DE, 3.0), (AU, 2.0),...</td>
+      <td>NaN</td>
+      <td>1.023474</td>
+      <td>0.607941</td>
+      <td>0.433305</td>
+      <td>1.826339</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>1 rows × 420 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selectedfoods</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;artichoke, globe, raw&#39;: {&#39;names&#39;: &#39;artichoke, globe, raw_DGR&#39;, &#39;mass&#39;: 150}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Optimization_Tool_Online.ipynb&#39;</span><span class="p">)</span>
+<span class="n">relaxfactor</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>        
+<span class="n">df_opt</span><span class="o">=</span><span class="n">runopt</span><span class="p">(</span><span class="n">df_foods</span><span class="p">,</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">,</span><span class="s1">&#39;yes_sup&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">165</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="s1">&#39;moderate&#39;</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="n">relaxfactor</span><span class="p">,</span><span class="n">selectedfoods</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>     
+<span class="k">while</span> <span class="p">((</span><span class="n">count</span><span class="o">&lt;=</span><span class="mi">3</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">status</span><span class="o">!=</span><span class="mi">1</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">status</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">relaxfactor</span> <span class="o">+=</span><span class="mi">1</span>
+        <span class="n">count</span> <span class="o">+=</span><span class="mi">1</span>
+        <span class="n">df_opt</span><span class="o">=</span><span class="n">runopt</span><span class="p">(</span><span class="n">df_foods</span><span class="p">,</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">,</span><span class="s1">&#39;yes_sup&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">165</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="s1">&#39;moderate&#39;</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="n">relaxfactor</span><span class="p">,</span><span class="n">selectedfoods</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>  
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_opt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">run_tool</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="c1">#global df_opt</span>
+    <span class="k">global</span> <span class="n">status</span>
     <span class="k">with</span> <span class="n">output5</span><span class="p">:</span>       
         <span class="n">ipython</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;run Optimization_Tool_Online.ipynb&#39;</span><span class="p">)</span>
         <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;This can take some time.&#39;</span><span class="p">)</span>
-        <span class="n">df_opt</span> <span class="o">=</span> <span class="n">runopt</span><span class="p">(</span><span class="n">df_foods</span><span class="p">,</span><span class="n">imp</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">diettype</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">supp</span><span class="p">[</span><span class="n">sup</span><span class="o">.</span><span class="n">value</span><span class="p">],</span><span class="n">gender</span><span class="p">[</span><span class="n">gen</span><span class="o">.</span><span class="n">value</span><span class="p">],</span><span class="n">personweight</span><span class="o">.</span><span class="n">value</span><span class="p">,</span>\
-                          <span class="n">height</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">age</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">act</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">days</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="n">selectedfoods</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">status</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
-            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;i am here&#39;</span><span class="p">)</span>
-
-            <span class="n">df_opt</span> <span class="o">=</span> <span class="n">df_opt</span><span class="p">[(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">!=</span><span class="mi">0</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">())]</span>
-            <span class="n">df_opt</span> <span class="o">=</span> <span class="n">df_opt</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;Grams&#39;</span><span class="p">],</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;My total Climate Change impact is: </span><span class="si">%d</span><span class="s1"> kgCO2 eq&#39;</span><span class="o">%</span>\
-                   <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_value_GHG_1_trade&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]))</span>
-            <span class="c1">#print (&#39;My total Biodiversity Loss impact is: %d PDF*yr&#39;%\</span>
-            <span class="c1">#       np.sum(df_opt[&#39;bio_GHGopt_value1&#39;]*df_opt[&#39;Grams&#39;]))</span>
-            <span class="n">name</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">]]</span>
-            <span class="n">cou</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_GHG_1_trade&#39;</span><span class="p">]]</span> 
-            <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">name</span><span class="p">,</span><span class="n">cou</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">])]</span>
-            <span class="n">display_table</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">relaxfactor</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>        
+        <span class="n">df_opt</span><span class="o">=</span><span class="n">runopt</span><span class="p">(</span><span class="n">df_foods</span><span class="p">,</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">,</span><span class="s1">&#39;yes_sup&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">165</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="s1">&#39;moderate&#39;</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="n">relaxfactor</span><span class="p">,</span><span class="n">selectedfoods</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>     
+        <span class="k">while</span> <span class="p">((</span><span class="n">count</span><span class="o">&lt;=</span><span class="mi">3</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">status</span><span class="o">!=</span><span class="mi">1</span><span class="p">)):</span>
+            <span class="k">if</span> <span class="n">status</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">relaxfactor</span> <span class="o">+=</span><span class="mi">1</span>
+                <span class="n">count</span> <span class="o">+=</span><span class="mi">1</span>
+                <span class="n">df_opt</span><span class="o">=</span><span class="n">runopt</span><span class="p">(</span><span class="n">df_foods</span><span class="p">,</span><span class="s1">&#39;GHG&#39;</span><span class="p">,</span><span class="s1">&#39;none&#39;</span><span class="p">,</span><span class="s1">&#39;yes_sup&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">165</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="s1">&#39;moderate&#39;</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="n">relaxfactor</span><span class="p">,</span><span class="n">selectedfoods</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>           
+        
+        <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_GHG_1_trade&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_GHG_1_trade&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">cntry_rev</span><span class="p">)</span>
+        <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_BIO_1_trade&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_BIO_1_trade&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">cntry_rev</span><span class="p">)</span>        
+        <span class="n">df_opt</span> <span class="o">=</span> <span class="n">df_opt</span><span class="p">[(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">!=</span><span class="mi">0</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">())]</span>
+        <span class="n">df_opt</span> <span class="o">=</span> <span class="n">df_opt</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;Grams&#39;</span><span class="p">],</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Food Item&#39;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Food Name&#39;</span><span class="p">]]</span>
+        <span class="n">mass</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">round</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">tolist</span><span class="p">()]</span>
+            
+        <span class="k">if</span> <span class="n">imp</span><span class="o">.</span><span class="n">value</span> <span class="o">==</span> <span class="s1">&#39;GHG&#39;</span><span class="p">:</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;My total Climate Change impact is: </span><span class="si">%s</span><span class="s1"> kgCO2 eq&#39;</span><span class="o">%</span>\
+                   <span class="nb">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_value_GHG_1_trade&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]),</span><span class="mi">2</span><span class="p">))</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;and the corresponding Biodiversity Loss impact is: </span><span class="si">%s</span><span class="s1"> PDF*yr&#39;</span><span class="o">%</span>\
+                   <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;bio_GHGopt_value1&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]))</span>
+            <span class="n">cou</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Source Country&#39;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_GHG_1_trade&#39;</span><span class="p">]]</span> 
+        <span class="k">elif</span> <span class="n">imp</span><span class="o">.</span><span class="n">value</span> <span class="o">==</span> <span class="s1">&#39;BIO&#39;</span><span class="p">:</span>  
+            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;My total Biodiversity Loss impact is: </span><span class="si">%s</span><span class="s1"> PDF*yr eq&#39;</span><span class="o">%</span>\
+                   <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_value_BIO_1_trade&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]))</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;and the corresponding climate change impact is: </span><span class="si">%s</span><span class="s1"> kgCO2eq&#39;</span><span class="o">%</span>\
+                   <span class="nb">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;GHG_bioopt_value1&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]),</span><span class="mi">2</span><span class="p">))</span>
+            <span class="n">cou</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Source Country&#39;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_BIO_1_trade&#39;</span><span class="p">]]</span>            
         <span class="k">else</span><span class="p">:</span>
-            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;The optimization did not work for an unknown reason, a general low impact diet would include:&#39;</span><span class="p">)</span>
-            <span class="nb">print</span> <span class="p">(</span><span class="n">status</span><span class="p">)</span>
-            <span class="n">df_opt</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="k">return</span> <span class="n">df_opt</span>
-<span class="n">display</span><span class="p">(</span><span class="n">runcode5</span><span class="p">,</span><span class="n">output5</span><span class="p">)</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;My total Biodiversity Loss impact is: </span><span class="si">%s</span><span class="s1"> PDF*yr eq&#39;</span><span class="o">%</span>\
+                   <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;bio_GHGopt_value1&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]))</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;and climate change impact is: </span><span class="si">%s</span><span class="s1"> kgCO2eq&#39;</span><span class="o">%</span>\
+                   <span class="nb">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_value_GHG_1_trade&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;Grams&#39;</span><span class="p">]),</span><span class="mi">2</span><span class="p">))</span>
+            <span class="n">cou</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Source Country&#39;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df_opt</span><span class="p">[</span><span class="s1">&#39;optimization_country_GHG_1_trade&#39;</span><span class="p">]]</span> 
+        <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">name</span><span class="p">,</span><span class="n">cou</span><span class="p">,</span><span class="n">mass</span><span class="p">]</span>
+        <span class="n">display_table</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">df_opt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">runcode5</span><span class="p">,</span><span class="n">output5</span><span class="p">)</span>
 <span class="n">runcode5</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">run_tool</span><span class="p">)</span>
 </pre></div>
 
@@ -13944,7 +14987,68 @@ except NameError:
 </div>
 </div>
 
-  </div>import matplotlib.pyplot as plt
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>#  OLD AND RUNS
+# HIDDEN
+runcode5 = widgets.Button(description='Click Here to Build your Low Impact and Healthful Diet')
+output5 = widgets.Output()
+def run_tool(b):
+    global df_opt
+    with output5:       
+        ipython.magic('run Optimization_Tool_Online.ipynb')
+        print ('This can take some time.')
+        
+        df_opt = runopt(df_foods,imp.value,diettype.value,supp[sup.value],gender[gen.value],personweight.value,\
+                          height.value,age.value,act.value,days.value,2,selectedfoods,vitd[vitamind.value])
+        if status==1:
+            df_opt = df_opt[(df_opt['Grams']!=0)&(df_opt['Grams'].notnull())]
+            df_opt = df_opt.sort_values(['Grams'],ascending=False)
+            name = ['Food Item']+[i.split(',')[0] for i in df_opt['Food Name']]
+            mass = ['Grams']+[int(i) for i in round(df_opt['Grams']).tolist()]
+            
+            if imp.value == 'GHG':
+                print ('My total Climate Change impact is: %s kgCO2 eq'%\
+                   round(np.sum(df_opt['optimization_value_GHG_1_trade']*df_opt['Grams']),2))
+                print ('and the corresponding Biodiversity Loss impact is: %s PDF*yr'%\
+                   np.sum(df_opt['bio_GHGopt_value1']*df_opt['Grams']))
+                cou = ['Source Country']+[i for i in df_opt['optimization_country_GHG_1_trade']] 
+            elif imp.value == 'BIO':  
+                print ('My total Biodiversity Loss impact is: %s PDF*yr eq'%\
+                   np.sum(df_opt['optimization_value_BIO_1_trade']*df_opt['Grams']))
+                print ('and the corresponding climate change impact is: %s kgCO2eq'%\
+                   round(np.sum(df_opt['GHG_bioopt_value1']*df_opt['Grams']),2))
+                cou = ['Source Country']+[i for i in df_opt['optimization_country_BIO_1_trade']]            
+            else:
+                print ('My total Biodiversity Loss impact is: %s PDF*yr eq'%\
+                   np.sum(df_opt['bio_GHGopt_value1']*df_opt['Grams']))
+                print ('and climate change impact is: %s kgCO2eq'%\
+                   round(np.sum(df_opt['optimization_value_GHG_1_trade']*df_opt['Grams']),2))
+                cou = ['Source Country']+[i for i in df_opt['optimization_country_GHG_1_trade']] 
+            data = [name,cou,mass]
+            display_table(data)
+        else:
+            print ('The optimization did not work for an unknown reason, a general low impact diet would include:')
+            print (status)
+            df_opt = 0
+        return df_opt
+display(runcode5,output5)
+runcode5.on_click(run_tool)import matplotlib.pyplot as plt
 
 # Data to plot
 labels = 'Python', 'C++', 'Ruby', 'Java'
