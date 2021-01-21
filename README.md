@@ -15,5 +15,5 @@
 #### Open the Build_Optimization Database notebook, add the country and month you want the database built for, and run the notebook. This will provide you a impacts associated with each food item in the database depending on from which country these items can be sourced.
 
 ###### Input and Trade folders are supplying necessary data to run the code. 
-###### Diet_Optimization_Tool and Foods_to_Include notebooks run in the code in the User_Input notebook.
+###### Diet_Optimization_Tool and Foods_to_Include notebooks run the code in the User_Input notebook.
 
