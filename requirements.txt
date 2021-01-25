@@ -17,14 +17,11 @@ cryptography==2.2.1
 cycler==0.10.0
 decorator==4.4.0
 defusedxml==0.6.0
-Django==2.0.3
 docopt==0.6.2
 docutils==0.16
-entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1602701731856/work/dist/entrypoints-0.3-py2.py3-none-any.whl
 feedgenerator==1.9.1
 idna==2.6
 imagesize==1.0.0
-importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1602263269022/work
 ipykernel==5.1.2
 ipynb==0.5.1
 ipython==7.8.0
@@ -43,40 +40,19 @@ jupyterlab-pygments==0.1.2
 kiwisolver==1.2.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
-matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1597876339545/work
-mistune @ file:///home/conda/feedstock_root/build_artifacts/mistune_1602381743210/work
 mpld3==0.5.2
 mpmath==1.1.0
 nbclient==0.5.0
 nbconvert==5.6.0
 nbformat==4.4.0
 nbinteract==0.2.5
-nest-asyncio==1.4.1
 notebook==6.0.1
 numpy==1.19.2
 numpydoc==0.7.0
-olefile==0.46
 packaging==17.1
 pandas==1.1.2
-pandocfilters==1.4.2
-parso==0.5.1
-pelican==4.5.0
-pelican-plugin-installer==0.1.0
-pexpect==4.4.0
 pickleshare==0.7.5
-Pillow @ file:///tmp/build/80754af9/pillow_1594307298074/work
-progress==1.5
-prometheus-client==0.7.1
-prompt-toolkit==2.0.9
-ptyprocess==0.5.2
 PuLP==2.3
-pycparser==2.18
-Pygments==2.4.2
-pyOpenSSL==17.5.0
-pyparsing==2.2.0
-PyQt5==5.9.2
-pyrsistent==0.17.3
-PySocks==1.6.8
 python-dateutil==2.8.0
 pytz==2018.3
 pyzmq==18.1.0
@@ -100,9 +76,8 @@ traittypes==0.2.1
 typing==3.6.4
 Unidecode==1.1.1
 urllib3==1.22
-voila==0.2.3
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 xlrd==1.2.0
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1602852756910/work
+
