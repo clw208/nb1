@@ -2,10 +2,7 @@ numpy
 pandas
 xlrd
 pulp
-random
 ipywidgets
 matplotlib
 mpld3
-warnings
 math
-os
