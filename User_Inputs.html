@@ -13157,7 +13157,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="nn">mpatches</span>
 <span class="kn">import</span> <span class="nn">mpld3</span>
 <span class="n">ipython</span> <span class="o">=</span> <span class="n">get_ipython</span><span class="p">()</span>
-<span class="n">data_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;..&#39;</span><span class="p">,</span><span class="s1">&#39;nb1&#39;</span><span class="p">,</span><span class="s1">&#39;Input&#39;</span><span class="p">)</span>
+<span class="c1">#data_dir = os.path.join(&#39;..&#39;,&#39;nb1&#39;,&#39;Input&#39;)</span>
 </pre></div>
 
     </div>
@@ -13231,8 +13231,24 @@ div#notebook {
 <span class="c1">## VARIABLES</span>
 <span class="n">style</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">}</span>
 <span class="n">mnths</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;jan&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;feb&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;mar&#39;</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span><span class="s1">&#39;apr&#39;</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span><span class="s1">&#39;may&#39;</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span><span class="s1">&#39;jun&#39;</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span><span class="s1">&#39;jul&#39;</span><span class="p">:</span><span class="mi">7</span><span class="p">,</span><span class="s1">&#39;aug&#39;</span><span class="p">:</span><span class="mi">8</span><span class="p">,</span><span class="s1">&#39;sep&#39;</span><span class="p">:</span><span class="mi">9</span><span class="p">,</span><span class="s1">&#39;oct&#39;</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span><span class="s1">&#39;nov&#39;</span><span class="p">:</span><span class="mi">11</span><span class="p">,</span><span class="s1">&#39;dec&#39;</span><span class="p">:</span><span class="mi">12</span><span class="p">}</span>
-<span class="n">cntry_rev</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span><span class="s1">&#39;trandict.npy&#39;</span><span class="p">),</span><span class="n">allow_pickle</span><span class="o">=</span><span class="s1">&#39;TRUE&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
-<span class="n">cntry</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">cntry_rev</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">cntry_rev</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;trandict.npy&#39;</span><span class="p">,</span><span class="n">allow_pickle</span><span class="o">=</span><span class="s1">&#39;TRUE&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cntry</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">cntry_rev</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
 <span class="n">cntry</span><span class="p">[</span><span class="s1">&#39;Not Applicable&#39;</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;NA&#39;</span>
 <span class="n">listofcheckboxes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;no food preferences&#39;</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;fruits&#39;</span><span class="p">:[</span><span class="s1">&#39;FAT&#39;</span><span class="p">],</span><span class="s1">&#39;vegetables&#39;</span><span class="p">:[</span><span class="s1">&#39;DGR&#39;</span><span class="p">,</span><span class="s1">&#39;DGC&#39;</span><span class="p">],</span>
      <span class="s1">&#39;legumes or beans&#39;</span><span class="p">:[</span><span class="s1">&#39;DBR&#39;</span><span class="p">,</span><span class="s1">&#39;DBC&#39;</span><span class="p">,</span><span class="s1">&#39;DFR&#39;</span><span class="p">,</span><span class="s1">&#39;DFC&#39;</span><span class="p">],</span><span class="s1">&#39;grains and starches&#39;</span><span class="p">:[</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">,</span><span class="s1">&#39;DAR&#39;</span><span class="p">,</span><span class="s1">&#39;DAC&#39;</span><span class="p">,</span>
@@ -13491,69 +13507,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-
-  <div class="output_subarea output_widget_view ">
-    <button class="js-nbinteract-widget">
-      Loading widgets...
-    </button>
-  </div>
-
-</div>
-
 </div>
 </div>
 
