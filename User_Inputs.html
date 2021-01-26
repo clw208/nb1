@@ -13159,7 +13159,7 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;testthis.p&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13298,7 +13298,7 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cntry_rev</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;trandict.p&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#cntry_rev = pd.read_pickle(&#39;trandict.p&#39;)</span>
 </pre></div>
 
     </div>
@@ -13315,7 +13315,7 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cntry_rev</span> <span class="o">=</span> <span class="n">cntry_rev</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#cntry_rev = cntry_rev.T.to_dict()[0]</span>
 </pre></div>
 
     </div>
@@ -13332,8 +13332,8 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cntry</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">cntry_rev</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-<span class="n">cntry</span><span class="p">[</span><span class="s1">&#39;Not Applicable&#39;</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;NA&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#cntry = {v:k for k,v in cntry_rev.items()}</span>
+<span class="c1">#cntry[&#39;Not Applicable&#39;]=&#39;NA&#39;</span>
 <span class="n">listofcheckboxes</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;no food preferences&#39;</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;fruits&#39;</span><span class="p">:[</span><span class="s1">&#39;FAT&#39;</span><span class="p">],</span><span class="s1">&#39;vegetables&#39;</span><span class="p">:[</span><span class="s1">&#39;DGR&#39;</span><span class="p">,</span><span class="s1">&#39;DGC&#39;</span><span class="p">],</span>
      <span class="s1">&#39;legumes or beans&#39;</span><span class="p">:[</span><span class="s1">&#39;DBR&#39;</span><span class="p">,</span><span class="s1">&#39;DBC&#39;</span><span class="p">,</span><span class="s1">&#39;DFR&#39;</span><span class="p">,</span><span class="s1">&#39;DFC&#39;</span><span class="p">],</span><span class="s1">&#39;grains and starches&#39;</span><span class="p">:[</span><span class="s1">&#39;AC&#39;</span><span class="p">,</span><span class="s1">&#39;AC_wg&#39;</span><span class="p">,</span><span class="s1">&#39;DAR&#39;</span><span class="p">,</span><span class="s1">&#39;DAC&#39;</span><span class="p">,</span>
      <span class="s1">&#39;AI&#39;</span><span class="p">,</span><span class="s1">&#39;AI_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AA&#39;</span><span class="p">,</span><span class="s1">&#39;AA_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AF&#39;</span><span class="p">,</span><span class="s1">&#39;AF_wg&#39;</span><span class="p">,</span><span class="s1">&#39;AD&#39;</span><span class="p">,</span><span class="s1">&#39;AD_wg&#39;</span><span class="p">],</span><span class="s1">&#39;nuts and seeds&#39;</span><span class="p">:</span>
@@ -13580,14 +13580,80 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># HIDDEN</span>
-<span class="n">var1</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">cntry</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;Switzerland&#39;</span><span class="p">,</span><span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;Country&#39;</span><span class="p">)</span>
+<span class="c1">#var1 = widgets.Dropdown(options = cntry.keys(),value = &#39;Switzerland&#39;,description = &#39;Country&#39;)</span>
 <span class="n">var2</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">mnths</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;aug&#39;</span><span class="p">,</span> <span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;Month&#39;</span><span class="p">)</span>
 <span class="n">imp</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">indicator</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Impact&#39;</span><span class="p">)</span>
 <span class="n">diettype</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">preferences</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Diet Type:&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
+<span class="c1">#display(var1)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">var2</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">imp</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">diettype</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">var1</span> <span class="o">=</span> <span class="s1">&#39;CH&#39;</span>
 </pre></div>
 
     </div>
