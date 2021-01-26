@@ -1,341 +1,337 @@
 \* Optimization *\
 Minimize
-Total_Impacts_per_person: 1.02387863977 almonds,_flaked_and_ground_GAT
- + 1.02387863977 almonds,_toasted_GAT
- + 0.0606426802062 apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
- + 0.117504386416 apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
- + 0.061375797774 apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
- + 0.358894456296 artichoke,_globe,_raw_DGR
- + 0.356632501004 asparagus,_raw,_canned_DGR
- + 0.569778225168 asparagus,_raw,_frozen_DGR
- + 0.299619600809 asparagus,_raw_DGR
- + 0.345580757919 avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT
- + 2.25260226762 bacon,_cooked_MAAC
- + 2.03825760758 baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM
- + 0.18830351247 bananas,_raw,_flesh_only,_weighed_with_skin_FAT
- + 1.13650529014 barcelona_nuts,_kernel_only_GAT
- + 0.797243897199 bass,_sea,_flesh_only,_baked_JAC
- + 0.158657700582 beans,_blackeye,_whole,_dried,_boiled_in_unsalted_water_DBC
- + 0.189824309175 beans,_blackeye,_whole,_dried,_raw,_canned_DBR
- + 0.0980331610807 beans,_broad,_dried,_raw,_canned_DBR
- + 0.110786236581 beans,_broad,_whole,_boiled_in_unsalted_water_DBC
- + 0.235107857421 beans,_broad,_whole,_raw_DBR
- + 0.158657700582 beans,_butter,_dried,_boiled_in_unsalted_water_DBC
- + 0.189824309175 beans,_butter,_dried,_raw,_canned_DBR
- + 0.158204783386 beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
- + 0.167450055239 beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
- + 0.28179241655 beans,_cluster,_raw,_frozen_DBR
- + 0.222545572983 beans,_cluster,_raw_DBR
- + 0.152584934917 beans,_green,_boiled_in_unsalted_water_DBC
- + 0.269433100035 beans,_green,_raw,_frozen_DBR
- + 0.212784802238 beans,_green,_raw_DBR
- + 0.158657700582 beans,_haricot,_whole,_dried,_boiled_in_unsalted_water_DBC
- + 0.189824309175 beans,_haricot,_whole,_dried,_raw,_canned_DBR
- + 0.158657700582 beans,_mung,_whole,_dried,_boiled_in_unsalted_water_DBC
- + 0.189824309175 beans,_mung,_whole,_dried,_raw,_canned_DBR
- + 0.166114435708 beans,_pigeon_peas,_whole,_dried,_boiled_in_unsalted_water_DBC
- + 0.205782135002 beans,_pigeon_peas,_whole,_dried,_raw,_canned_DBR
- + 0.158657700582 beans,_pinto,_dried,_boiled_in_unsalted_water_DBC
- + 0.189824309175 beans,_pinto,_dried,_raw,_canned_DBR
- + 0.158657700582 beans,_red_kidney,_dried,_boiled_in_unsalted_water_DBC
- + 0.189824309175 beans,_red_kidney,_dried,_raw,_canned_DBR
- + 0.140552366226 beans,_runner,_boiled_in_unsalted_water_DBC
- + 0.282438979506 beans,_runner,_raw,_frozen_DBR
- + 0.202072247151 beans,_runner,_raw_DBR
- + 0.189821553706 beans,_soya,_dried,_boiled_in_unsalted_water_DBC
- + 0.177068478206 beans,_soya,_dried,_raw,_canned_DBR
- + 0.158657700582 beansprouts,_mung,_boiled_in_unsalted_water_DBC
- + 0.204279244247 beansprouts,_mung,_raw_DBR + 3.13764909328 beef,_cooked_MACC
- + 0.552276656728 blackberries,_raw,_frozen_FAT
- + 0.280197520217 blackberries,_raw_FAT
- + 0.611094037363 blueberries,_frozen_FAT + 0.292459786075 blueberries_FAT
- + 0.827321902089 brazil_nuts,_kernel_only_GAT
- + 0.140996459147 bread,_seeded_AF + 0.140996459147 bread,_white,_average_AF
- + 0.140996459147 bread,_wholemeal,_average_AF_wg
- + 0.273813309292 broccoli,_green,_raw,_frozen_DGR
- + 0.172297436844 broccoli,_green,_raw_DGR
- + 0.227013657347 brussels_sprouts,_raw,_frozen_DGR
- + 0.134662412273 brussels_sprouts,_raw_DGR + 3.25991824593 butter,_salted_OA
- + 3.25991824593 butter,_spreadable,_light_(60%_fat)_OA
- + 3.25991824593 butter,_spreadable_(75_80%_fat)_OA
- + 3.25991824593 butter,_unsalted_OA
- + 0.0813373667671 cabbage,_average,_raw_DGR
- + 0.120379302815 cabbage,_chinese,_raw_DGR
- + 0.0919112244468 cabbage,_green,_raw_DGR
- + 0.090981601137 cabbage,_red,_raw_DGR
- + 0.0894711034438 cabbage,_white,_raw_DGR
- + 0.132342382145 carrots,_young,_raw,_frozen_DGR
- + 0.0533215124773 carrots,_young,_raw_DGR
- + 1.61266232797 cashew_nuts,_kernel_only,_plain_GAT
- + 1.61266232797 cashew_nuts,_kernel_only,_roasted_and_salted_GAT
- + 0.155838164523 cassava,_baked_DAC
- + 0.155838164523 cassava,_boiled_in_unsalted_water_DAC
- + 0.241224042629 cassava,_frozen,_raw_DAR + 0.180772270847 cassava,_raw_DAR
- + 0.155838164523 cassava,_steamed_DAC
- + 0.720332665898 catfish,_flesh_only,_steamed_JAC
- + 0.151109729802 cauliflower,_raw_DGR
- + 0.189581719321 cereal,_bran_flakes,_fortified_AI_wg
- + 0.189581719321 cereal,_bran_type_cereal,_fortified_AI_wg
- + 0.167873336775 cereal,_cornflakes,_fortified_AI
- + 0.167873336775 cereal,_cornflakes,_frosted,_fortified_AI
- + 0.167873336775 cereal,_cornflakes,_unfortified_AI
- + 0.221491513662 cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI
- + 0.221491513662 cereal,_crunchy_crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg
- + 0.221491513662 cereal,_fruit_and_fibre_type,_fortified_AI
- + 0.304527953029 cereal,_instant_hot_oat,_plain,_raw,_fortified_AI
- + 0.221491513662 cereal,_malted_flake,_fortified_AI
- + 0.221491513662 cereal,_malted_wheat,_fortified_AI
- + 0.221491513662 cereal,_multigrain_hoops,_fortified_AI
- + 0.304527953029 cereal,_oat,_instant,_flavoured,_unfortified,_made_up_with_semi_skimmed_milk_AI
- + 0.304527953029 cereal,_oat,_instant,_plain,_fortified,_cooked,_made_up_with_semi_skimmed_milk_AI
- + 0.221491513662 cereal,_puffed_wheat,_unfortified_AI
- + 0.774455990609 cereal,_rice,_chocolate_flavoured,_fortified_AI
- + 0.774455990609 cereal,_rice,_toasted_crisp,_fortified_AI
- + 0.221491513662 cereal,_shredded_wheat_type,_unfortified_AI
- + 0.221491513662 cereal,_shredded_wheat_type_with_fruit,_unfortified_AI
- + 0.221491513662 cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI
- + 0.221491513662 cereal,_wheat_biscuits,_weetabix_type,_fortified_AI
- + 0.221491513662 cereal,_wheat_biscuits,_weetabix_type,_unfortified_AI
- + 0.0638493314128 chard,_swiss,_raw_DGR
- + 2.17116578505 cheese,_brie,_with_outer_rind_removed_BLS
- + 1.65737846187 cheese,_caerphilly_BLH + 1.65737846187 cheese,_camembert_BLS
- + 1.65737846187 cheese,_cheddar,_english_BLH
- + 1.65737846187 cheese,_cottage,_plain,_reduced_fat_BLF
- + 1.65737846187 cheese,_cottage,_plain_BLF
- + 1.65737846187 cheese,_danish_blue_BLS + 1.65737846187 cheese,_edam_BLH
- + 1.65737846187 cheese,_emmental_BLH + 1.65737846187 cheese,_feta_BLF
- + 1.83233659796 cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF
- + 1.65737846187 cheese,_gouda_BLH + 1.65737846187 cheese,_gruyere_BLH
- + 1.65737846187 cheese,_halloumi_BLS
- + 1.65737846187 cheese,_hard,_average_BLH
- + 1.65737846187 cheese,_mascarpone_BLF
- + 1.65737846187 cheese,_mozzarella,_fresh_BLF
- + 1.65737846187 cheese,_paneer_BLF
- + 1.65737846187 cheese,_parmesan,_fresh_BLH + 1.65737846187 cheese,_quark_BLF
- + 1.65737846187 cheese,_ricotta_BLF
- + 0.236492836049 cherries,_flesh_and_skin,_raw,_weighed_with_stones,_frozen_FAT
- + 0.100895124729 cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT
- + 0.902924796577 chestnuts,_kernel_only,_raw_GAT
- + 0.824612421206 chicken,_meat,_average,_roasted_MCAC
- + 1.25178616628 coconut,_desiccated_FAT
- + 0.265742810254 coconut,_flesh_only,_fresh_FAT
- + 0.204417546349 coconut_milk,_reduced_fat,_retail_BAV
- + 0.204417546349 coconut_milk,_retail_BAV + 0.204417546349 coconut_milk_BAV
- + 0.802393339487 cod,_dried,_salted,_boiled_JAC
- + 0.797243897199 cod,_flesh_only,_baked_JAC
- + 0.783007399034 cod,_flesh_only,_grilled_JAC
- + 0.711824908213 cod,_flesh_only,_steamed_JAC
- + 0.0908192345729 courgette,_raw_DGR + 0.173559610475 couscous,_plain,_raw_AD
- + 1.20792864528 crab,_canned_in_brine,_drained_JKC
- + 0.735692889476 crab,_purchased_cooked_JKC
- + 0.58181938292 cranberries,_frozen_FAT + 0.336278585923 cranberries_FAT
- + 0.766101849645 cream,_dairy,_extra_thick_(24%_fat)_BJC
- + 0.766101849645 cream,_half,_fresh_BJC
- + 0.766101849645 creme_fraiche,_full_fat_BJC
- + 0.766101849645 creme_fraiche,_half_fat_BJC
- + 1.19049030002 cucumber,_raw,_flesh_and_skin_DGR
- + 0.0655595813614 curly_kale,_raw_DGR
- + 1.01055042359 dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT
- + 0.737481983453 eel,_conger,_flesh_only,_grilled_JAC
- + 0.883882242234 eggs,_chicken,_whole,_boiled_CA
- + 0.883882242234 eggs,_chicken,_whole,_fried,_without_fat_CA
- + 0.883882242234 eggs,_chicken,_whole,_poached_CA
- + 0.883882242234 eggs,_chicken,_whole,_raw_CA
- + 0.883882242234 eggs,_chicken,_whole,_scrambled,_without_milk_CA
- + 0.552276656728 elderberries,_whole_fruit,_frozen_FAT
- + 0.280197520217 elderberries,_whole_fruit_FAT
- + 0.0626753951272 endive,_raw_DGR
- + 2.03825760758 fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_including_dairy_type_BTM
- + 2.03825760758 fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_with_olive_oil_BTM
- + 2.03825760758 fat_spread,_low_fat_(26_39%),_polyunsaturated_BTM
- + 2.03825760758 fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated,_with_olive_oil_BTM
- + 2.03825760758 fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated_BTM
- + 2.03825760758 fat_spread,_reduced_fat_(41_62%),_polyunsaturated_BTM
- + 2.03825760758 fat_spread,_reduced_fat_(62_75%),_not_polyunsaturated_BTM
- + 2.03825760758 fat_spread,_reduced_fat_(62_75%),_polyunsaturated_BTM
- + 0.904083377369 figs,_whole_green_fruit,_raw_FAT
- + 0.711824908213 fish_fingers,_cod,_grilled_baked_JRC
- + 0.711824908213 fish_fingers,_pollock,_grilled_JRC
- + 0.735692889476 fish_fingers,_salmon,_grilled_baked_JRC
- + 0.824755640782 flounder,_flesh_only,_steamed_JAC
- + 0.390957963663 fruit_cocktail,_canned_in_juice,_whole_contents_FAT
- + 0.277464860037 garlic,_raw_DGR + 1.15742112502 gherkins,_raw_DGR
- + 0.221019203955 grapefruit,_canned_in_juice,_whole_contents_FAT
- + 0.121566650979 grapefruit,_flesh_only,_raw,_weighed_with_peel_and_pips_FAT
- + 1.09786302204 guava,_raw,_weighed_with_skin_and_pips_FAT
- + 0.797243897199 haddock,_flesh_only,_grilled_JAC
- + 0.711824908213 haddock,_flesh_only,_smoked,_steamed_JAC
- + 0.804362146281 haddock,_flesh_only,_steamed_JAC
- + 0.715384874218 hake,_flesh_only,_grilled_JAC
- + 2.25260226762 ham,_cooked_MAHC + 0.590854523833 hazelnuts,_kernel_only_GAT
- + 0.790634806295 herring,_flesh_only,_grilled_JCC
- + 1.312985908 herring,_pickled_JCC
- + 0.142430240776 kiwi_fruit,_flesh_and_seeds,_weighed_with_skin_FAT
- + 0.0802880826951 kumquats,_whole_fruit,_raw_FAT
- + 5.66359907379 lamb,_average,_raw,_lean_and_fat_MAE
- + 0.116285291889 leeks,_raw_DGR
- + 0.909755923457 lemon_sole,_flesh_only,_grilled_JAC
- + 0.73963896216 lemon_sole,_flesh_only,_steamed_JAC
- + 0.73963896216 lemon_sole,_goujons,_baked_JAC
- + 0.256335268355 lentils,_green_and_brown,_whole,_dried,_boiled_in_unsalted_water_DBC
- + 0.0539831870439 lettuce,_average,_raw_DGR
- + 0.711824908213 lobster,_boiled_JKC
- + 1.13650529014 macadamia_nuts,_salted_GAT
- + 0.732493502509 mackerel,_flesh_only,_grilled_JCC
- + 0.798417917735 mackerel,_flesh_only,_smoked_JCC
- + 0.177126323047 mandarin_oranges,_canned_in_juice,_whole_contents_FAT
- + 0.401981469847 mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone,_frozen_FAT
- + 1.31743562645 mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone_FAT
- + 0.0562138050579 melon,_flesh_only,_average,_weighed_with_skin_FAT
- + 0.569694685413 milk,_semi_skimmed,_pasteurised,_average_BAH
- + 0.569694685413 milk,_skimmed,_pasteurised,_average_BAE
- + 0.473475759381 milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV
- + 0.473475759381 milk,_soya,_non_dairy_alternative_to_milk,_unsweetened,_fortified_BAV
- + 0.569694685413 milk,_whole,_pasteurised,_average_BAK
- + 3.11524121786 mince_beef,_cooked_MBGC
- + 0.0942052005957 muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg
- + 0.0942052005957 muesli,_swiss_style,_unfortified_AI_wg
- + 0.552276656728 mulberries,_whole_fruit,_raw,_frozen_FAT
- + 0.280197520217 mulberries,_whole_fruit,_raw_FAT
- + 0.711824908213 mussels,_purchased_cooked_JMC
- + 0.0957210157683 nectarines,_flesh_and_skin,_weighed_with_stones_FAT
- + 0.173559610475 noodles,_egg,_dried,_raw_AD + 4.94075318467 oil,_coconut_OC
- + 6.56306804947 oil,_olive_OC + 3.67732141241 oil,_peanut_(groundnut)_OC
- + 2.49418365139 oil,_rapeseed_OC + 3.21990449429 oil,_sesame_OC
- + 2.65509872567 oil,_sunflower_OC + 2.49418365139 oil,_vegetable,_average_OC
- + 0.167865034465 olives,_green,_in_brine,_drained,_flesh_and_skin,_weighed_with_stones_FAT
- + 0.102095619667 onions,_raw_DGR
- + 0.103453607587 oranges,_flesh_only,_weighed_with_peel_and_pips_FAT
- + 0.779644180638 pangasius,_flesh_only,_baked_JAC
- + 3.43162740238 papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT
- + 0.206318173633 passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT
- + 0.173559610475 pasta,_white,_dried,_raw_AD
- + 0.173559610475 pasta,_wholewheat,_spaghetti,_dried,_raw_AD_wg
- + 0.185580299084 peaches,_canned_in_juice,_whole_contents_FAT
- + 0.185580299084 peaches,_canned_in_syrup,_whole_contents_FAT
- + 0.222343692012 peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT
- + 0.0948586642749 peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT
- + 0.649205836764 peanut_butter,_smooth_GAT
- + 0.989940540832 peanuts,_dry_roasted_GAT
- + 0.989940540832 peanuts,_kernel_only,_plain,_unsalted_GAT
- + 0.989940540832 peanuts,_roasted_and_salted_GAT
- + 0.0270805572505 pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT
- + 0.086190231151 pears,_canned_in_juice,_whole_contents_FAT
- + 0.0306128038484 pears,_raw,_flesh_only,_peeled,_weighed_with_skin_and_core_FAT
- + 0.11201220912 peas,_dried,_boiled_in_unsalted_water_DFC
- + 0.135680564508 peas,_dried,_raw,_canned_DFR
- + 0.16398312453 peas,_frozen,_boiled_in_unsalted_water_DFC
- + 0.16398312453 peas,_frozen,_microwaved_DFC
- + 0.16398312453 peas,_frozen,_raw_DFR + 0.182579900866 peas,_raw_DFR
- + 0.119853063758 peas,_sugar_snap,_raw_DFR
- + 0.511939319884 pine_nuts,_kernel_only_GAT
- + 0.318719337564 pineapple,_canned_in_juice,_whole_contents_FAT
- + 0.318719337564 pineapple,_canned_in_syrup,_whole_contents_FAT
- + 0.14545037856 pineapple,_flesh_only,_raw,_weighed_with_skin_and_top_FAT
- + 0.155581073443 plantain,_boiled_in_unsalted_water,_flesh_only_DAC
- + 0.210034449148 plantain,_green_flesh,_raw_DAR
- + 0.155581073443 plantain,_ripe,_fried_in_rapeseed_oil_DAC
- + 0.214258466848 plums,_average,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
- + 0.0914092583012 plums,_average,_raw,_flesh_and_skin,_weighed_with_stones_FAT
- + 0.120244553136 polenta,_hydrated,_raw_AD
- + 0.711824908213 pollock,_alaskan,_flesh_only,_baked_JAC
- + 0.711824908213 pollock,_alaskan,_flesh_only,_steamed_JAC
- + 0.200380960004 pomegranate,_flesh_and_pips,_weighed_with_skin_FAT
- + 0.128013367319 pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT
- + 2.13880069675 pork,_cooked_MAGC
- + 0.0433097110678 potatoes,_new_and_salad,_boiled_in_salted_water,_flesh_and_skin_DAC
- + 0.0433097110678 potatoes,_new_and_salad,_boiled_in_unsalted_water,_flesh_and_skin_DAC
- + 0.0433097110678 potatoes,_new_and_salad,_flesh_only,_raw_DAR
- + 0.0433097110678 potatoes,_old,_baked,_flesh_and_skin_DAC
- + 0.0576019157202 potatoes,_old,_baked,_flesh_only,_weighed_with_skin_DAC
- + 0.0433097110678 potatoes,_old,_baked,_flesh_only_DAC
- + 0.0433097110678 potatoes,_old,_boiled_in_salted_water,_flesh_only_DAC
- + 0.0433097110678 potatoes,_old,_boiled_in_unsalted_water,_flesh_only_DAC
- + 0.0433097110678 potatoes,_old,_microwaved,_flesh_and_skin_DAC
- + 0.049806167728 potatoes,_old,_raw,_flesh_only_DAR
- + 0.0810886022972 pumpkin_seeds_GAT + 0.455379116158 quinoa,_raw_GAT
- + 0.82394472991 quorn,_pieces,_as_purchased_VEG
- + 1.43266002028 rabbit,_stewed,_meat_only_MECC
- + 0.0480358867763 raddiccio,_raw_DGR
- + 3.04531945195 radish,_red,_raw,_flesh_and_skin_DGR
- + 2.89177393336 radish,_white_mooli,_raw_DGR
- + 2.81500117407 radish_leaves,_raw_DGR
- + 0.552276656728 raspberries,_raw,_frozen_FAT
- + 0.280197520217 raspberries,_raw_FAT
- + 0.064419414729 rhubarb,_stems_only,_raw_FAT
- + 0.93988511779 rice_brown_AC_wg + 0.820033995387 rice_white_AC
- + 0.0457484635965 rocket,_raw_DGR
- + 0.831332965107 salmon,_farmed,_flesh_only,_baked_JCC
- + 0.831332965107 salmon,_farmed,_flesh_only,_grilled_JCC
- + 0.831332965107 salmon,_farmed,_flesh_only,_steamed_JCC
- + 0.998864072061 salmon,_pink,_canned_in_brine,_drained_JCC
- + 1.0066072044 salmon,_red,_canned_in_brine,_drained_JCC
- + 0.99112093972 salmon,_red,_canned_in_brine,_skinless_and_boneless,_drained_JCC
- + 0.735692889476 salmon,_smoked_(cold_smoked)_JCC
- + 0.765120605055 salmon,_smoked_(hot_smoked)_JCC
- + 0.735692889476 salmon,_wild,_baked_JCC
- + 0.735692889476 salmon,_wild,_grilled_JCC
- + 0.735692889476 salmon,_wild,_steamed_JCC
- + 1.04405208545 sardines,_canned_in_brine,_drained_JCC
- + 0.955822331747 sardines,_canned_in_olive_oil,_drained_JCC
- + 0.955822331747 sardines,_canned_in_sunflower_oil,_drained_JCC
- + 1.03703926028 sardines,_canned_in_tomato_sauce,_whole_contents_JCC
- + 0.715384874218 sardines,_flesh_only,_grilled_JCC
- + 0.107675472905 sauerkraut_DGR + 3.23828760279 sausage,_beef_avg_MI
- + 6.19421592747 sausage,_pork_avg_MI
- + 2.49024658324 sausages,_vegetarian,_baked_grilled_VEG
- + 0.790634806295 scallops,_steamed_JMC + 0.306858842717 sesame_seeds_GAT
- + 0.118802175613 shallots,_raw_DGR + 0.738432905755 shrimps,_boiled_JKC
- + 1.0484103915 shrimps,_canned_in_brine,_drained_JKC
- + 0.712414270608 shrimps,_dried_JKC + 0.908593825235 shrimps,_frozen_JKC
- - 100 sodium_elastic_SubProblem_neg_penalty_var
- + 100 sodium_elastic_SubProblem_pos_penalty_var
- + 0.0570083316186 spinach,_baby,_raw_DGR
- + 0.0678399146261 spinach,_mature,_raw_DGR
- + 0.053068217772 spring_greens,_raw_DGR
- + 0.121586601604 spring_onions,_bulbs_and_tops,_raw_DGR
- + 0.156855997489 spring_onions,_bulbs_only,_raw_DGR
- + 0.100549866849 squash,_acorn,_raw_DGR
- + 0.0956845507107 squash,_butternut,_raw_DGR
- + 0.107847841055 squash,_pumpkin,_raw_DGR
- + 0.101360752872 squash,_spaghetti,_raw_DGR + 0.798737005635 squid,_dried_JMC
- + 0.152883250966 star_fruit_FAT
- + 0.369940217047 strawberries,_raw,_frozen_FAT
- + 0.173008838535 strawberries,_raw_FAT
- + 0.188836869815 sunflower_seeds,_toasted_GAT
- + 0.188836869815 sunflower_seeds_GAT + 91.5824511942 supplement
- + 0.18068661487 sweet_potato,_raw,_flesh_only,_canned_DGR
- + 0.106636797712 sweet_potato,_raw,_flesh_only_DGR
- + 0.479869810671 sweetcorn,_kernels,_'on_the_cob',_raw,_weighed_with_core_DGR
- + 0.340333199058 sweetcorn,_kernels,_raw_DGR
- + 0.720107180733 swordfish,_flesh_only,_grilled_JCC
- + 0.163803231728 tempeh_VEG
- + 0.466322488723 tofu,_soya_bean,_steamed,_fried_VEG
- + 0.466322488723 tofu,_soya_bean,_steamed_VEG
- + 0.0620384146908 tomatoes,_cherry,_raw_DGR
- + 0.0620384146908 tomatoes,_standard,_raw_DGR
- + 0.161825481521 tortilla,_wheat,_soft_AF
- + 0.720107180733 trout,_brown,_steamed_JCC
- + 0.928938263146 trout,_rainbow,_flesh_only,_baked_JCC
- + 0.989072609075 tuna,_canned_in_brine,_drained_JCC
- + 0.989072609075 tuna,_canned_in_sunflower_oil,_drained_JCC
- + 0.882662886184 tuna,_flesh_only,_baked_JCC
- + 0.740521631214 turkey,_meat,_average,_roasted_MCOC
- + 3.11524121786 veal,_cooked_MAIC + 3.25642085691 venison,_roast_MEEC
- + 0.837536287534 walnuts,_kernel_only_GAT
- + 0.715384874218 whiting,_flesh_only,_steamed_JAC
- + 0.155838164523 yam,_baked_DAC
- + 0.155838164523 yam,_boiled_in_unsalted_water,_flesh_only_DAC
- + 0.185447415783 yam,_flesh_only,_raw_DAR + 0.155838164523 yam,_steamed_DAC
- + 0.712118356766 yogurt,_greek_style,_fruit_BN
- + 0.712118356766 yogurt,_greek_style,_plain_BN
- + 0.712118356766 yogurt,_low_fat,_fruit_BN
- + 0.712118356766 yogurt,_low_fat,_plain_BN
- + 0.250792457866 yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV
- + 0.712118356766 yogurt,_virtually_fat_free_diet,_fruit_BN
- + 0.712118356766 yogurt,_virtually_fat_free_diet,_plain_BN
- + 0.712118356766 yogurt,_whole_milk,_fruit_BN
- + 0.712118356766 yogurt,_whole_milk,_plain_BN
+Total_Impacts_per_person: 0.99574128674 almonds,_flaked_and_ground_GAT
+ + 0.99574128674 almonds,_toasted_GAT
+ + 0.100192856321 apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
+ + 0.114275231833 apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
+ + 0.0596891208357 apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
+ + 0.349031627222 artichoke,_globe,_raw_DGR
+ + 0.389713167647 asparagus,_raw,_canned_DGR
+ + 0.597001404161 asparagus,_raw,_frozen_DGR
+ + 0.334267046987 asparagus,_raw_DGR
+ + 0.336083804464 avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT
+ + 2.19069818762 bacon,_cooked_MAAC
+ + 1.98224396335 baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM
+ + 0.183128717137 bananas,_raw,_flesh_only,_weighed_with_skin_FAT
+ + 1.10527282828 barcelona_nuts,_kernel_only_GAT
+ + 0.839691848193 bass,_sea,_flesh_only,_baked_JAC
+ + 0.154297605978 beans,_blackeye,_whole,_dried,_boiled_in_unsalted_water_DBC
+ + 0.184607720614 beans,_blackeye,_whole,_dried,_raw,_canned_DBR
+ + 0.0953390979813 beans,_broad,_dried,_raw,_canned_DBR
+ + 0.107741704418 beans,_broad,_whole,_boiled_in_unsalted_water_DBC
+ + 0.228646825295 beans,_broad,_whole,_raw_DBR
+ + 0.154297605978 beans,_butter,_dried,_boiled_in_unsalted_water_DBC
+ + 0.184607720614 beans,_butter,_dried,_raw,_canned_DBR
+ + 0.153857135464 beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
+ + 0.1628483367 beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
+ + 0.274048439484 beans,_cluster,_raw,_frozen_DBR
+ + 0.216429766765 beans,_cluster,_raw_DBR
+ + 0.148391726842 beans,_green,_boiled_in_unsalted_water_DBC
+ + 0.262028771085 beans,_green,_raw,_frozen_DBR
+ + 0.206937233135 beans,_green,_raw_DBR
+ + 0.154297605978 beans,_haricot,_whole,_dried,_boiled_in_unsalted_water_DBC
+ + 0.184607720614 beans,_haricot,_whole,_dried,_raw,_canned_DBR
+ + 0.154297605978 beans,_mung,_whole,_dried,_boiled_in_unsalted_water_DBC
+ + 0.184607720614 beans,_mung,_whole,_dried,_raw,_canned_DBR
+ + 0.161549421517 beans,_pigeon_peas,_whole,_dried,_boiled_in_unsalted_water_DBC
+ + 0.200127007182 beans,_pigeon_peas,_whole,_dried,_raw,_canned_DBR
+ + 0.154297605978 beans,_pinto,_dried,_boiled_in_unsalted_water_DBC
+ + 0.184607720614 beans,_pinto,_dried,_raw,_canned_DBR
+ + 0.154297605978 beans,_red_kidney,_dried,_boiled_in_unsalted_water_DBC
+ + 0.184607720614 beans,_red_kidney,_dried,_raw,_canned_DBR
+ + 0.136689826865 beans,_runner,_boiled_in_unsalted_water_DBC
+ + 0.274677234152 beans,_runner,_raw,_frozen_DBR
+ + 0.196519071282 beans,_runner,_raw_DBR
+ + 0.184605040868 beans,_soya,_dried,_boiled_in_unsalted_water_DBC
+ + 0.172202434431 beans,_soya,_dried,_raw,_canned_DBR
+ + 0.154297605978 beansprouts,_mung,_boiled_in_unsalted_water_DBC
+ + 0.19866541758 beansprouts,_mung,_raw_DBR + 3.05142291687 beef,_cooked_MACC
+ + 0.537099464182 blackberries,_raw,_frozen_FAT
+ + 0.272497372721 blackberries,_raw_FAT
+ + 0.594300476101 blueberries,_frozen_FAT + 0.284422657525 blueberries_FAT
+ + 0.804586152439 brazil_nuts,_kernel_only_GAT
+ + 0.137121715605 bread,_seeded_AF + 0.137121715605 bread,_white,_average_AF
+ + 0.137121715605 bread,_wholemeal,_average_AF_wg
+ + 0.266288607196 broccoli,_green,_raw,_frozen_DGR
+ + 0.167562506728 broccoli,_green,_raw_DGR
+ + 0.220775063074 brussels_sprouts,_raw,_frozen_DGR
+ + 0.130961735565 brussels_sprouts,_raw_DGR + 3.17033197372 butter,_salted_OA
+ + 3.17033197372 butter,_spreadable,_light_(60%_fat)_OA
+ + 3.17033197372 butter,_spreadable_(75_80%_fat)_OA
+ + 3.17033197372 butter,_unsalted_OA
+ + 0.0791021231413 cabbage,_average,_raw_DGR
+ + 0.117071142249 cabbage,_chinese,_raw_DGR
+ + 0.0893853991497 cabbage,_green,_raw_DGR
+ + 0.088481322949 cabbage,_red,_raw_DGR
+ + 0.0870123354555 cabbage,_white,_raw_DGR
+ + 0.129328741437 carrots,_young,_raw,_frozen_DGR
+ + 0.051856176487 carrots,_young,_raw_DGR
+ + 1.56834452753 cashew_nuts,_kernel_only,_plain_GAT
+ + 1.56834452753 cashew_nuts,_kernel_only,_roasted_and_salted_GAT
+ + 0.151555553987 cassava,_baked_DAC
+ + 0.151555553987 cassava,_boiled_in_unsalted_water_DAC
+ + 0.234594930758 cassava,_frozen,_raw_DAR + 0.175804442625 cassava,_raw_DAR
+ + 0.151555553987 cassava,_steamed_DAC
+ + 0.614344527384 catfish,_flesh_only,_steamed_JAC
+ + 0.146957062047 cauliflower,_raw_DGR
+ + 0.184371797406 cereal,_bran_flakes,_fortified_AI_wg
+ + 0.184371797406 cereal,_bran_type_cereal,_fortified_AI_wg
+ + 0.163259985976 cereal,_cornflakes,_fortified_AI
+ + 0.163259985976 cereal,_cornflakes,_frosted,_fortified_AI
+ + 0.163259985976 cereal,_cornflakes,_unfortified_AI
+ + 0.215404674197 cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI
+ + 0.215404674197 cereal,_crunchy_crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg
+ + 0.215404674197 cereal,_fruit_and_fibre_type,_fortified_AI
+ + 0.296159177484 cereal,_instant_hot_oat,_plain,_raw,_fortified_AI
+ + 0.215404674197 cereal,_malted_flake,_fortified_AI
+ + 0.215404674197 cereal,_malted_wheat,_fortified_AI
+ + 0.215404674197 cereal,_multigrain_hoops,_fortified_AI
+ + 0.296159177484 cereal,_oat,_instant,_flavoured,_unfortified,_made_up_with_semi_skimmed_milk_AI
+ + 0.296159177484 cereal,_oat,_instant,_plain,_fortified,_cooked,_made_up_with_semi_skimmed_milk_AI
+ + 0.215404674197 cereal,_puffed_wheat,_unfortified_AI
+ + 0.753173056513 cereal,_rice,_chocolate_flavoured,_fortified_AI
+ + 0.753173056513 cereal,_rice,_toasted_crisp,_fortified_AI
+ + 0.215404674197 cereal,_shredded_wheat_type,_unfortified_AI
+ + 0.215404674197 cereal,_shredded_wheat_type_with_fruit,_unfortified_AI
+ + 0.215404674197 cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI
+ + 0.215404674197 cereal,_wheat_biscuits,_weetabix_type,_fortified_AI
+ + 0.215404674197 cereal,_wheat_biscuits,_weetabix_type,_unfortified_AI
+ + 0.0620946789484 chard,_swiss,_raw_DGR
+ + 2.36137684661 cheese,_brie,_with_outer_rind_removed_BLS
+ + 1.8025777455 cheese,_caerphilly_BLH + 1.8025777455 cheese,_camembert_BLS
+ + 1.8025777455 cheese,_cheddar,_english_BLH
+ + 1.8025777455 cheese,_cottage,_plain,_reduced_fat_BLF
+ + 1.8025777455 cheese,_cottage,_plain_BLF
+ + 1.8025777455 cheese,_danish_blue_BLS + 1.8025777455 cheese,_edam_BLH
+ + 1.8025777455 cheese,_emmental_BLH + 1.8025777455 cheese,_feta_BLF
+ + 1.8025777455 cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF
+ + 1.8025777455 cheese,_gouda_BLH + 1.8025777455 cheese,_gruyere_BLH
+ + 1.8025777455 cheese,_halloumi_BLS + 1.8025777455 cheese,_hard,_average_BLH
+ + 1.8025777455 cheese,_mascarpone_BLF
+ + 1.8025777455 cheese,_mozzarella,_fresh_BLF
+ + 1.8025777455 cheese,_paneer_BLF + 1.8025777455 cheese,_parmesan,_fresh_BLH
+ + 1.8025777455 cheese,_quark_BLF + 1.8025777455 cheese,_ricotta_BLF
+ + 0.229993743131 cherries,_flesh_and_skin,_raw,_weighed_with_stones,_frozen_FAT
+ + 0.0981224116034 cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT
+ + 0.878111393141 chestnuts,_kernel_only,_raw_GAT
+ + 0.801951131181 chicken,_meat,_average,_roasted_MCAC
+ + 1.21738565443 coconut,_desiccated_FAT
+ + 0.258439894678 coconut,_flesh_only,_fresh_FAT
+ + 0.198799918983 coconut_milk,_reduced_fat,_retail_BAV
+ + 0.198799918983 coconut_milk,_retail_BAV + 0.198799918983 coconut_milk_BAV
+ + 0.847572863771 cod,_dried,_salted,_boiled_JAC
+ + 0.839691848193 cod,_flesh_only,_baked_JAC
+ + 0.824697350904 cod,_flesh_only,_grilled_JAC
+ + 0.749724864458 cod,_flesh_only,_steamed_JAC
+ + 0.0883234184033 courgette,_raw_DGR + 0.168789994388 couscous,_plain,_raw_AD
+ + 3.72948131481 crab,_canned_in_brine,_drained_JKC
+ + 2.35313413697 crab,_purchased_cooked_JKC
+ + 0.565830322557 cranberries,_frozen_FAT + 0.327037266767 cranberries_FAT
+ + 0.745048496874 cream,_dairy,_extra_thick_(24%_fat)_BJC
+ + 0.745048496874 cream,_half,_fresh_BJC
+ + 0.745048496874 creme_fraiche,_full_fat_BJC
+ + 0.745048496874 creme_fraiche,_half_fat_BJC
+ + 1.1577742685 cucumber,_raw,_flesh_and_skin_DGR
+ + 0.0637579292774 curly_kale,_raw_DGR
+ + 0.982779345145 dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT
+ + 0.774676854002 eel,_conger,_flesh_only,_grilled_JAC
+ + 0.859592149914 eggs,_chicken,_whole,_boiled_CA
+ + 0.859592149914 eggs,_chicken,_whole,_fried,_without_fat_CA
+ + 0.859592149914 eggs,_chicken,_whole,_poached_CA
+ + 0.859592149914 eggs,_chicken,_whole,_raw_CA
+ + 0.859592149914 eggs,_chicken,_whole,_scrambled,_without_milk_CA
+ + 0.537099464182 elderberries,_whole_fruit,_frozen_FAT
+ + 0.272497372721 elderberries,_whole_fruit_FAT
+ + 0.0609530037711 endive,_raw_DGR
+ + 1.98224396335 fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_including_dairy_type_BTM
+ + 1.98224396335 fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_with_olive_oil_BTM
+ + 1.98224396335 fat_spread,_low_fat_(26_39%),_polyunsaturated_BTM
+ + 1.98224396335 fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated,_with_olive_oil_BTM
+ + 1.98224396335 fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated_BTM
+ + 1.98224396335 fat_spread,_reduced_fat_(41_62%),_polyunsaturated_BTM
+ + 1.98224396335 fat_spread,_reduced_fat_(62_75%),_not_polyunsaturated_BTM
+ + 1.98224396335 fat_spread,_reduced_fat_(62_75%),_polyunsaturated_BTM
+ + 0.879238134811 figs,_whole_green_fruit,_raw_FAT
+ + 0.675024632684 fish_fingers,_cod,_grilled_baked_JRC
+ + 0.675024632684 fish_fingers,_pollock,_grilled_JRC
+ + 0.698236694594 fish_fingers,_salmon,_grilled_baked_JRC
+ + 0.859552131669 flounder,_flesh_only,_steamed_JAC
+ + 0.380213992829 fruit_cocktail,_canned_in_juice,_whole_contents_FAT
+ + 0.269839809161 garlic,_raw_DGR + 1.12561387215 gherkins,_raw_DGR
+ + 0.214945344099 grapefruit,_canned_in_juice,_whole_contents_FAT
+ + 0.118225860731 grapefruit,_flesh_only,_raw,_weighed_with_peel_and_pips_FAT
+ + 1.06769249379 guava,_raw,_weighed_with_skin_and_pips_FAT
+ + 0.839691848193 haddock,_flesh_only,_grilled_JAC
+ + 0.749724864458 haddock,_flesh_only,_smoked,_steamed_JAC
+ + 0.847189096838 haddock,_flesh_only,_steamed_JAC
+ + 0.753186998536 hake,_flesh_only,_grilled_JAC
+ + 2.19069818762 ham,_cooked_MAHC + 0.574617167491 hazelnuts,_kernel_only_GAT
+ + 0.194290092397 herring,_flesh_only,_grilled_JCC
+ + 0.455201007928 herring,_pickled_JCC
+ + 0.138516095279 kiwi_fruit,_flesh_and_seeds,_weighed_with_skin_FAT
+ + 0.0780816745926 kumquats,_whole_fruit,_raw_FAT
+ + 5.5079569104 lamb,_average,_raw,_lean_and_fat_MAE
+ + 0.113089639414 leeks,_raw_DGR
+ + 0.778737925458 lemon_sole,_flesh_only,_grilled_JAC
+ + 0.6331202646 lemon_sole,_flesh_only,_steamed_JAC
+ + 0.6331202646 lemon_sole,_goujons,_baked_JAC
+ + 0.249290882761 lentils,_green_and_brown,_whole,_dried,_boiled_in_unsalted_water_DBC
+ + 0.0524996674817 lettuce,_average,_raw_DGR
+ + 2.32992207506 lobster,_boiled_JKC
+ + 1.10527282828 macadamia_nuts,_salted_GAT
+ + 0.137746577964 mackerel,_flesh_only,_grilled_JCC
+ + 0.150143769981 mackerel,_flesh_only,_smoked_JCC
+ + 0.17225868963 mandarin_oranges,_canned_in_juice,_whole_contents_FAT
+ + 0.390934560488 mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone,_frozen_FAT
+ + 1.28123099255 mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone_FAT
+ + 0.054668985568 melon,_flesh_only,_average,_weighed_with_skin_FAT
+ + 0.560186839755 milk,_semi_skimmed,_pasteurised,_average_BAH
+ + 0.560186839755 milk,_skimmed,_pasteurised,_average_BAE
+ + 0.460464105388 milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV
+ + 0.460464105388 milk,_soya,_non_dairy_alternative_to_milk,_unsweetened,_fortified_BAV
+ + 0.560186839755 milk,_whole,_pasteurised,_average_BAK
+ + 3.02963083543 mince_beef,_cooked_MBGC
+ + 0.0916163342172 muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg
+ + 0.0916163342172 muesli,_swiss_style,_unfortified_AI_wg
+ + 0.537099464182 mulberries,_whole_fruit,_raw,_frozen_FAT
+ + 0.272497372721 mulberries,_whole_fruit,_raw_FAT
+ + 0.749724864458 mussels,_purchased_cooked_JMC
+ + 0.0930904930596 nectarines,_flesh_and_skin,_weighed_with_stones_FAT
+ + 0.168789994388 noodles,_egg,_dried,_raw_AD + 4.80497565091 oil,_coconut_OC
+ + 6.38270745254 oil,_olive_OC + 3.57626442503 oil,_peanut_(groundnut)_OC
+ + 2.42564063936 oil,_rapeseed_OC + 3.13141784562 oil,_sesame_OC
+ + 2.58213358384 oil,_sunflower_OC + 2.42564063936 oil,_vegetable,_average_OC
+ + 0.163251911823 olives,_green,_in_brine,_drained,_flesh_and_skin,_weighed_with_stones_FAT
+ + 0.0992899155717 onions,_raw_DGR
+ + 0.100610584434 oranges,_flesh_only,_weighed_with_peel_and_pips_FAT
+ + 0.672026094038 pangasius,_flesh_only,_baked_JAC
+ + 3.33732236668 papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT
+ + 0.200648314861 passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT
+ + 0.168789994388 pasta,_white,_dried,_raw_AD
+ + 0.168789994388 pasta,_wholewheat,_spaghetti,_dried,_raw_AD_wg
+ + 0.180480340761 peaches,_canned_in_juice,_whole_contents_FAT
+ + 0.180480340761 peaches,_canned_in_syrup,_whole_contents_FAT
+ + 0.216233433713 peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT
+ + 0.092251839969 peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT
+ + 0.631364919777 peanut_butter,_smooth_GAT
+ + 0.962735845478 peanuts,_dry_roasted_GAT
+ + 0.962735845478 peanuts,_kernel_only,_plain,_unsalted_GAT
+ + 0.962735845478 peanuts,_roasted_and_salted_GAT
+ + 0.0263363526446 pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT
+ + 0.083821625276 pears,_canned_in_juice,_whole_contents_FAT
+ + 0.0297715290765 pears,_raw,_flesh_only,_peeled,_weighed_with_skin_and_core_FAT
+ + 0.108933985834 peas,_dried,_boiled_in_unsalted_water_DFC
+ + 0.131951907816 peas,_dried,_raw,_canned_DFR
+ + 0.159476681201 peas,_frozen,_boiled_in_unsalted_water_DFC
+ + 0.159476681201 peas,_frozen,_microwaved_DFC
+ + 0.159476681201 peas,_frozen,_raw_DFR + 0.177562396909 peas,_raw_DFR
+ + 0.116559364842 peas,_sugar_snap,_raw_DFR
+ + 0.49787064337 pine_nuts,_kernel_only_GAT
+ + 0.309960566584 pineapple,_canned_in_juice,_whole_contents_FAT
+ + 0.309960566584 pineapple,_canned_in_syrup,_whole_contents_FAT
+ + 0.141453236232 pineapple,_flesh_only,_raw,_weighed_with_skin_and_top_FAT
+ + 0.151305528063 plantain,_boiled_in_unsalted_water,_flesh_only_DAC
+ + 0.204262462885 plantain,_green_flesh,_raw_DAR
+ + 0.151305528063 plantain,_ripe,_fried_in_rapeseed_oil_DAC
+ + 0.20837039976 plums,_average,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
+ + 0.0888972276065 plums,_average,_raw,_flesh_and_skin,_weighed_with_stones_FAT
+ + 0.116940095645 polenta,_hydrated,_raw_AD
+ + 0.749724864458 pollock,_alaskan,_flesh_only,_baked_JAC
+ + 0.749724864458 pollock,_alaskan,_flesh_only,_steamed_JAC
+ + 0.194874262635 pomegranate,_flesh_and_pips,_weighed_with_skin_FAT
+ + 0.124495413952 pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT
+ + 2.08002401373 pork,_cooked_MAGC
+ + 0.0421195108014 potatoes,_new_and_salad,_boiled_in_salted_water,_flesh_and_skin_DAC
+ + 0.0421195108014 potatoes,_new_and_salad,_boiled_in_unsalted_water,_flesh_and_skin_DAC
+ + 0.0421195108014 potatoes,_new_and_salad,_flesh_only,_raw_DAR
+ + 0.0421195108014 potatoes,_old,_baked,_flesh_and_skin_DAC
+ + 0.0560189493658 potatoes,_old,_baked,_flesh_only,_weighed_with_skin_DAC
+ + 0.0421195108014 potatoes,_old,_baked,_flesh_only_DAC
+ + 0.0421195108014 potatoes,_old,_boiled_in_salted_water,_flesh_only_DAC
+ + 0.0421195108014 potatoes,_old,_boiled_in_unsalted_water,_flesh_only_DAC
+ + 0.0421195108014 potatoes,_old,_microwaved,_flesh_and_skin_DAC
+ + 0.0484374374216 potatoes,_old,_raw,_flesh_only_DAR
+ + 0.0788601950029 pumpkin_seeds_GAT + 0.442864778565 quinoa,_raw_GAT
+ + 0.801301788803 quorn,_pieces,_as_purchased_VEG
+ + 1.39328888859 rabbit,_stewed,_meat_only_MECC
+ + 0.04671580581 raddiccio,_raw_DGR
+ + 2.96163059941 radish,_red,_raw,_flesh_and_skin_DGR
+ + 2.81230468683 radish,_white_mooli,_raw_DGR
+ + 2.73764173055 radish_leaves,_raw_DGR
+ + 0.537099464182 raspberries,_raw,_frozen_FAT
+ + 0.272497372721 raspberries,_raw_FAT
+ + 0.0626490957247 rhubarb,_stems_only,_raw_FAT
+ + 0.914056002564 rice_brown_AC_wg + 0.797498525727 rice_white_AC
+ + 0.0444912436286 rocket,_raw_DGR
+ + 0.808486986869 salmon,_farmed,_flesh_only,_baked_JCC
+ + 0.808486986869 salmon,_farmed,_flesh_only,_grilled_JCC
+ + 0.808486986869 salmon,_farmed,_flesh_only,_steamed_JCC
+ + 0.860225725981 salmon,_pink,_canned_in_brine,_drained_JCC
+ + 0.866894142461 salmon,_red,_canned_in_brine,_drained_JCC
+ + 0.8535573095 salmon,_red,_canned_in_brine,_skinless_and_boneless,_drained_JCC
+ + 0.629282634495 salmon,_smoked_(cold_smoked)_JCC
+ + 0.654453939875 salmon,_smoked_(hot_smoked)_JCC
+ + 0.629282634495 salmon,_wild,_baked_JCC
+ + 0.629282634495 salmon,_wild,_grilled_JCC
+ + 0.629282634495 salmon,_wild,_steamed_JCC
+ + 0.199403965281 sardines,_canned_in_brine,_drained_JCC
+ + 0.182552925961 sardines,_canned_in_olive_oil,_drained_JCC
+ + 0.182552925961 sardines,_canned_in_sunflower_oil,_drained_JCC
+ + 0.204076203897 sardines,_canned_in_tomato_sauce,_whole_contents_JCC
+ + 0.121108114296 sardines,_flesh_only,_grilled_JCC
+ + 0.104716428077 sauerkraut_DGR + 3.14929576534 sausage,_beef_avg_MI
+ + 6.02399180763 sausage,_pork_avg_MI
+ + 2.42181176634 sausages,_vegetarian,_baked_grilled_VEG
+ + 0.826368976637 scallops,_steamed_JMC + 0.298426011665 sesame_seeds_GAT
+ + 0.115537356302 shallots,_raw_DGR + 2.35579885448 shrimps,_boiled_JKC
+ + 3.23043842987 shrimps,_canned_in_brine,_drained_JKC
+ + 2.3304952411 shrimps,_dried_JKC + 2.52128355777 shrimps,_frozen_JKC
+ + 0.0554416776325 spinach,_baby,_raw_DGR
+ + 0.0659755963827 spinach,_mature,_raw_DGR
+ + 0.0516098426091 spring_greens,_raw_DGR
+ + 0.11824526309 spring_onions,_bulbs_and_tops,_raw_DGR
+ + 0.152545415742 spring_onions,_bulbs_only,_raw_DGR
+ + 0.0977866418036 squash,_acorn,_raw_DGR
+ + 0.0930550301035 squash,_butternut,_raw_DGR
+ + 0.104884059354 squash,_pumpkin,_raw_DGR
+ + 0.0985752437537 squash,_spaghetti,_raw_DGR
+ + 0.949171951795 squid,_dried_JMC + 0.148681844825 star_fruit_FAT
+ + 0.359773837867 strawberries,_raw,_frozen_FAT
+ + 0.168254358289 strawberries,_raw_FAT
+ + 0.183647417213 sunflower_seeds,_toasted_GAT
+ + 0.183647417213 sunflower_seeds_GAT + 89.0656609611 supplement
+ + 0.175721140572 sweet_potato,_raw,_flesh_only,_canned_DGR
+ + 0.103706296863 sweet_potato,_raw,_flesh_only_DGR
+ + 0.466682440854 sweetcorn,_kernels,_'on_the_cob',_raw,_weighed_with_core_DGR
+ + 0.330980454507 sweetcorn,_kernels,_raw_DGR
+ + 0.614125238809 swordfish,_flesh_only,_grilled_JCC
+ + 0.159301732059 tempeh_VEG
+ + 0.453507414768 tofu,_soya_bean,_steamed,_fried_VEG
+ + 0.453507414768 tofu,_soya_bean,_steamed_VEG
+ + 0.0603335282837 tomatoes,_cherry,_raw_DGR
+ + 0.0603335282837 tomatoes,_standard,_raw_DGR
+ + 0.157378332683 tortilla,_wheat,_soft_AF
+ + 0.614125238809 trout,_brown,_steamed_JCC
+ + 0.792221558063 trout,_rainbow,_flesh_only,_baked_JCC
+ + 0.842946011806 tuna,_canned_in_brine,_drained_JCC
+ + 0.842946011806 tuna,_canned_in_sunflower_oil,_drained_JCC
+ + 0.751527510006 tuna,_flesh_only,_baked_JCC
+ + 0.720171252026 turkey,_meat,_average,_roasted_MCOC
+ + 3.02963083543 veal,_cooked_MAIC + 3.16693069695 venison,_roast_MEEC
+ + 0.814519834919 walnuts,_kernel_only_GAT
+ + 0.753186998536 whiting,_flesh_only,_steamed_JAC
+ + 0.151555553987 yam,_baked_DAC
+ + 0.151555553987 yam,_boiled_in_unsalted_water,_flesh_only_DAC
+ + 0.180351109245 yam,_flesh_only,_raw_DAR + 0.151555553987 yam,_steamed_DAC
+ + 0.692548531961 yogurt,_greek_style,_fruit_BN
+ + 0.692548531961 yogurt,_greek_style,_plain_BN
+ + 0.692548531961 yogurt,_low_fat,_fruit_BN
+ + 0.692548531961 yogurt,_low_fat,_plain_BN
+ + 0.243900395029 yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV
+ + 0.692548531961 yogurt,_virtually_fat_free_diet,_fruit_BN
+ + 0.692548531961 yogurt,_virtually_fat_free_diet,_plain_BN
+ + 0.700233549693 yogurt,_whole_milk,_fruit_BN
+ + 0.700233549693 yogurt,_whole_milk,_plain_BN
 Subject To
 Binary_Constraint_1:_almonds,_flaked_and_ground_GAT:
  - almonds,_flaked_and_ground_GAT + food_status_almonds,_flaked_and_ground_GAT
@@ -9649,692 +9645,763 @@ PUFA_constraints: 0.9414 almonds,_flaked_and_ground_GAT
  + 0.1062 yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV
  + 0.0081 yogurt,_whole_milk,_fruit_BN + 0.009 yogurt,_whole_milk,_plain_BN
  >= 1880.05125
-_C1: apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT >= 200
-_C10: - 1050 food_status_raspberries,_raw_FAT + raspberries,_raw_FAT <= 0
-_C100: - 700 food_status_tomatoes,_cherry,_raw_DGR + tomatoes,_cherry,_raw_DGR
+TFA_constraints: 0.00792 bacon,_cooked_MAAC
+ + 0.0063 baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM
+ + 0.0009 bass,_sea,_flesh_only,_baked_JAC + 0.0327 beef,_cooked_MACC
+ + 0.0018 bread,_white,_average_AF + 0.0036 bread,_wholemeal,_average_AF_wg
+ + 0.2583 butter,_salted_OA + 0.0909 butter,_spreadable,_light_(60%_fat)_OA
+ + 0.1242 butter,_spreadable_(75_80%_fat)_OA + 0.2583 butter,_unsalted_OA
+ + 0.0009 cereal,_bran_type_cereal,_fortified_AI_wg
+ + 0.0009 cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI
+ + 0.0009 cereal,_crunchy_crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg
+ + 0.0009 cereal,_instant_hot_oat,_plain,_raw,_fortified_AI
+ + 0.0009 cereal,_malted_wheat,_fortified_AI
+ + 0.0054 cereal,_oat,_instant,_flavoured,_unfortified,_made_up_with_semi_skimmed_milk_AI
+ + 0.0045 cereal,_oat,_instant,_plain,_fortified,_cooked,_made_up_with_semi_skimmed_milk_AI
+ + 0.0009 cereal,_puffed_wheat,_unfortified_AI
+ + 0.0009 cereal,_shredded_wheat_type_with_fruit,_unfortified_AI
+ + 0.0027 cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI
+ + 0.1143 cheese,_brie,_with_outer_rind_removed_BLS
+ + 0.1296 cheese,_cheddar,_english_BLH + 0.0261 cheese,_cottage,_plain_BLF
+ + 0.1008 cheese,_danish_blue_BLS + 0.063 cheese,_edam_BLH
+ + 0.1278 cheese,_emmental_BLH
+ + 0.0873 cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF
+ + 0.0945 cheese,_gouda_BLH + 0.0702 cheese,_halloumi_BLS
+ + 0.1296 cheese,_hard,_average_BLH + 0.1629 cheese,_mascarpone_BLF
+ + 0.072 cheese,_mozzarella,_fresh_BLF + 0.1143 cheese,_paneer_BLF
+ + 0.1026 cheese,_parmesan,_fresh_BLH
+ + 0.009 chicken,_meat,_average,_roasted_MCAC
+ + 0.0018 crab,_purchased_cooked_JKC
+ + 0.0738 cream,_dairy,_extra_thick_(24%_fat)_BJC
+ + 0.0693 creme_fraiche,_full_fat_BJC + 0.0261 creme_fraiche,_half_fat_BJC
+ + 0.0009 eggs,_chicken,_whole,_boiled_CA
+ + 0.0009 eggs,_chicken,_whole,_fried,_without_fat_CA
+ + 0.0018 eggs,_chicken,_whole,_poached_CA
+ + 0.0009 eggs,_chicken,_whole,_raw_CA
+ + 0.0009 eggs,_chicken,_whole,_scrambled,_without_milk_CA
+ + 0.0108 fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_including_dairy_type_BTM
+ + 0.0126 fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_with_olive_oil_BTM
+ + 0.0045 fat_spread,_low_fat_(26_39%),_polyunsaturated_BTM
+ + 0.0099 fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated,_with_olive_oil_BTM
+ + 0.0135 fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated_BTM
+ + 0.0117 fat_spread,_reduced_fat_(41_62%),_polyunsaturated_BTM
+ + 0.0126 fat_spread,_reduced_fat_(62_75%),_not_polyunsaturated_BTM
+ + 0.0225 fat_spread,_reduced_fat_(62_75%),_polyunsaturated_BTM
+ + 0.0018 fish_fingers,_cod,_grilled_baked_JRC
+ + 0.0009 fish_fingers,_pollock,_grilled_JRC
+ + 0.0018 fish_fingers,_salmon,_grilled_baked_JRC + 0.0027 ham,_cooked_MAHC
+ + 0.0837 lamb,_average,_raw,_lean_and_fat_MAE
+ + 0.0018 mackerel,_flesh_only,_grilled_JCC
+ + 0.0018 mackerel,_flesh_only,_smoked_JCC
+ + 0.0063 milk,_semi_skimmed,_pasteurised,_average_BAH
+ + 0.0117 milk,_whole,_pasteurised,_average_BAK
+ + 0.0648 mince_beef,_cooked_MBGC
+ + 0.0027 muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg
+ + 0.0027 muesli,_swiss_style,_unfortified_AI_wg
+ + 0.0009 pollock,_alaskan,_flesh_only,_baked_JAC
+ + 0.0009 pollock,_alaskan,_flesh_only,_steamed_JAC
+ + 0.00530181818182 pork,_cooked_MAGC + 0.009 rabbit,_stewed,_meat_only_MECC
+ + 0.0009 salmon,_pink,_canned_in_brine,_drained_JCC
+ + 0.0009 salmon,_red,_canned_in_brine,_drained_JCC
+ + 0.0009 salmon,_red,_canned_in_brine,_skinless_and_boneless,_drained_JCC
+ + 0.0009 salmon,_smoked_(cold_smoked)_JCC
+ + 0.0009 salmon,_smoked_(hot_smoked)_JCC
+ + 0.0009 sardines,_canned_in_brine,_drained_JCC
+ + 0.0009 sardines,_canned_in_olive_oil,_drained_JCC
+ + 0.0009 sardines,_canned_in_sunflower_oil,_drained_JCC
+ + 0.0009 sardines,_canned_in_tomato_sauce,_whole_contents_JCC
+ + 0.0009 sardines,_flesh_only,_grilled_JCC + 0.0477 sausage,_beef_avg_MI
+ + 0.0009 trout,_rainbow,_flesh_only,_baked_JCC
+ + 0.009 turkey,_meat,_average,_roasted_MCOC + 0.0234 veal,_cooked_MAIC
+ + 0.0189 yogurt,_greek_style,_fruit_BN + 0.0189 yogurt,_greek_style,_plain_BN
+ + 0.0018 yogurt,_low_fat,_plain_BN + 0.0063 yogurt,_whole_milk,_fruit_BN
+ + 0.0099 yogurt,_whole_milk,_plain_BN <= 85.456875
+_C1: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
+ - 1050 food_status_apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
  <= 0
-_C101: - 700 food_status_tomatoes,_standard,_raw_DGR
+_C10: blackberries,_raw,_frozen_FAT
+ - 1050 food_status_blackberries,_raw,_frozen_FAT <= 0
+_C100: - 700 food_status_tomatoes,_standard,_raw_DGR
  + tomatoes,_standard,_raw_DGR <= 0
-_C102: - 700 food_status_sweet_potato,_raw,_flesh_only_DGR
+_C101: - 700 food_status_sweet_potato,_raw,_flesh_only_DGR
  + sweet_potato,_raw,_flesh_only_DGR <= 0
-_C103: - 700 food_status_sweet_potato,_raw,_flesh_only,_canned_DGR
+_C102: - 700 food_status_sweet_potato,_raw,_flesh_only,_canned_DGR
  + sweet_potato,_raw,_flesh_only,_canned_DGR <= 0
-_C104:
+_C103:
  - 700 food_status_sweetcorn,_kernels,_'on_the_cob',_raw,_weighed_with_core_DGR
  + sweetcorn,_kernels,_'on_the_cob',_raw,_weighed_with_core_DGR <= 0
-_C105: - 700 food_status_sweetcorn,_kernels,_raw_DGR
+_C104: - 700 food_status_sweetcorn,_kernels,_raw_DGR
  + sweetcorn,_kernels,_raw_DGR <= 0
-_C106: cassava,_baked_DAC - 700 food_status_cassava,_baked_DAC <= 0
-_C107: cassava,_boiled_in_unsalted_water_DAC
+_C105: cassava,_baked_DAC - 700 food_status_cassava,_baked_DAC <= 0
+_C106: cassava,_boiled_in_unsalted_water_DAC
  - 700 food_status_cassava,_boiled_in_unsalted_water_DAC <= 0
-_C108: cassava,_frozen,_raw_DAR - 700 food_status_cassava,_frozen,_raw_DAR
+_C107: cassava,_frozen,_raw_DAR - 700 food_status_cassava,_frozen,_raw_DAR
  <= 0
-_C109: cassava,_raw_DAR - 700 food_status_cassava,_raw_DAR <= 0
-_C11: blackberries,_raw,_frozen_FAT
- - 1050 food_status_blackberries,_raw,_frozen_FAT <= 0
-_C110: cassava,_steamed_DAC - 700 food_status_cassava,_steamed_DAC <= 0
-_C111: - 700 food_status_rice_white_AC + rice_white_AC <= 0
-_C112: - 700 food_status_rice_brown_AC_wg + rice_brown_AC_wg <= 0
-_C113: - 700 food_status_plantain,_boiled_in_unsalted_water,_flesh_only_DAC
+_C108: cassava,_raw_DAR - 700 food_status_cassava,_raw_DAR <= 0
+_C109: cassava,_steamed_DAC - 700 food_status_cassava,_steamed_DAC <= 0
+_C11: elderberries,_whole_fruit,_frozen_FAT
+ - 1050 food_status_elderberries,_whole_fruit,_frozen_FAT <= 0
+_C110: - 700 food_status_rice_white_AC + rice_white_AC <= 0
+_C111: - 700 food_status_rice_brown_AC_wg + rice_brown_AC_wg <= 0
+_C112: - 700 food_status_plantain,_boiled_in_unsalted_water,_flesh_only_DAC
  + plantain,_boiled_in_unsalted_water,_flesh_only_DAC <= 0
-_C114: - 700 food_status_plantain,_green_flesh,_raw_DAR
+_C113: - 700 food_status_plantain,_green_flesh,_raw_DAR
  + plantain,_green_flesh,_raw_DAR <= 0
-_C115: - 700 food_status_plantain,_ripe,_fried_in_rapeseed_oil_DAC
+_C114: - 700 food_status_plantain,_ripe,_fried_in_rapeseed_oil_DAC
  + plantain,_ripe,_fried_in_rapeseed_oil_DAC <= 0
-_C116:
+_C115:
  - 700 food_status_potatoes,_new_and_salad,_boiled_in_salted_water,_flesh_and_skin_DAC
  + potatoes,_new_and_salad,_boiled_in_salted_water,_flesh_and_skin_DAC <= 0
-_C117:
+_C116:
  - 700 food_status_potatoes,_new_and_salad,_boiled_in_unsalted_water,_flesh_and_skin_DAC
  + potatoes,_new_and_salad,_boiled_in_unsalted_water,_flesh_and_skin_DAC <= 0
-_C118: - 700 food_status_potatoes,_new_and_salad,_flesh_only,_raw_DAR
+_C117: - 700 food_status_potatoes,_new_and_salad,_flesh_only,_raw_DAR
  + potatoes,_new_and_salad,_flesh_only,_raw_DAR <= 0
-_C119: - 700 food_status_potatoes,_old,_baked,_flesh_and_skin_DAC
+_C118: - 700 food_status_potatoes,_old,_baked,_flesh_and_skin_DAC
  + potatoes,_old,_baked,_flesh_and_skin_DAC <= 0
-_C12: elderberries,_whole_fruit,_frozen_FAT
- - 1050 food_status_elderberries,_whole_fruit,_frozen_FAT <= 0
-_C120: - 700 food_status_potatoes,_old,_baked,_flesh_only_DAC
+_C119: - 700 food_status_potatoes,_old,_baked,_flesh_only_DAC
  + potatoes,_old,_baked,_flesh_only_DAC <= 0
-_C121:
+_C12: - 1050 food_status_mulberries,_whole_fruit,_raw,_frozen_FAT
+ + mulberries,_whole_fruit,_raw,_frozen_FAT <= 0
+_C120:
  - 700 food_status_potatoes,_old,_baked,_flesh_only,_weighed_with_skin_DAC
  + potatoes,_old,_baked,_flesh_only,_weighed_with_skin_DAC <= 0
-_C122: - 700 food_status_potatoes,_old,_boiled_in_salted_water,_flesh_only_DAC
+_C121: - 700 food_status_potatoes,_old,_boiled_in_salted_water,_flesh_only_DAC
  + potatoes,_old,_boiled_in_salted_water,_flesh_only_DAC <= 0
-_C123:
+_C122:
  - 700 food_status_potatoes,_old,_boiled_in_unsalted_water,_flesh_only_DAC
  + potatoes,_old,_boiled_in_unsalted_water,_flesh_only_DAC <= 0
-_C124: - 700 food_status_potatoes,_old,_microwaved,_flesh_and_skin_DAC
+_C123: - 700 food_status_potatoes,_old,_microwaved,_flesh_and_skin_DAC
  + potatoes,_old,_microwaved,_flesh_and_skin_DAC <= 0
-_C125: - 700 food_status_potatoes,_old,_raw,_flesh_only_DAR
+_C124: - 700 food_status_potatoes,_old,_raw,_flesh_only_DAR
  + potatoes,_old,_raw,_flesh_only_DAR <= 0
-_C126: - 700 food_status_yam,_baked_DAC + yam,_baked_DAC <= 0
-_C127: - 700 food_status_yam,_boiled_in_unsalted_water,_flesh_only_DAC
+_C125: - 700 food_status_yam,_baked_DAC + yam,_baked_DAC <= 0
+_C126: - 700 food_status_yam,_boiled_in_unsalted_water,_flesh_only_DAC
  + yam,_boiled_in_unsalted_water,_flesh_only_DAC <= 0
-_C128: - 700 food_status_yam,_flesh_only,_raw_DAR + yam,_flesh_only,_raw_DAR
+_C127: - 700 food_status_yam,_flesh_only,_raw_DAR + yam,_flesh_only,_raw_DAR
  <= 0
-_C129: - 700 food_status_yam,_steamed_DAC + yam,_steamed_DAC <= 0
-_C13: - 1050 food_status_mulberries,_whole_fruit,_raw,_frozen_FAT
- + mulberries,_whole_fruit,_raw,_frozen_FAT <= 0
-_C130: cereal,_bran_flakes,_fortified_AI_wg
+_C128: - 700 food_status_yam,_steamed_DAC + yam,_steamed_DAC <= 0
+_C129: cereal,_bran_flakes,_fortified_AI_wg
  - 420 food_status_cereal,_bran_flakes,_fortified_AI_wg <= 0
-_C131: cereal,_bran_type_cereal,_fortified_AI_wg
- - 420 food_status_cereal,_bran_type_cereal,_fortified_AI_wg <= 0
-_C132: couscous,_plain,_raw_AD - 420 food_status_couscous,_plain,_raw_AD <= 0
-_C133: - 420 food_status_tortilla,_wheat,_soft_AF + tortilla,_wheat,_soft_AF
- <= 0
-_C134: bread,_seeded_AF - 420 food_status_bread,_seeded_AF <= 0
-_C135: bread,_white,_average_AF - 420 food_status_bread,_white,_average_AF
- <= 0
-_C136: bread,_wholemeal,_average_AF_wg
- - 420 food_status_bread,_wholemeal,_average_AF_wg <= 0
-_C137: cereal,_cornflakes,_fortified_AI
- - 420 food_status_cereal,_cornflakes,_fortified_AI <= 0
-_C138: cereal,_cornflakes,_frosted,_fortified_AI
- - 420 food_status_cereal,_cornflakes,_frosted,_fortified_AI <= 0
-_C139: cereal,_cornflakes,_unfortified_AI
- - 420 food_status_cereal,_cornflakes,_unfortified_AI <= 0
-_C14: - 1050 food_status_raspberries,_raw,_frozen_FAT
+_C13: - 1050 food_status_raspberries,_raw,_frozen_FAT
  + raspberries,_raw,_frozen_FAT <= 0
-_C140: cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI
+_C130: cereal,_bran_type_cereal,_fortified_AI_wg
+ - 420 food_status_cereal,_bran_type_cereal,_fortified_AI_wg <= 0
+_C131: couscous,_plain,_raw_AD - 420 food_status_couscous,_plain,_raw_AD <= 0
+_C132: - 420 food_status_tortilla,_wheat,_soft_AF + tortilla,_wheat,_soft_AF
+ <= 0
+_C133: bread,_seeded_AF - 420 food_status_bread,_seeded_AF <= 0
+_C134: bread,_white,_average_AF - 420 food_status_bread,_white,_average_AF
+ <= 0
+_C135: bread,_wholemeal,_average_AF_wg
+ - 420 food_status_bread,_wholemeal,_average_AF_wg <= 0
+_C136: cereal,_cornflakes,_fortified_AI
+ - 420 food_status_cereal,_cornflakes,_fortified_AI <= 0
+_C137: cereal,_cornflakes,_frosted,_fortified_AI
+ - 420 food_status_cereal,_cornflakes,_frosted,_fortified_AI <= 0
+_C138: cereal,_cornflakes,_unfortified_AI
+ - 420 food_status_cereal,_cornflakes,_unfortified_AI <= 0
+_C139: cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI
  - 420 food_status_cereal,_crunchy_clusters_type,_without_nuts,_unfortified_AI
  <= 0
-_C141: cereal,_crunchy_crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg
+_C14: blueberries_FAT - 1050 food_status_blueberries_FAT <= 0
+_C140: cereal,_crunchy_crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg
  - 420 food_status_cereal,_crunchy_crispy_muesli_type_cereal,_with_nuts,_unfortified_AI_wg
  <= 0
-_C142: cereal,_fruit_and_fibre_type,_fortified_AI
+_C141: cereal,_fruit_and_fibre_type,_fortified_AI
  - 420 food_status_cereal,_fruit_and_fibre_type,_fortified_AI <= 0
-_C143: cereal,_instant_hot_oat,_plain,_raw,_fortified_AI
+_C142: cereal,_instant_hot_oat,_plain,_raw,_fortified_AI
  - 420 food_status_cereal,_instant_hot_oat,_plain,_raw,_fortified_AI <= 0
-_C144: cereal,_malted_flake,_fortified_AI
+_C143: cereal,_malted_flake,_fortified_AI
  - 420 food_status_cereal,_malted_flake,_fortified_AI <= 0
-_C145: cereal,_malted_wheat,_fortified_AI
+_C144: cereal,_malted_wheat,_fortified_AI
  - 420 food_status_cereal,_malted_wheat,_fortified_AI <= 0
-_C146: cereal,_multigrain_hoops,_fortified_AI
+_C145: cereal,_multigrain_hoops,_fortified_AI
  - 420 food_status_cereal,_multigrain_hoops,_fortified_AI <= 0
-_C147:
+_C146:
  cereal,_oat,_instant,_flavoured,_unfortified,_made_up_with_semi_skimmed_milk_AI
  - 420 food_status_cereal,_oat,_instant,_flavoured,_unfortified,_made_up_with_semi_skimmed_milk_AI
  <= 0
-_C148:
+_C147:
  cereal,_oat,_instant,_plain,_fortified,_cooked,_made_up_with_semi_skimmed_milk_AI
  - 420 food_status_cereal,_oat,_instant,_plain,_fortified,_cooked,_made_up_with_semi_skimmed_milk_AI
  <= 0
-_C149: cereal,_puffed_wheat,_unfortified_AI
+_C148: cereal,_puffed_wheat,_unfortified_AI
  - 420 food_status_cereal,_puffed_wheat,_unfortified_AI <= 0
-_C15: blueberries_FAT - 1050 food_status_blueberries_FAT <= 0
-_C150: cereal,_rice,_chocolate_flavoured,_fortified_AI
+_C149: cereal,_rice,_chocolate_flavoured,_fortified_AI
  - 420 food_status_cereal,_rice,_chocolate_flavoured,_fortified_AI <= 0
-_C151: cereal,_rice,_toasted_crisp,_fortified_AI
+_C15: blueberries,_frozen_FAT - 1050 food_status_blueberries,_frozen_FAT <= 0
+_C150: cereal,_rice,_toasted_crisp,_fortified_AI
  - 420 food_status_cereal,_rice,_toasted_crisp,_fortified_AI <= 0
-_C152: cereal,_shredded_wheat_type_with_fruit,_unfortified_AI
+_C151: cereal,_shredded_wheat_type_with_fruit,_unfortified_AI
  - 420 food_status_cereal,_shredded_wheat_type_with_fruit,_unfortified_AI <= 0
-_C153: cereal,_shredded_wheat_type,_unfortified_AI
+_C152: cereal,_shredded_wheat_type,_unfortified_AI
  - 420 food_status_cereal,_shredded_wheat_type,_unfortified_AI <= 0
-_C154: cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI
+_C153: cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI
  - 420 food_status_cereal,_wheat_and_multigrain,_chocolate_flavoured,_fortified_AI
  <= 0
-_C155: cereal,_wheat_biscuits,_weetabix_type,_fortified_AI
+_C154: cereal,_wheat_biscuits,_weetabix_type,_fortified_AI
  - 420 food_status_cereal,_wheat_biscuits,_weetabix_type,_fortified_AI <= 0
-_C156: cereal,_wheat_biscuits,_weetabix_type,_unfortified_AI
+_C155: cereal,_wheat_biscuits,_weetabix_type,_unfortified_AI
  - 420 food_status_cereal,_wheat_biscuits,_weetabix_type,_unfortified_AI <= 0
-_C157: - 420 food_status_noodles,_egg,_dried,_raw_AD
+_C156: - 420 food_status_noodles,_egg,_dried,_raw_AD
  + noodles,_egg,_dried,_raw_AD <= 0
-_C158: - 420 food_status_pasta,_white,_dried,_raw_AD
+_C157: - 420 food_status_pasta,_white,_dried,_raw_AD
  + pasta,_white,_dried,_raw_AD <= 0
-_C159: - 420 food_status_pasta,_wholewheat,_spaghetti,_dried,_raw_AD_wg
+_C158: - 420 food_status_pasta,_wholewheat,_spaghetti,_dried,_raw_AD_wg
  + pasta,_wholewheat,_spaghetti,_dried,_raw_AD_wg <= 0
-_C16: blueberries,_frozen_FAT - 1050 food_status_blueberries,_frozen_FAT <= 0
-_C160: - 420 food_status_polenta,_hydrated,_raw_AD + polenta,_hydrated,_raw_AD
+_C159: - 420 food_status_polenta,_hydrated,_raw_AD + polenta,_hydrated,_raw_AD
  <= 0
-_C161: - 420 food_status_rice_white_AC + rice_white_AC <= 0
-_C162: - 420 food_status_rice_brown_AC_wg + rice_brown_AC_wg <= 0
-_C163:
+_C16: - 1050 food_status_rhubarb,_stems_only,_raw_FAT
+ + rhubarb,_stems_only,_raw_FAT <= 0
+_C160: - 420 food_status_rice_white_AC + rice_white_AC <= 0
+_C161: - 420 food_status_rice_brown_AC_wg + rice_brown_AC_wg <= 0
+_C162:
  - 420 food_status_muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg
  + muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg <= 0
-_C164: - 420 food_status_muesli,_swiss_style,_unfortified_AI_wg
+_C163: - 420 food_status_muesli,_swiss_style,_unfortified_AI_wg
  + muesli,_swiss_style,_unfortified_AI_wg <= 0
-_C165: beans,_blackeye,_whole,_dried,_boiled_in_unsalted_water_DBC
+_C164: beans,_blackeye,_whole,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_blackeye,_whole,_dried,_boiled_in_unsalted_water_DBC
  <= 0
-_C166: beans,_butter,_dried,_boiled_in_unsalted_water_DBC
+_C165: beans,_butter,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_butter,_dried,_boiled_in_unsalted_water_DBC <= 0
-_C167: beans,_haricot,_whole,_dried,_boiled_in_unsalted_water_DBC
+_C166: beans,_haricot,_whole,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_haricot,_whole,_dried,_boiled_in_unsalted_water_DBC
  <= 0
-_C168: beans,_mung,_whole,_dried,_boiled_in_unsalted_water_DBC
+_C167: beans,_mung,_whole,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_mung,_whole,_dried,_boiled_in_unsalted_water_DBC
  <= 0
-_C169: beans,_pinto,_dried,_boiled_in_unsalted_water_DBC
+_C168: beans,_pinto,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_pinto,_dried,_boiled_in_unsalted_water_DBC <= 0
-_C17: - 1050 food_status_rhubarb,_stems_only,_raw_FAT
- + rhubarb,_stems_only,_raw_FAT <= 0
-_C170: beans,_red_kidney,_dried,_boiled_in_unsalted_water_DBC
+_C169: beans,_red_kidney,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_red_kidney,_dried,_boiled_in_unsalted_water_DBC <= 0
-_C171: beansprouts,_mung,_boiled_in_unsalted_water_DBC
- - 700 food_status_beansprouts,_mung,_boiled_in_unsalted_water_DBC <= 0
-_C172: beansprouts,_mung,_raw_DBR - 700 food_status_beansprouts,_mung,_raw_DBR
- <= 0
-_C173: beans,_blackeye,_whole,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_blackeye,_whole,_dried,_raw,_canned_DBR <= 0
-_C174: beans,_butter,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_butter,_dried,_raw,_canned_DBR <= 0
-_C175: beans,_haricot,_whole,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_haricot,_whole,_dried,_raw,_canned_DBR <= 0
-_C176: beans,_mung,_whole,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_mung,_whole,_dried,_raw,_canned_DBR <= 0
-_C177: beans,_pinto,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_pinto,_dried,_raw,_canned_DBR <= 0
-_C178: beans,_red_kidney,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_red_kidney,_dried,_raw,_canned_DBR <= 0
-_C179: beans,_broad,_whole,_boiled_in_unsalted_water_DBC
- - 700 food_status_beans,_broad,_whole,_boiled_in_unsalted_water_DBC <= 0
-_C18: cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT
+_C17: cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT
  - 1050 food_status_cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT
  <= 0
-_C180: beans,_broad,_whole,_raw_DBR
+_C170: beansprouts,_mung,_boiled_in_unsalted_water_DBC
+ - 700 food_status_beansprouts,_mung,_boiled_in_unsalted_water_DBC <= 0
+_C171: beansprouts,_mung,_raw_DBR - 700 food_status_beansprouts,_mung,_raw_DBR
+ <= 0
+_C172: beans,_blackeye,_whole,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_blackeye,_whole,_dried,_raw,_canned_DBR <= 0
+_C173: beans,_butter,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_butter,_dried,_raw,_canned_DBR <= 0
+_C174: beans,_haricot,_whole,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_haricot,_whole,_dried,_raw,_canned_DBR <= 0
+_C175: beans,_mung,_whole,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_mung,_whole,_dried,_raw,_canned_DBR <= 0
+_C176: beans,_pinto,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_pinto,_dried,_raw,_canned_DBR <= 0
+_C177: beans,_red_kidney,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_red_kidney,_dried,_raw,_canned_DBR <= 0
+_C178: beans,_broad,_whole,_boiled_in_unsalted_water_DBC
+ - 700 food_status_beans,_broad,_whole,_boiled_in_unsalted_water_DBC <= 0
+_C179: beans,_broad,_whole,_raw_DBR
  - 700 food_status_beans,_broad,_whole,_raw_DBR <= 0
-_C181: beans,_broad,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_broad,_dried,_raw,_canned_DBR <= 0
-_C182: beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
- - 700 food_status_beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
- <= 0
-_C183: beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
- - 700 food_status_beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
- <= 0
-_C184: beans,_cluster,_raw_DBR - 700 food_status_beans,_cluster,_raw_DBR <= 0
-_C185: beans,_green,_boiled_in_unsalted_water_DBC
- - 700 food_status_beans,_green,_boiled_in_unsalted_water_DBC <= 0
-_C186: beans,_green,_raw_DBR - 700 food_status_beans,_green,_raw_DBR <= 0
-_C187: beans,_cluster,_raw,_frozen_DBR
- - 700 food_status_beans,_cluster,_raw,_frozen_DBR <= 0
-_C188: beans,_green,_raw,_frozen_DBR
- - 700 food_status_beans,_green,_raw,_frozen_DBR <= 0
-_C189: beans,_pigeon_peas,_whole,_dried,_boiled_in_unsalted_water_DBC
- - 700 food_status_beans,_pigeon_peas,_whole,_dried,_boiled_in_unsalted_water_DBC
- <= 0
-_C19: cherries,_flesh_and_skin,_raw,_weighed_with_stones,_frozen_FAT
+_C18: cherries,_flesh_and_skin,_raw,_weighed_with_stones,_frozen_FAT
  - 1050 food_status_cherries,_flesh_and_skin,_raw,_weighed_with_stones,_frozen_FAT
  <= 0
-_C190: beans,_pigeon_peas,_whole,_dried,_raw,_canned_DBR
+_C180: beans,_broad,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_broad,_dried,_raw,_canned_DBR <= 0
+_C181: beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
+ - 700 food_status_beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
+ <= 0
+_C182: beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
+ - 700 food_status_beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
+ <= 0
+_C183: beans,_cluster,_raw_DBR - 700 food_status_beans,_cluster,_raw_DBR <= 0
+_C184: beans,_green,_boiled_in_unsalted_water_DBC
+ - 700 food_status_beans,_green,_boiled_in_unsalted_water_DBC <= 0
+_C185: beans,_green,_raw_DBR - 700 food_status_beans,_green,_raw_DBR <= 0
+_C186: beans,_cluster,_raw,_frozen_DBR
+ - 700 food_status_beans,_cluster,_raw,_frozen_DBR <= 0
+_C187: beans,_green,_raw,_frozen_DBR
+ - 700 food_status_beans,_green,_raw,_frozen_DBR <= 0
+_C188: beans,_pigeon_peas,_whole,_dried,_boiled_in_unsalted_water_DBC
+ - 700 food_status_beans,_pigeon_peas,_whole,_dried,_boiled_in_unsalted_water_DBC
+ <= 0
+_C189: beans,_pigeon_peas,_whole,_dried,_raw,_canned_DBR
  - 700 food_status_beans,_pigeon_peas,_whole,_dried,_raw,_canned_DBR <= 0
-_C191: beans,_runner,_boiled_in_unsalted_water_DBC
+_C19: coconut,_flesh_only,_fresh_FAT
+ - 1050 food_status_coconut,_flesh_only,_fresh_FAT <= 0
+_C190: beans,_runner,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_runner,_boiled_in_unsalted_water_DBC <= 0
-_C192: beans,_runner,_raw_DBR - 700 food_status_beans,_runner,_raw_DBR <= 0
-_C193: beans,_runner,_raw,_frozen_DBR
+_C191: beans,_runner,_raw_DBR - 700 food_status_beans,_runner,_raw_DBR <= 0
+_C192: beans,_runner,_raw,_frozen_DBR
  - 700 food_status_beans,_runner,_raw,_frozen_DBR <= 0
-_C194: beans,_soya,_dried,_boiled_in_unsalted_water_DBC
+_C193: beans,_soya,_dried,_boiled_in_unsalted_water_DBC
  - 700 food_status_beans,_soya,_dried,_boiled_in_unsalted_water_DBC <= 0
-_C195: beans,_soya,_dried,_raw,_canned_DBR
+_C194: beans,_soya,_dried,_raw,_canned_DBR
  - 700 food_status_beans,_soya,_dried,_raw,_canned_DBR <= 0
-_C196:
+_C195:
  - 700 food_status_lentils,_green_and_brown,_whole,_dried,_boiled_in_unsalted_water_DBC
  + lentils,_green_and_brown,_whole,_dried,_boiled_in_unsalted_water_DBC <= 0
-_C197: - 700 food_status_peas,_dried,_boiled_in_unsalted_water_DFC
+_C196: - 700 food_status_peas,_dried,_boiled_in_unsalted_water_DFC
  + peas,_dried,_boiled_in_unsalted_water_DFC <= 0
-_C198: - 700 food_status_peas,_frozen,_boiled_in_unsalted_water_DFC
+_C197: - 700 food_status_peas,_frozen,_boiled_in_unsalted_water_DFC
  + peas,_frozen,_boiled_in_unsalted_water_DFC <= 0
-_C199: - 700 food_status_peas,_frozen,_microwaved_DFC
+_C198: - 700 food_status_peas,_frozen,_microwaved_DFC
  + peas,_frozen,_microwaved_DFC <= 0
-_C2: apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
- - 1050 food_status_apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
+_C199: - 700 food_status_peas,_frozen,_raw_DFR + peas,_frozen,_raw_DFR <= 0
+_C2: apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
+ - 1050 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  <= 0
-_C20: coconut,_flesh_only,_fresh_FAT
- - 1050 food_status_coconut,_flesh_only,_fresh_FAT <= 0
-_C200: - 700 food_status_peas,_frozen,_raw_DFR + peas,_frozen,_raw_DFR <= 0
-_C201: - 700 food_status_peas,_raw_DFR + peas,_raw_DFR <= 0
-_C202: - 700 food_status_peas,_sugar_snap,_raw_DFR + peas,_sugar_snap,_raw_DFR
+_C20: coconut,_desiccated_FAT - 1050 food_status_coconut,_desiccated_FAT <= 0
+_C200: - 700 food_status_peas,_raw_DFR + peas,_raw_DFR <= 0
+_C201: - 700 food_status_peas,_sugar_snap,_raw_DFR + peas,_sugar_snap,_raw_DFR
  <= 0
-_C203: - 700 food_status_peas,_dried,_raw,_canned_DFR
+_C202: - 700 food_status_peas,_dried,_raw,_canned_DFR
  + peas,_dried,_raw,_canned_DFR <= 0
-_C204: almonds,_flaked_and_ground_GAT
+_C203: almonds,_flaked_and_ground_GAT
  - 140 food_status_almonds,_flaked_and_ground_GAT <= 0
-_C205: almonds,_toasted_GAT - 140 food_status_almonds,_toasted_GAT <= 0
-_C206: - 140 food_status_sunflower_seeds_GAT + sunflower_seeds_GAT <= 0
-_C207: - 140 food_status_sunflower_seeds,_toasted_GAT
+_C204: almonds,_toasted_GAT - 140 food_status_almonds,_toasted_GAT <= 0
+_C205: - 140 food_status_sunflower_seeds_GAT + sunflower_seeds_GAT <= 0
+_C206: - 140 food_status_sunflower_seeds,_toasted_GAT
  + sunflower_seeds,_toasted_GAT <= 0
-_C208: barcelona_nuts,_kernel_only_GAT
+_C207: barcelona_nuts,_kernel_only_GAT
  - 140 food_status_barcelona_nuts,_kernel_only_GAT <= 0
-_C209: - 140 food_status_macadamia_nuts,_salted_GAT
+_C208: - 140 food_status_macadamia_nuts,_salted_GAT
  + macadamia_nuts,_salted_GAT <= 0
-_C21: coconut,_desiccated_FAT - 1050 food_status_coconut,_desiccated_FAT <= 0
-_C210: brazil_nuts,_kernel_only_GAT
+_C209: brazil_nuts,_kernel_only_GAT
  - 140 food_status_brazil_nuts,_kernel_only_GAT <= 0
-_C211: - 140 food_status_pine_nuts,_kernel_only_GAT
+_C21: cranberries_FAT - 1050 food_status_cranberries_FAT <= 0
+_C210: - 140 food_status_pine_nuts,_kernel_only_GAT
  + pine_nuts,_kernel_only_GAT <= 0
-_C212: cashew_nuts,_kernel_only,_plain_GAT
+_C211: cashew_nuts,_kernel_only,_plain_GAT
  - 140 food_status_cashew_nuts,_kernel_only,_plain_GAT <= 0
-_C213: cashew_nuts,_kernel_only,_roasted_and_salted_GAT
+_C212: cashew_nuts,_kernel_only,_roasted_and_salted_GAT
  - 140 food_status_cashew_nuts,_kernel_only,_roasted_and_salted_GAT <= 0
-_C214: chestnuts,_kernel_only,_raw_GAT
+_C213: chestnuts,_kernel_only,_raw_GAT
  - 140 food_status_chestnuts,_kernel_only,_raw_GAT <= 0
-_C215: - 140 food_status_pumpkin_seeds_GAT + pumpkin_seeds_GAT <= 0
-_C216: - 140 food_status_hazelnuts,_kernel_only_GAT
+_C214: - 140 food_status_pumpkin_seeds_GAT + pumpkin_seeds_GAT <= 0
+_C215: - 140 food_status_hazelnuts,_kernel_only_GAT
  + hazelnuts,_kernel_only_GAT <= 0
-_C217: - 140 food_status_peanut_butter,_smooth_GAT + peanut_butter,_smooth_GAT
+_C216: - 140 food_status_peanut_butter,_smooth_GAT + peanut_butter,_smooth_GAT
  <= 0
-_C218: - 140 food_status_peanuts,_dry_roasted_GAT + peanuts,_dry_roasted_GAT
+_C217: - 140 food_status_peanuts,_dry_roasted_GAT + peanuts,_dry_roasted_GAT
  <= 0
-_C219: - 140 food_status_peanuts,_kernel_only,_plain,_unsalted_GAT
+_C218: - 140 food_status_peanuts,_kernel_only,_plain,_unsalted_GAT
  + peanuts,_kernel_only,_plain,_unsalted_GAT <= 0
-_C22: cranberries_FAT - 1050 food_status_cranberries_FAT <= 0
-_C220: - 140 food_status_peanuts,_roasted_and_salted_GAT
+_C219: - 140 food_status_peanuts,_roasted_and_salted_GAT
  + peanuts,_roasted_and_salted_GAT <= 0
-_C221: - 140 food_status_sesame_seeds_GAT + sesame_seeds_GAT <= 0
-_C222: - 140 food_status_quinoa,_raw_GAT + quinoa,_raw_GAT <= 0
-_C223: - 140 food_status_walnuts,_kernel_only_GAT + walnuts,_kernel_only_GAT
+_C22: cranberries,_frozen_FAT - 1050 food_status_cranberries,_frozen_FAT <= 0
+_C220: - 140 food_status_sesame_seeds_GAT + sesame_seeds_GAT <= 0
+_C221: - 140 food_status_quinoa,_raw_GAT + quinoa,_raw_GAT <= 0
+_C222: - 140 food_status_walnuts,_kernel_only_GAT + walnuts,_kernel_only_GAT
  <= 0
-_C224: bass,_sea,_flesh_only,_baked_JAC
+_C223: bass,_sea,_flesh_only,_baked_JAC
  - 700 food_status_bass,_sea,_flesh_only,_baked_JAC <= 0
-_C225: - 700 food_status_pollock,_alaskan,_flesh_only,_baked_JAC
+_C224: - 700 food_status_pollock,_alaskan,_flesh_only,_baked_JAC
  + pollock,_alaskan,_flesh_only,_baked_JAC <= 0
-_C226: - 700 food_status_pollock,_alaskan,_flesh_only,_steamed_JAC
+_C225: - 700 food_status_pollock,_alaskan,_flesh_only,_steamed_JAC
  + pollock,_alaskan,_flesh_only,_steamed_JAC <= 0
-_C227: - 700 food_status_trout,_brown,_steamed_JCC + trout,_brown,_steamed_JCC
+_C226: - 700 food_status_trout,_brown,_steamed_JCC + trout,_brown,_steamed_JCC
  <= 0
-_C228: - 700 food_status_trout,_rainbow,_flesh_only,_baked_JCC
+_C227: - 700 food_status_trout,_rainbow,_flesh_only,_baked_JCC
  + trout,_rainbow,_flesh_only,_baked_JCC <= 0
-_C229: - 700 food_status_whiting,_flesh_only,_steamed_JAC
+_C228: - 700 food_status_whiting,_flesh_only,_steamed_JAC
  + whiting,_flesh_only,_steamed_JAC <= 0
-_C23: cranberries,_frozen_FAT - 1050 food_status_cranberries,_frozen_FAT <= 0
-_C230: catfish,_flesh_only,_steamed_JAC
+_C229: catfish,_flesh_only,_steamed_JAC
  - 700 food_status_catfish,_flesh_only,_steamed_JAC <= 0
-_C231: cod,_dried,_salted,_boiled_JAC
- - 700 food_status_cod,_dried,_salted,_boiled_JAC <= 0
-_C232: cod,_flesh_only,_baked_JAC - 700 food_status_cod,_flesh_only,_baked_JAC
- <= 0
-_C233: cod,_flesh_only,_grilled_JAC
- - 700 food_status_cod,_flesh_only,_grilled_JAC <= 0
-_C234: cod,_flesh_only,_steamed_JAC
- - 700 food_status_cod,_flesh_only,_steamed_JAC <= 0
-_C235: eel,_conger,_flesh_only,_grilled_JAC
- - 700 food_status_eel,_conger,_flesh_only,_grilled_JAC <= 0
-_C236: fish_fingers,_cod,_grilled_baked_JRC
- - 700 food_status_fish_fingers,_cod,_grilled_baked_JRC <= 0
-_C237: fish_fingers,_pollock,_grilled_JRC
- - 700 food_status_fish_fingers,_pollock,_grilled_JRC <= 0
-_C238: flounder,_flesh_only,_steamed_JAC
- - 700 food_status_flounder,_flesh_only,_steamed_JAC <= 0
-_C239: - 700 food_status_haddock,_flesh_only,_grilled_JAC
- + haddock,_flesh_only,_grilled_JAC <= 0
-_C24: dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT
+_C23: dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  - 1050 food_status_dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT <= 0
-_C240: - 700 food_status_haddock,_flesh_only,_smoked,_steamed_JAC
+_C230: cod,_dried,_salted,_boiled_JAC
+ - 700 food_status_cod,_dried,_salted,_boiled_JAC <= 0
+_C231: cod,_flesh_only,_baked_JAC - 700 food_status_cod,_flesh_only,_baked_JAC
+ <= 0
+_C232: cod,_flesh_only,_grilled_JAC
+ - 700 food_status_cod,_flesh_only,_grilled_JAC <= 0
+_C233: cod,_flesh_only,_steamed_JAC
+ - 700 food_status_cod,_flesh_only,_steamed_JAC <= 0
+_C234: eel,_conger,_flesh_only,_grilled_JAC
+ - 700 food_status_eel,_conger,_flesh_only,_grilled_JAC <= 0
+_C235: fish_fingers,_cod,_grilled_baked_JRC
+ - 700 food_status_fish_fingers,_cod,_grilled_baked_JRC <= 0
+_C236: fish_fingers,_pollock,_grilled_JRC
+ - 700 food_status_fish_fingers,_pollock,_grilled_JRC <= 0
+_C237: flounder,_flesh_only,_steamed_JAC
+ - 700 food_status_flounder,_flesh_only,_steamed_JAC <= 0
+_C238: - 700 food_status_haddock,_flesh_only,_grilled_JAC
+ + haddock,_flesh_only,_grilled_JAC <= 0
+_C239: - 700 food_status_haddock,_flesh_only,_smoked,_steamed_JAC
  + haddock,_flesh_only,_smoked,_steamed_JAC <= 0
-_C241: - 700 food_status_haddock,_flesh_only,_steamed_JAC
- + haddock,_flesh_only,_steamed_JAC <= 0
-_C242: - 700 food_status_hake,_flesh_only,_grilled_JAC
- + hake,_flesh_only,_grilled_JAC <= 0
-_C243: - 700 food_status_lemon_sole,_flesh_only,_grilled_JAC
- + lemon_sole,_flesh_only,_grilled_JAC <= 0
-_C244: - 700 food_status_lemon_sole,_flesh_only,_steamed_JAC
- + lemon_sole,_flesh_only,_steamed_JAC <= 0
-_C245: - 700 food_status_lemon_sole,_goujons,_baked_JAC
- + lemon_sole,_goujons,_baked_JAC <= 0
-_C246: - 700 food_status_mackerel,_flesh_only,_grilled_JCC
- + mackerel,_flesh_only,_grilled_JCC <= 0
-_C247: - 700 food_status_mackerel,_flesh_only,_smoked_JCC
- + mackerel,_flesh_only,_smoked_JCC <= 0
-_C248: - 700 food_status_pangasius,_flesh_only,_baked_JAC
- + pangasius,_flesh_only,_baked_JAC <= 0
-_C249: - 700 food_status_swordfish,_flesh_only,_grilled_JCC
- + swordfish,_flesh_only,_grilled_JCC <= 0
-_C25:
+_C24:
  - 1050 food_status_olives,_green,_in_brine,_drained,_flesh_and_skin,_weighed_with_stones_FAT
  + olives,_green,_in_brine,_drained,_flesh_and_skin,_weighed_with_stones_FAT
  <= 0
-_C250: crab,_canned_in_brine,_drained_JKC
+_C240: - 700 food_status_haddock,_flesh_only,_steamed_JAC
+ + haddock,_flesh_only,_steamed_JAC <= 0
+_C241: - 700 food_status_hake,_flesh_only,_grilled_JAC
+ + hake,_flesh_only,_grilled_JAC <= 0
+_C242: - 700 food_status_lemon_sole,_flesh_only,_grilled_JAC
+ + lemon_sole,_flesh_only,_grilled_JAC <= 0
+_C243: - 700 food_status_lemon_sole,_flesh_only,_steamed_JAC
+ + lemon_sole,_flesh_only,_steamed_JAC <= 0
+_C244: - 700 food_status_lemon_sole,_goujons,_baked_JAC
+ + lemon_sole,_goujons,_baked_JAC <= 0
+_C245: - 700 food_status_mackerel,_flesh_only,_grilled_JCC
+ + mackerel,_flesh_only,_grilled_JCC <= 0
+_C246: - 700 food_status_mackerel,_flesh_only,_smoked_JCC
+ + mackerel,_flesh_only,_smoked_JCC <= 0
+_C247: - 700 food_status_pangasius,_flesh_only,_baked_JAC
+ + pangasius,_flesh_only,_baked_JAC <= 0
+_C248: - 700 food_status_swordfish,_flesh_only,_grilled_JCC
+ + swordfish,_flesh_only,_grilled_JCC <= 0
+_C249: crab,_canned_in_brine,_drained_JKC
  - 700 food_status_crab,_canned_in_brine,_drained_JKC <= 0
-_C251: - 700 food_status_sardines,_canned_in_brine,_drained_JCC
- + sardines,_canned_in_brine,_drained_JCC <= 0
-_C252: - 700 food_status_sardines,_canned_in_olive_oil,_drained_JCC
- + sardines,_canned_in_olive_oil,_drained_JCC <= 0
-_C253: - 700 food_status_sardines,_canned_in_sunflower_oil,_drained_JCC
- + sardines,_canned_in_sunflower_oil,_drained_JCC <= 0
-_C254: - 700 food_status_sardines,_canned_in_tomato_sauce,_whole_contents_JCC
- + sardines,_canned_in_tomato_sauce,_whole_contents_JCC <= 0
-_C255: - 700 food_status_shrimps,_canned_in_brine,_drained_JKC
- + shrimps,_canned_in_brine,_drained_JKC <= 0
-_C256: crab,_purchased_cooked_JKC - 700 food_status_crab,_purchased_cooked_JKC
- <= 0
-_C257: - 700 food_status_lobster,_boiled_JKC + lobster,_boiled_JKC <= 0
-_C258: - 700 food_status_shrimps,_boiled_JKC + shrimps,_boiled_JKC <= 0
-_C259: - 700 food_status_shrimps,_dried_JKC + shrimps,_dried_JKC <= 0
-_C26: figs,_whole_green_fruit,_raw_FAT
+_C25: figs,_whole_green_fruit,_raw_FAT
  - 1050 food_status_figs,_whole_green_fruit,_raw_FAT <= 0
-_C260: - 700 food_status_shrimps,_frozen_JKC + shrimps,_frozen_JKC <= 0
-_C261: fish_fingers,_salmon,_grilled_baked_JRC
+_C250: - 700 food_status_sardines,_canned_in_brine,_drained_JCC
+ + sardines,_canned_in_brine,_drained_JCC <= 0
+_C251: - 700 food_status_sardines,_canned_in_olive_oil,_drained_JCC
+ + sardines,_canned_in_olive_oil,_drained_JCC <= 0
+_C252: - 700 food_status_sardines,_canned_in_sunflower_oil,_drained_JCC
+ + sardines,_canned_in_sunflower_oil,_drained_JCC <= 0
+_C253: - 700 food_status_sardines,_canned_in_tomato_sauce,_whole_contents_JCC
+ + sardines,_canned_in_tomato_sauce,_whole_contents_JCC <= 0
+_C254: - 700 food_status_shrimps,_canned_in_brine,_drained_JKC
+ + shrimps,_canned_in_brine,_drained_JKC <= 0
+_C255: crab,_purchased_cooked_JKC - 700 food_status_crab,_purchased_cooked_JKC
+ <= 0
+_C256: - 700 food_status_lobster,_boiled_JKC + lobster,_boiled_JKC <= 0
+_C257: - 700 food_status_shrimps,_boiled_JKC + shrimps,_boiled_JKC <= 0
+_C258: - 700 food_status_shrimps,_dried_JKC + shrimps,_dried_JKC <= 0
+_C259: - 700 food_status_shrimps,_frozen_JKC + shrimps,_frozen_JKC <= 0
+_C26: - 1050 food_status_fruit_cocktail,_canned_in_juice,_whole_contents_FAT
+ + fruit_cocktail,_canned_in_juice,_whole_contents_FAT <= 0
+_C260: fish_fingers,_salmon,_grilled_baked_JRC
  - 700 food_status_fish_fingers,_salmon,_grilled_baked_JRC <= 0
-_C262: - 700 food_status_herring,_flesh_only,_grilled_JCC
+_C261: - 700 food_status_herring,_flesh_only,_grilled_JCC
  + herring,_flesh_only,_grilled_JCC <= 0
-_C263: - 700 food_status_herring,_pickled_JCC + herring,_pickled_JCC <= 0
-_C264: - 700 food_status_salmon,_farmed,_flesh_only,_baked_JCC
+_C262: - 700 food_status_herring,_pickled_JCC + herring,_pickled_JCC <= 0
+_C263: - 700 food_status_salmon,_farmed,_flesh_only,_baked_JCC
  + salmon,_farmed,_flesh_only,_baked_JCC <= 0
-_C265: - 700 food_status_salmon,_farmed,_flesh_only,_grilled_JCC
+_C264: - 700 food_status_salmon,_farmed,_flesh_only,_grilled_JCC
  + salmon,_farmed,_flesh_only,_grilled_JCC <= 0
-_C266: - 700 food_status_salmon,_farmed,_flesh_only,_steamed_JCC
+_C265: - 700 food_status_salmon,_farmed,_flesh_only,_steamed_JCC
  + salmon,_farmed,_flesh_only,_steamed_JCC <= 0
-_C267: - 700 food_status_salmon,_pink,_canned_in_brine,_drained_JCC
+_C266: - 700 food_status_salmon,_pink,_canned_in_brine,_drained_JCC
  + salmon,_pink,_canned_in_brine,_drained_JCC <= 0
-_C268: - 700 food_status_salmon,_red,_canned_in_brine,_drained_JCC
+_C267: - 700 food_status_salmon,_red,_canned_in_brine,_drained_JCC
  + salmon,_red,_canned_in_brine,_drained_JCC <= 0
-_C269:
+_C268:
  - 700 food_status_salmon,_red,_canned_in_brine,_skinless_and_boneless,_drained_JCC
  + salmon,_red,_canned_in_brine,_skinless_and_boneless,_drained_JCC <= 0
-_C27: - 1050 food_status_fruit_cocktail,_canned_in_juice,_whole_contents_FAT
- + fruit_cocktail,_canned_in_juice,_whole_contents_FAT <= 0
-_C270: - 700 food_status_salmon,_smoked_(cold_smoked)_JCC
+_C269: - 700 food_status_salmon,_smoked_(cold_smoked)_JCC
  + salmon,_smoked_(cold_smoked)_JCC <= 0
-_C271: - 700 food_status_salmon,_smoked_(hot_smoked)_JCC
- + salmon,_smoked_(hot_smoked)_JCC <= 0
-_C272: - 700 food_status_salmon,_wild,_baked_JCC + salmon,_wild,_baked_JCC
- <= 0
-_C273: - 700 food_status_salmon,_wild,_grilled_JCC + salmon,_wild,_grilled_JCC
- <= 0
-_C274: - 700 food_status_salmon,_wild,_steamed_JCC + salmon,_wild,_steamed_JCC
- <= 0
-_C275: - 700 food_status_tuna,_canned_in_brine,_drained_JCC
- + tuna,_canned_in_brine,_drained_JCC <= 0
-_C276: - 700 food_status_tuna,_canned_in_sunflower_oil,_drained_JCC
- + tuna,_canned_in_sunflower_oil,_drained_JCC <= 0
-_C277: - 700 food_status_tuna,_flesh_only,_baked_JCC
- + tuna,_flesh_only,_baked_JCC <= 0
-_C278: - 700 food_status_mussels,_purchased_cooked_JMC
- + mussels,_purchased_cooked_JMC <= 0
-_C279: - 700 food_status_scallops,_steamed_JMC + scallops,_steamed_JMC <= 0
-_C28: - 1050 food_status_guava,_raw,_weighed_with_skin_and_pips_FAT
+_C27: - 1050 food_status_guava,_raw,_weighed_with_skin_and_pips_FAT
  + guava,_raw,_weighed_with_skin_and_pips_FAT <= 0
-_C280: - 700 food_status_squid,_dried_JMC + squid,_dried_JMC <= 0
-_C281: - 700 food_status_sardines,_flesh_only,_grilled_JCC
+_C270: - 700 food_status_salmon,_smoked_(hot_smoked)_JCC
+ + salmon,_smoked_(hot_smoked)_JCC <= 0
+_C271: - 700 food_status_salmon,_wild,_baked_JCC + salmon,_wild,_baked_JCC
+ <= 0
+_C272: - 700 food_status_salmon,_wild,_grilled_JCC + salmon,_wild,_grilled_JCC
+ <= 0
+_C273: - 700 food_status_salmon,_wild,_steamed_JCC + salmon,_wild,_steamed_JCC
+ <= 0
+_C274: - 700 food_status_tuna,_canned_in_brine,_drained_JCC
+ + tuna,_canned_in_brine,_drained_JCC <= 0
+_C275: - 700 food_status_tuna,_canned_in_sunflower_oil,_drained_JCC
+ + tuna,_canned_in_sunflower_oil,_drained_JCC <= 0
+_C276: - 700 food_status_tuna,_flesh_only,_baked_JCC
+ + tuna,_flesh_only,_baked_JCC <= 0
+_C277: - 700 food_status_mussels,_purchased_cooked_JMC
+ + mussels,_purchased_cooked_JMC <= 0
+_C278: - 700 food_status_scallops,_steamed_JMC + scallops,_steamed_JMC <= 0
+_C279: - 700 food_status_squid,_dried_JMC + squid,_dried_JMC <= 0
+_C28: - 1050 food_status_passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT
+ + passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT <= 0
+_C280: - 700 food_status_sardines,_flesh_only,_grilled_JCC
  + sardines,_flesh_only,_grilled_JCC <= 0
-_C282: - 700 food_status_ham,_cooked_MAHC + ham,_cooked_MAHC <= 0
-_C283: - 700 food_status_pork,_cooked_MAGC + pork,_cooked_MAGC <= 0
-_C284: chicken,_meat,_average,_roasted_MCAC
+_C281: - 700 food_status_ham,_cooked_MAHC + ham,_cooked_MAHC <= 0
+_C282: - 700 food_status_pork,_cooked_MAGC + pork,_cooked_MAGC <= 0
+_C283: chicken,_meat,_average,_roasted_MCAC
  - 700 food_status_chicken,_meat,_average,_roasted_MCAC <= 0
-_C285: - 700 food_status_turkey,_meat,_average,_roasted_MCOC
+_C284: - 700 food_status_turkey,_meat,_average,_roasted_MCOC
  + turkey,_meat,_average,_roasted_MCOC <= 0
-_C286: baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM
+_C285: baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM
  - 196 food_status_baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM <= 0
-_C287:
+_C286:
  fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_including_dairy_type_BTM
  - 196 food_status_fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_including_dairy_type_BTM
  <= 0
-_C288: fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_with_olive_oil_BTM
+_C287: fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_with_olive_oil_BTM
  - 196 food_status_fat_spread,_low_fat_(26_39%),_not_polyunsaturated,_with_olive_oil_BTM
  <= 0
-_C289: fat_spread,_low_fat_(26_39%),_polyunsaturated_BTM
+_C288: fat_spread,_low_fat_(26_39%),_polyunsaturated_BTM
  - 196 food_status_fat_spread,_low_fat_(26_39%),_polyunsaturated_BTM <= 0
-_C29: - 1050 food_status_passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT
- + passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT <= 0
-_C290: fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated_BTM
+_C289: fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated_BTM
  - 196 food_status_fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated_BTM
  <= 0
-_C291:
+_C29: - 1050 food_status_pomegranate,_flesh_and_pips,_weighed_with_skin_FAT
+ + pomegranate,_flesh_and_pips,_weighed_with_skin_FAT <= 0
+_C290:
  fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated,_with_olive_oil_BTM
  - 196 food_status_fat_spread,_reduced_fat_(41_62%),_not_polyunsaturated,_with_olive_oil_BTM
  <= 0
-_C292: fat_spread,_reduced_fat_(41_62%),_polyunsaturated_BTM
+_C291: fat_spread,_reduced_fat_(41_62%),_polyunsaturated_BTM
  - 196 food_status_fat_spread,_reduced_fat_(41_62%),_polyunsaturated_BTM <= 0
-_C293: fat_spread,_reduced_fat_(62_75%),_not_polyunsaturated_BTM
+_C292: fat_spread,_reduced_fat_(62_75%),_not_polyunsaturated_BTM
  - 196 food_status_fat_spread,_reduced_fat_(62_75%),_not_polyunsaturated_BTM
  <= 0
-_C294: fat_spread,_reduced_fat_(62_75%),_polyunsaturated_BTM
+_C293: fat_spread,_reduced_fat_(62_75%),_polyunsaturated_BTM
  - 196 food_status_fat_spread,_reduced_fat_(62_75%),_polyunsaturated_BTM <= 0
-_C295: - 196 food_status_oil,_sunflower_OC + oil,_sunflower_OC <= 0
-_C296: butter,_salted_OA - 196 food_status_butter,_salted_OA <= 0
-_C297: butter,_spreadable_(75_80%_fat)_OA
+_C294: - 196 food_status_oil,_sunflower_OC + oil,_sunflower_OC <= 0
+_C295: butter,_salted_OA - 196 food_status_butter,_salted_OA <= 0
+_C296: butter,_spreadable_(75_80%_fat)_OA
  - 196 food_status_butter,_spreadable_(75_80%_fat)_OA <= 0
-_C298: butter,_spreadable,_light_(60%_fat)_OA
+_C297: butter,_spreadable,_light_(60%_fat)_OA
  - 196 food_status_butter,_spreadable,_light_(60%_fat)_OA <= 0
-_C299: butter,_unsalted_OA - 196 food_status_butter,_unsalted_OA <= 0
-_C3: apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
- - 220 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT <= 0
-_C30: - 1050 food_status_pomegranate,_flesh_and_pips,_weighed_with_skin_FAT
- + pomegranate,_flesh_and_pips,_weighed_with_skin_FAT <= 0
-_C300: - 196 food_status_oil,_coconut_OC + oil,_coconut_OC <= 0
-_C301: cream,_dairy,_extra_thick_(24%_fat)_BJC
- - 196 food_status_cream,_dairy,_extra_thick_(24%_fat)_BJC <= 0
-_C302: cream,_half,_fresh_BJC - 196 food_status_cream,_half,_fresh_BJC <= 0
-_C303: creme_fraiche,_full_fat_BJC
- - 196 food_status_creme_fraiche,_full_fat_BJC <= 0
-_C304: creme_fraiche,_half_fat_BJC
- - 196 food_status_creme_fraiche,_half_fat_BJC <= 0
-_C305: - 196 food_status_oil,_olive_OC + oil,_olive_OC <= 0
-_C306: - 196 food_status_oil,_peanut_(groundnut)_OC
- + oil,_peanut_(groundnut)_OC <= 0
-_C307: - 196 food_status_oil,_rapeseed_OC + oil,_rapeseed_OC <= 0
-_C308: - 196 food_status_oil,_sesame_OC + oil,_sesame_OC <= 0
-_C309: - 196 food_status_oil,_vegetable,_average_OC
- + oil,_vegetable,_average_OC <= 0
-_C31: - 1050 food_status_star_fruit_FAT + star_fruit_FAT <= 0
-_C310: eggs,_chicken,_whole,_boiled_CA
- - 840 food_status_eggs,_chicken,_whole,_boiled_CA <= 0
-_C311: eggs,_chicken,_whole,_fried,_without_fat_CA
- - 840 food_status_eggs,_chicken,_whole,_fried,_without_fat_CA <= 0
-_C312: eggs,_chicken,_whole,_poached_CA
- - 840 food_status_eggs,_chicken,_whole,_poached_CA <= 0
-_C313: eggs,_chicken,_whole,_raw_CA
- - 840 food_status_eggs,_chicken,_whole,_raw_CA <= 0
-_C314: eggs,_chicken,_whole,_scrambled,_without_milk_CA
- - 840 food_status_eggs,_chicken,_whole,_scrambled,_without_milk_CA <= 0
-_C315: - 315 food_status_lamb,_average,_raw,_lean_and_fat_MAE
- + lamb,_average,_raw,_lean_and_fat_MAE <= 0
-_C316: - 315 food_status_rabbit,_stewed,_meat_only_MECC
- + rabbit,_stewed,_meat_only_MECC <= 0
-_C317: - 315 food_status_venison,_roast_MEEC + venison,_roast_MEEC <= 0
-_C318: beef,_cooked_MACC - 315 food_status_beef,_cooked_MACC <= 0
-_C319: - 315 food_status_mince_beef,_cooked_MBGC + mince_beef,_cooked_MBGC
+_C298: butter,_unsalted_OA - 196 food_status_butter,_unsalted_OA <= 0
+_C299: - 196 food_status_oil,_coconut_OC + oil,_coconut_OC <= 0
+_C3: apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
+ - 1050 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
  <= 0
-_C32: - 1050 food_status_grapefruit,_canned_in_juice,_whole_contents_FAT
+_C30: - 1050 food_status_star_fruit_FAT + star_fruit_FAT <= 0
+_C300: cream,_dairy,_extra_thick_(24%_fat)_BJC
+ - 196 food_status_cream,_dairy,_extra_thick_(24%_fat)_BJC <= 0
+_C301: cream,_half,_fresh_BJC - 196 food_status_cream,_half,_fresh_BJC <= 0
+_C302: creme_fraiche,_full_fat_BJC
+ - 196 food_status_creme_fraiche,_full_fat_BJC <= 0
+_C303: creme_fraiche,_half_fat_BJC
+ - 196 food_status_creme_fraiche,_half_fat_BJC <= 0
+_C304: - 196 food_status_oil,_olive_OC + oil,_olive_OC <= 0
+_C305: - 196 food_status_oil,_peanut_(groundnut)_OC
+ + oil,_peanut_(groundnut)_OC <= 0
+_C306: - 196 food_status_oil,_rapeseed_OC + oil,_rapeseed_OC <= 0
+_C307: - 196 food_status_oil,_sesame_OC + oil,_sesame_OC <= 0
+_C308: - 196 food_status_oil,_vegetable,_average_OC
+ + oil,_vegetable,_average_OC <= 0
+_C309: eggs,_chicken,_whole,_boiled_CA
+ - 840 food_status_eggs,_chicken,_whole,_boiled_CA <= 0
+_C31: - 1050 food_status_grapefruit,_canned_in_juice,_whole_contents_FAT
  + grapefruit,_canned_in_juice,_whole_contents_FAT <= 0
-_C320: - 315 food_status_veal,_cooked_MAIC + veal,_cooked_MAIC <= 0
-_C321: - 28 food_status_sausage,_beef_avg_MI + sausage,_beef_avg_MI <= 0
-_C322: - 28 food_status_sausage,_pork_avg_MI + sausage,_pork_avg_MI <= 0
-_C323: bacon,_cooked_MAAC - 28 food_status_bacon,_cooked_MAAC <= 0
-_C324: - 1400 food_status_tofu,_soya_bean,_steamed_VEG
- + tofu,_soya_bean,_steamed_VEG <= 0
-_C325: - 1400 food_status_tofu,_soya_bean,_steamed,_fried_VEG
- + tofu,_soya_bean,_steamed,_fried_VEG <= 0
-_C326: - 1400 food_status_quorn,_pieces,_as_purchased_VEG
- + quorn,_pieces,_as_purchased_VEG <= 0
-_C327: - 1400 food_status_tempeh_VEG + tempeh_VEG <= 0
-_C328: - 1400 food_status_sausages,_vegetarian,_baked_grilled_VEG
- + sausages,_vegetarian,_baked_grilled_VEG <= 0
-_C329:
- - 700 food_status_milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV
- + milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV <= 0
-_C33:
+_C310: eggs,_chicken,_whole,_fried,_without_fat_CA
+ - 840 food_status_eggs,_chicken,_whole,_fried,_without_fat_CA <= 0
+_C311: eggs,_chicken,_whole,_poached_CA
+ - 840 food_status_eggs,_chicken,_whole,_poached_CA <= 0
+_C312: eggs,_chicken,_whole,_raw_CA
+ - 840 food_status_eggs,_chicken,_whole,_raw_CA <= 0
+_C313: eggs,_chicken,_whole,_scrambled,_without_milk_CA
+ - 840 food_status_eggs,_chicken,_whole,_scrambled,_without_milk_CA <= 0
+_C314: - 315 food_status_lamb,_average,_raw,_lean_and_fat_MAE
+ + lamb,_average,_raw,_lean_and_fat_MAE <= 0
+_C315: - 315 food_status_rabbit,_stewed,_meat_only_MECC
+ + rabbit,_stewed,_meat_only_MECC <= 0
+_C316: - 315 food_status_venison,_roast_MEEC + venison,_roast_MEEC <= 0
+_C317: beef,_cooked_MACC - 315 food_status_beef,_cooked_MACC <= 0
+_C318: - 315 food_status_mince_beef,_cooked_MBGC + mince_beef,_cooked_MBGC
+ <= 0
+_C319: - 315 food_status_veal,_cooked_MAIC + veal,_cooked_MAIC <= 0
+_C32:
  - 1050 food_status_grapefruit,_flesh_only,_raw,_weighed_with_peel_and_pips_FAT
  + grapefruit,_flesh_only,_raw,_weighed_with_peel_and_pips_FAT <= 0
-_C330:
+_C320: - 28 food_status_sausage,_beef_avg_MI + sausage,_beef_avg_MI <= 0
+_C321: - 28 food_status_sausage,_pork_avg_MI + sausage,_pork_avg_MI <= 0
+_C322: bacon,_cooked_MAAC - 28 food_status_bacon,_cooked_MAAC <= 0
+_C323: - 1400 food_status_tofu,_soya_bean,_steamed_VEG
+ + tofu,_soya_bean,_steamed_VEG <= 0
+_C324: - 1400 food_status_tofu,_soya_bean,_steamed,_fried_VEG
+ + tofu,_soya_bean,_steamed,_fried_VEG <= 0
+_C325: - 1400 food_status_quorn,_pieces,_as_purchased_VEG
+ + quorn,_pieces,_as_purchased_VEG <= 0
+_C326: - 1400 food_status_tempeh_VEG + tempeh_VEG <= 0
+_C327: - 1400 food_status_sausages,_vegetarian,_baked_grilled_VEG
+ + sausages,_vegetarian,_baked_grilled_VEG <= 0
+_C328:
+ - 700 food_status_milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV
+ + milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV <= 0
+_C329:
  - 700 food_status_milk,_soya,_non_dairy_alternative_to_milk,_unsweetened,_fortified_BAV
  + milk,_soya,_non_dairy_alternative_to_milk,_unsweetened,_fortified_BAV <= 0
-_C331: coconut_milk_BAV - 700 food_status_coconut_milk_BAV <= 0
-_C332: coconut_milk,_reduced_fat,_retail_BAV
+_C33: - 1050 food_status_pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT
+ + pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT <= 0
+_C330: coconut_milk_BAV - 700 food_status_coconut_milk_BAV <= 0
+_C331: coconut_milk,_reduced_fat,_retail_BAV
  - 700 food_status_coconut_milk,_reduced_fat,_retail_BAV <= 0
-_C333: coconut_milk,_retail_BAV - 700 food_status_coconut_milk,_retail_BAV
+_C332: coconut_milk,_retail_BAV - 700 food_status_coconut_milk,_retail_BAV
  <= 0
+_C333:
+ - 700 food_status_yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV
+ + yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV <= 0
 _C334:
  - 700 food_status_yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV
  + yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV <= 0
-_C335:
- - 700 food_status_yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV
- + yogurt,_soya,_non_dairy_alternative_to_yogurt,_fruit,_fortified_BNV <= 0
-_C336: - 700 food_status_yogurt,_greek_style,_fruit_BN
+_C335: - 700 food_status_yogurt,_greek_style,_fruit_BN
  + yogurt,_greek_style,_fruit_BN <= 0
-_C337: - 700 food_status_yogurt,_greek_style,_plain_BN
+_C336: - 700 food_status_yogurt,_greek_style,_plain_BN
  + yogurt,_greek_style,_plain_BN <= 0
-_C338: - 700 food_status_yogurt,_low_fat,_fruit_BN + yogurt,_low_fat,_fruit_BN
+_C337: - 700 food_status_yogurt,_low_fat,_fruit_BN + yogurt,_low_fat,_fruit_BN
  <= 0
-_C339: - 700 food_status_yogurt,_low_fat,_plain_BN + yogurt,_low_fat,_plain_BN
+_C338: - 700 food_status_yogurt,_low_fat,_plain_BN + yogurt,_low_fat,_plain_BN
  <= 0
-_C34: - 1050 food_status_pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT
- + pomelo,_flesh_only,_weighed_with_peel_and_pips_FAT <= 0
-_C340: - 700 food_status_yogurt,_virtually_fat_free_diet,_fruit_BN
+_C339: - 700 food_status_yogurt,_virtually_fat_free_diet,_fruit_BN
  + yogurt,_virtually_fat_free_diet,_fruit_BN <= 0
-_C341: - 700 food_status_yogurt,_virtually_fat_free_diet,_plain_BN
- + yogurt,_virtually_fat_free_diet,_plain_BN <= 0
-_C342: - 700 food_status_yogurt,_whole_milk,_fruit_BN
- + yogurt,_whole_milk,_fruit_BN <= 0
-_C343: - 700 food_status_yogurt,_whole_milk,_plain_BN
- + yogurt,_whole_milk,_plain_BN <= 0
-_C344: cheese,_cottage,_plain_BLF - 700 food_status_cheese,_cottage,_plain_BLF
- <= 0
-_C345: cheese,_cottage,_plain,_reduced_fat_BLF
- - 700 food_status_cheese,_cottage,_plain,_reduced_fat_BLF <= 0
-_C346: cheese,_feta_BLF - 700 food_status_cheese,_feta_BLF <= 0
-_C347: cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF
- - 700 food_status_cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF <= 0
-_C348: cheese,_mascarpone_BLF - 700 food_status_cheese,_mascarpone_BLF <= 0
-_C349: cheese,_mozzarella,_fresh_BLF
- - 700 food_status_cheese,_mozzarella,_fresh_BLF <= 0
-_C35: - 1050 food_status_kiwi_fruit,_flesh_and_seeds,_weighed_with_skin_FAT
+_C34: - 1050 food_status_kiwi_fruit,_flesh_and_seeds,_weighed_with_skin_FAT
  + kiwi_fruit,_flesh_and_seeds,_weighed_with_skin_FAT <= 0
-_C350: cheese,_paneer_BLF - 700 food_status_cheese,_paneer_BLF <= 0
-_C351: cheese,_quark_BLF - 700 food_status_cheese,_quark_BLF <= 0
-_C352: cheese,_ricotta_BLF - 700 food_status_cheese,_ricotta_BLF <= 0
-_C353: cheese,_brie,_with_outer_rind_removed_BLS
- - 700 food_status_cheese,_brie,_with_outer_rind_removed_BLS <= 0
-_C354: cheese,_camembert_BLS - 700 food_status_cheese,_camembert_BLS <= 0
-_C355: cheese,_danish_blue_BLS - 700 food_status_cheese,_danish_blue_BLS <= 0
-_C356: cheese,_halloumi_BLS - 700 food_status_cheese,_halloumi_BLS <= 0
-_C357: cheese,_caerphilly_BLH - 280 food_status_cheese,_caerphilly_BLH <= 0
-_C358: cheese,_cheddar,_english_BLH
- - 280 food_status_cheese,_cheddar,_english_BLH <= 0
-_C359: cheese,_edam_BLH - 280 food_status_cheese,_edam_BLH <= 0
-_C36: - 1050 food_status_kumquats,_whole_fruit,_raw_FAT
- + kumquats,_whole_fruit,_raw_FAT <= 0
-_C360: cheese,_emmental_BLH - 280 food_status_cheese,_emmental_BLH <= 0
-_C361: cheese,_gouda_BLH - 280 food_status_cheese,_gouda_BLH <= 0
-_C362: cheese,_gruyere_BLH - 280 food_status_cheese,_gruyere_BLH <= 0
-_C363: cheese,_hard,_average_BLH - 280 food_status_cheese,_hard,_average_BLH
+_C340: - 700 food_status_yogurt,_virtually_fat_free_diet,_plain_BN
+ + yogurt,_virtually_fat_free_diet,_plain_BN <= 0
+_C341: - 700 food_status_yogurt,_whole_milk,_fruit_BN
+ + yogurt,_whole_milk,_fruit_BN <= 0
+_C342: - 700 food_status_yogurt,_whole_milk,_plain_BN
+ + yogurt,_whole_milk,_plain_BN <= 0
+_C343: cheese,_cottage,_plain_BLF - 700 food_status_cheese,_cottage,_plain_BLF
  <= 0
-_C364: cheese,_parmesan,_fresh_BLH
- - 280 food_status_cheese,_parmesan,_fresh_BLH <= 0
-_C37: - 1050 food_status_mandarin_oranges,_canned_in_juice,_whole_contents_FAT
+_C344: cheese,_cottage,_plain,_reduced_fat_BLF
+ - 700 food_status_cheese,_cottage,_plain,_reduced_fat_BLF <= 0
+_C345: cheese,_feta_BLF - 700 food_status_cheese,_feta_BLF <= 0
+_C346: cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF
+ - 700 food_status_cheese,_goats_milk,_full_fat,_soft,_white_rind_BLF <= 0
+_C347: cheese,_mascarpone_BLF - 700 food_status_cheese,_mascarpone_BLF <= 0
+_C348: cheese,_mozzarella,_fresh_BLF
+ - 700 food_status_cheese,_mozzarella,_fresh_BLF <= 0
+_C349: cheese,_paneer_BLF - 700 food_status_cheese,_paneer_BLF <= 0
+_C35: - 1050 food_status_kumquats,_whole_fruit,_raw_FAT
+ + kumquats,_whole_fruit,_raw_FAT <= 0
+_C350: cheese,_quark_BLF - 700 food_status_cheese,_quark_BLF <= 0
+_C351: cheese,_ricotta_BLF - 700 food_status_cheese,_ricotta_BLF <= 0
+_C352: cheese,_brie,_with_outer_rind_removed_BLS
+ - 700 food_status_cheese,_brie,_with_outer_rind_removed_BLS <= 0
+_C353: cheese,_camembert_BLS - 700 food_status_cheese,_camembert_BLS <= 0
+_C354: cheese,_danish_blue_BLS - 700 food_status_cheese,_danish_blue_BLS <= 0
+_C355: cheese,_halloumi_BLS - 700 food_status_cheese,_halloumi_BLS <= 0
+_C356: cheese,_caerphilly_BLH - 280 food_status_cheese,_caerphilly_BLH <= 0
+_C357: cheese,_cheddar,_english_BLH
+ - 280 food_status_cheese,_cheddar,_english_BLH <= 0
+_C358: cheese,_edam_BLH - 280 food_status_cheese,_edam_BLH <= 0
+_C359: cheese,_emmental_BLH - 280 food_status_cheese,_emmental_BLH <= 0
+_C36: - 1050 food_status_mandarin_oranges,_canned_in_juice,_whole_contents_FAT
  + mandarin_oranges,_canned_in_juice,_whole_contents_FAT <= 0
-_C38:
+_C360: cheese,_gouda_BLH - 280 food_status_cheese,_gouda_BLH <= 0
+_C361: cheese,_gruyere_BLH - 280 food_status_cheese,_gruyere_BLH <= 0
+_C362: cheese,_hard,_average_BLH - 280 food_status_cheese,_hard,_average_BLH
+ <= 0
+_C363: cheese,_parmesan,_fresh_BLH
+ - 280 food_status_cheese,_parmesan,_fresh_BLH <= 0
+_C37:
  - 1050 food_status_mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone_FAT
  + mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone_FAT <= 0
-_C39:
+_C38:
  - 1050 food_status_mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone,_frozen_FAT
  + mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone,_frozen_FAT
  <= 0
-_C4: apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
- - 1050 food_status_apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
- <= 0
-_C40: - 1050 food_status_melon,_flesh_only,_average,_weighed_with_skin_FAT
+_C39: - 1050 food_status_melon,_flesh_only,_average,_weighed_with_skin_FAT
  + melon,_flesh_only,_average,_weighed_with_skin_FAT <= 0
-_C41: - 1050 food_status_nectarines,_flesh_and_skin,_weighed_with_stones_FAT
- + nectarines,_flesh_and_skin,_weighed_with_stones_FAT <= 0
-_C42: - 1050 food_status_peaches,_canned_in_juice,_whole_contents_FAT
- + peaches,_canned_in_juice,_whole_contents_FAT <= 0
-_C43: - 1050 food_status_peaches,_canned_in_syrup,_whole_contents_FAT
- + peaches,_canned_in_syrup,_whole_contents_FAT <= 0
-_C44: - 1050 food_status_peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT
- + peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT <= 0
-_C45:
- - 1050 food_status_peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT
- + peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT <= 0
-_C46: - 1050 food_status_oranges,_flesh_only,_weighed_with_peel_and_pips_FAT
- + oranges,_flesh_only,_weighed_with_peel_and_pips_FAT <= 0
-_C47:
- - 1050 food_status_papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT
- + papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT <= 0
-_C48:
- - 1050 food_status_pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT
- + pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT <= 0
-_C49: - 1050 food_status_pears,_canned_in_juice,_whole_contents_FAT
- + pears,_canned_in_juice,_whole_contents_FAT <= 0
-_C5: avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT
+_C4: avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT
  - 1050 food_status_avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT
  <= 0
-_C50:
+_C40: - 1050 food_status_nectarines,_flesh_and_skin,_weighed_with_stones_FAT
+ + nectarines,_flesh_and_skin,_weighed_with_stones_FAT <= 0
+_C41: - 1050 food_status_peaches,_canned_in_juice,_whole_contents_FAT
+ + peaches,_canned_in_juice,_whole_contents_FAT <= 0
+_C42: - 1050 food_status_peaches,_canned_in_syrup,_whole_contents_FAT
+ + peaches,_canned_in_syrup,_whole_contents_FAT <= 0
+_C43: - 1050 food_status_peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT
+ + peaches,_flesh_and_skin,_raw,_weighed_with_stone_FAT <= 0
+_C44:
+ - 1050 food_status_peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT
+ + peaches,_flesh_and_skin,_raw,_weighed_with_stone,_frozen_FAT <= 0
+_C45: - 1050 food_status_oranges,_flesh_only,_weighed_with_peel_and_pips_FAT
+ + oranges,_flesh_only,_weighed_with_peel_and_pips_FAT <= 0
+_C46:
+ - 1050 food_status_papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT
+ + papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT <= 0
+_C47:
+ - 1050 food_status_pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT
+ + pears,_average,_flesh_and_skin,_raw,_weighed_with_core_and_stalk_FAT <= 0
+_C48: - 1050 food_status_pears,_canned_in_juice,_whole_contents_FAT
+ + pears,_canned_in_juice,_whole_contents_FAT <= 0
+_C49:
  - 1050 food_status_pears,_raw,_flesh_only,_peeled,_weighed_with_skin_and_core_FAT
  + pears,_raw,_flesh_only,_peeled,_weighed_with_skin_and_core_FAT <= 0
-_C51: - 1050 food_status_pineapple,_canned_in_juice,_whole_contents_FAT
+_C5: bananas,_raw,_flesh_only,_weighed_with_skin_FAT
+ - 1050 food_status_bananas,_raw,_flesh_only,_weighed_with_skin_FAT <= 0
+_C50: - 1050 food_status_pineapple,_canned_in_juice,_whole_contents_FAT
  + pineapple,_canned_in_juice,_whole_contents_FAT <= 0
-_C52: - 1050 food_status_pineapple,_canned_in_syrup,_whole_contents_FAT
+_C51: - 1050 food_status_pineapple,_canned_in_syrup,_whole_contents_FAT
  + pineapple,_canned_in_syrup,_whole_contents_FAT <= 0
-_C53:
+_C52:
  - 1050 food_status_pineapple,_flesh_only,_raw,_weighed_with_skin_and_top_FAT
  + pineapple,_flesh_only,_raw,_weighed_with_skin_and_top_FAT <= 0
-_C54:
+_C53:
  - 1050 food_status_plums,_average,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  + plums,_average,_raw,_flesh_and_skin,_weighed_with_stones_FAT <= 0
-_C55:
+_C54:
  - 1050 food_status_plums,_average,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
  + plums,_average,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT <= 0
-_C56: - 1050 food_status_strawberries,_raw_FAT + strawberries,_raw_FAT <= 0
-_C57: - 1050 food_status_strawberries,_raw,_frozen_FAT
+_C55: - 1050 food_status_strawberries,_raw_FAT + strawberries,_raw_FAT <= 0
+_C56: - 1050 food_status_strawberries,_raw,_frozen_FAT
  + strawberries,_raw,_frozen_FAT <= 0
-_C58: artichoke,_globe,_raw_DGR - 700 food_status_artichoke,_globe,_raw_DGR
+_C57: artichoke,_globe,_raw_DGR - 700 food_status_artichoke,_globe,_raw_DGR
  <= 0
-_C59: asparagus,_raw_DGR - 700 food_status_asparagus,_raw_DGR <= 0
-_C6: bananas,_raw,_flesh_only,_weighed_with_skin_FAT
- - 1050 food_status_bananas,_raw,_flesh_only,_weighed_with_skin_FAT <= 0
-_C60: asparagus,_raw,_canned_DGR - 700 food_status_asparagus,_raw,_canned_DGR
+_C58: asparagus,_raw_DGR - 700 food_status_asparagus,_raw_DGR <= 0
+_C59: asparagus,_raw,_canned_DGR - 700 food_status_asparagus,_raw,_canned_DGR
  <= 0
-_C61: asparagus,_raw,_frozen_DGR - 700 food_status_asparagus,_raw,_frozen_DGR
+_C6: blackberries,_raw_FAT - 1050 food_status_blackberries,_raw_FAT <= 0
+_C60: asparagus,_raw,_frozen_DGR - 700 food_status_asparagus,_raw,_frozen_DGR
  <= 0
-_C62: broccoli,_green,_raw_DGR - 700 food_status_broccoli,_green,_raw_DGR <= 0
-_C63: brussels_sprouts,_raw_DGR - 700 food_status_brussels_sprouts,_raw_DGR
+_C61: broccoli,_green,_raw_DGR - 700 food_status_broccoli,_green,_raw_DGR <= 0
+_C62: brussels_sprouts,_raw_DGR - 700 food_status_brussels_sprouts,_raw_DGR
  <= 0
-_C64: cauliflower,_raw_DGR - 700 food_status_cauliflower,_raw_DGR <= 0
-_C65: broccoli,_green,_raw,_frozen_DGR
+_C63: cauliflower,_raw_DGR - 700 food_status_cauliflower,_raw_DGR <= 0
+_C64: broccoli,_green,_raw,_frozen_DGR
  - 700 food_status_broccoli,_green,_raw,_frozen_DGR <= 0
-_C66: brussels_sprouts,_raw,_frozen_DGR
+_C65: brussels_sprouts,_raw,_frozen_DGR
  - 700 food_status_brussels_sprouts,_raw,_frozen_DGR <= 0
-_C67: cabbage,_average,_raw_DGR - 700 food_status_cabbage,_average,_raw_DGR
+_C66: cabbage,_average,_raw_DGR - 700 food_status_cabbage,_average,_raw_DGR
  <= 0
-_C68: cabbage,_chinese,_raw_DGR - 700 food_status_cabbage,_chinese,_raw_DGR
+_C67: cabbage,_chinese,_raw_DGR - 700 food_status_cabbage,_chinese,_raw_DGR
  <= 0
-_C69: cabbage,_green,_raw_DGR - 700 food_status_cabbage,_green,_raw_DGR <= 0
-_C7: blackberries,_raw_FAT - 1050 food_status_blackberries,_raw_FAT <= 0
-_C70: cabbage,_red,_raw_DGR - 700 food_status_cabbage,_red,_raw_DGR <= 0
-_C71: cabbage,_white,_raw_DGR - 700 food_status_cabbage,_white,_raw_DGR <= 0
-_C72: - 700 food_status_sauerkraut_DGR + sauerkraut_DGR <= 0
-_C73: carrots,_young,_raw_DGR - 700 food_status_carrots,_young,_raw_DGR <= 0
-_C74: carrots,_young,_raw,_frozen_DGR
- - 700 food_status_carrots,_young,_raw,_frozen_DGR <= 0
-_C75: chard,_swiss,_raw_DGR - 700 food_status_chard,_swiss,_raw_DGR <= 0
-_C76: curly_kale,_raw_DGR - 700 food_status_curly_kale,_raw_DGR <= 0
-_C77: - 700 food_status_spinach,_baby,_raw_DGR + spinach,_baby,_raw_DGR <= 0
-_C78: - 700 food_status_spinach,_mature,_raw_DGR + spinach,_mature,_raw_DGR
- <= 0
-_C79: courgette,_raw_DGR - 700 food_status_courgette,_raw_DGR <= 0
-_C8: elderberries,_whole_fruit_FAT
+_C68: cabbage,_green,_raw_DGR - 700 food_status_cabbage,_green,_raw_DGR <= 0
+_C69: cabbage,_red,_raw_DGR - 700 food_status_cabbage,_red,_raw_DGR <= 0
+_C7: elderberries,_whole_fruit_FAT
  - 1050 food_status_elderberries,_whole_fruit_FAT <= 0
-_C80: - 700 food_status_squash,_pumpkin,_raw_DGR + squash,_pumpkin,_raw_DGR
+_C70: cabbage,_white,_raw_DGR - 700 food_status_cabbage,_white,_raw_DGR <= 0
+_C71: - 700 food_status_sauerkraut_DGR + sauerkraut_DGR <= 0
+_C72: carrots,_young,_raw_DGR - 700 food_status_carrots,_young,_raw_DGR <= 0
+_C73: carrots,_young,_raw,_frozen_DGR
+ - 700 food_status_carrots,_young,_raw,_frozen_DGR <= 0
+_C74: chard,_swiss,_raw_DGR - 700 food_status_chard,_swiss,_raw_DGR <= 0
+_C75: curly_kale,_raw_DGR - 700 food_status_curly_kale,_raw_DGR <= 0
+_C76: - 700 food_status_spinach,_baby,_raw_DGR + spinach,_baby,_raw_DGR <= 0
+_C77: - 700 food_status_spinach,_mature,_raw_DGR + spinach,_mature,_raw_DGR
  <= 0
-_C81: - 700 food_status_squash,_acorn,_raw_DGR + squash,_acorn,_raw_DGR <= 0
-_C82: - 700 food_status_squash,_butternut,_raw_DGR
- + squash,_butternut,_raw_DGR <= 0
-_C83: - 700 food_status_squash,_spaghetti,_raw_DGR
- + squash,_spaghetti,_raw_DGR <= 0
-_C84: cucumber,_raw,_flesh_and_skin_DGR
- - 700 food_status_cucumber,_raw,_flesh_and_skin_DGR <= 0
-_C85: - 700 food_status_gherkins,_raw_DGR + gherkins,_raw_DGR <= 0
-_C86: endive,_raw_DGR - 700 food_status_endive,_raw_DGR <= 0
-_C87: - 700 food_status_lettuce,_average,_raw_DGR + lettuce,_average,_raw_DGR
+_C78: courgette,_raw_DGR - 700 food_status_courgette,_raw_DGR <= 0
+_C79: - 700 food_status_squash,_pumpkin,_raw_DGR + squash,_pumpkin,_raw_DGR
  <= 0
-_C88: - 700 food_status_raddiccio,_raw_DGR + raddiccio,_raw_DGR <= 0
-_C89: - 700 food_status_rocket,_raw_DGR + rocket,_raw_DGR <= 0
-_C9: - 1050 food_status_mulberries,_whole_fruit,_raw_FAT
+_C8: - 1050 food_status_mulberries,_whole_fruit,_raw_FAT
  + mulberries,_whole_fruit,_raw_FAT <= 0
-_C90: - 700 food_status_spring_greens,_raw_DGR + spring_greens,_raw_DGR <= 0
-_C91: - 700 food_status_garlic,_raw_DGR + garlic,_raw_DGR <= 0
-_C92: - 700 food_status_leeks,_raw_DGR + leeks,_raw_DGR <= 0
-_C93: - 700 food_status_onions,_raw_DGR + onions,_raw_DGR <= 0
-_C94: - 700 food_status_shallots,_raw_DGR + shallots,_raw_DGR <= 0
-_C95: - 700 food_status_spring_onions,_bulbs_and_tops,_raw_DGR
+_C80: - 700 food_status_squash,_acorn,_raw_DGR + squash,_acorn,_raw_DGR <= 0
+_C81: - 700 food_status_squash,_butternut,_raw_DGR
+ + squash,_butternut,_raw_DGR <= 0
+_C82: - 700 food_status_squash,_spaghetti,_raw_DGR
+ + squash,_spaghetti,_raw_DGR <= 0
+_C83: cucumber,_raw,_flesh_and_skin_DGR
+ - 700 food_status_cucumber,_raw,_flesh_and_skin_DGR <= 0
+_C84: - 700 food_status_gherkins,_raw_DGR + gherkins,_raw_DGR <= 0
+_C85: endive,_raw_DGR - 700 food_status_endive,_raw_DGR <= 0
+_C86: - 700 food_status_lettuce,_average,_raw_DGR + lettuce,_average,_raw_DGR
+ <= 0
+_C87: - 700 food_status_raddiccio,_raw_DGR + raddiccio,_raw_DGR <= 0
+_C88: - 700 food_status_rocket,_raw_DGR + rocket,_raw_DGR <= 0
+_C89: - 700 food_status_spring_greens,_raw_DGR + spring_greens,_raw_DGR <= 0
+_C9: - 1050 food_status_raspberries,_raw_FAT + raspberries,_raw_FAT <= 0
+_C90: - 700 food_status_garlic,_raw_DGR + garlic,_raw_DGR <= 0
+_C91: - 700 food_status_leeks,_raw_DGR + leeks,_raw_DGR <= 0
+_C92: - 700 food_status_onions,_raw_DGR + onions,_raw_DGR <= 0
+_C93: - 700 food_status_shallots,_raw_DGR + shallots,_raw_DGR <= 0
+_C94: - 700 food_status_spring_onions,_bulbs_and_tops,_raw_DGR
  + spring_onions,_bulbs_and_tops,_raw_DGR <= 0
-_C96: - 700 food_status_spring_onions,_bulbs_only,_raw_DGR
+_C95: - 700 food_status_spring_onions,_bulbs_only,_raw_DGR
  + spring_onions,_bulbs_only,_raw_DGR <= 0
-_C97: - 700 food_status_radish_leaves,_raw_DGR + radish_leaves,_raw_DGR <= 0
-_C98: - 700 food_status_radish,_red,_raw,_flesh_and_skin_DGR
+_C96: - 700 food_status_radish_leaves,_raw_DGR + radish_leaves,_raw_DGR <= 0
+_C97: - 700 food_status_radish,_red,_raw,_flesh_and_skin_DGR
  + radish,_red,_raw,_flesh_and_skin_DGR <= 0
-_C99: - 700 food_status_radish,_white_mooli,_raw_DGR
+_C98: - 700 food_status_radish,_white_mooli,_raw_DGR
  + radish,_white_mooli,_raw_DGR <= 0
+_C99: - 700 food_status_tomatoes,_cherry,_raw_DGR + tomatoes,_cherry,_raw_DGR
+ <= 0
 kcal: 6.12 almonds,_flaked_and_ground_GAT + 6.21 almonds,_toasted_GAT
  + 0.43 apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
  + 0.29 apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
@@ -10603,8 +10670,7 @@ kcal: 6.12 almonds,_flaked_and_ground_GAT + 6.21 almonds,_toasted_GAT
  + 0.54 yogurt,_virtually_fat_free_diet,_plain_BN
  + 1.09 yogurt,_whole_milk,_fruit_BN + 0.79 yogurt,_whole_milk,_plain_BN
  >= 17091.375
-sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
- + 0.14 almonds,_toasted_GAT
+sodium: 0.14 almonds,_flaked_and_ground_GAT + 0.14 almonds,_toasted_GAT
  + 0.01 apples,_eating,_raw,_flesh_and_skin,_weighed_with_core_FAT
  + 0.02 apricots,_raw,_flesh_and_skin,_weighed_with_stones,_frozen_FAT
  + 0.02 apricots,_raw,_flesh_and_skin,_weighed_with_stones_FAT
@@ -10613,7 +10679,6 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.04 avocado,_flesh_only,_average,_weighed_with_skin_and_stone_FAT
  + 15.83 bacon,_cooked_MAAC
  + 6 baking_fat_and_margarine_(75_90%_fat),_hard_block_BTM
- + 0 bananas,_raw,_flesh_only,_weighed_with_skin_FAT
  + 0.03 barcelona_nuts,_kernel_only_GAT + 0.8 bass,_sea,_flesh_only,_baked_JAC
  + 0.05 beans,_blackeye,_whole,_dried,_boiled_in_unsalted_water_DBC
  + 0.429236363636 beans,_blackeye,_whole,_dried,_raw,_canned_DBR
@@ -10625,8 +10690,6 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.05 beans,_chick_peas,_kabuli,_whole,_dried,_boiled_in_unsalted_water_DBC
  + 1.04626363636 beans,_chick_peas,_kabuli,_whole,_dried,_raw,_canned_DBR
  + 0.01 beans,_cluster,_raw,_frozen_DBR + 0.01 beans,_cluster,_raw_DBR
- + 0 beans,_green,_boiled_in_unsalted_water_DBC
- + 0 beans,_green,_raw,_frozen_DBR + 0 beans,_green,_raw_DBR
  + 0.15 beans,_haricot,_whole,_dried,_boiled_in_unsalted_water_DBC
  + 1.15357272727 beans,_haricot,_whole,_dried,_raw,_canned_DBR
  + 0.02 beans,_mung,_whole,_dried,_boiled_in_unsalted_water_DBC
@@ -10638,7 +10701,6 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.02 beans,_red_kidney,_dried,_boiled_in_unsalted_water_DBC
  + 0.482890909091 beans,_red_kidney,_dried,_raw,_canned_DBR
  + 0.01 beans,_runner,_boiled_in_unsalted_water_DBC
- + 0 beans,_runner,_raw,_frozen_DBR + 0 beans,_runner,_raw_DBR
  + 0.01 beans,_soya,_dried,_boiled_in_unsalted_water_DBC
  + 0.134136363636 beans,_soya,_dried,_raw,_canned_DBR
  + 0.04 beansprouts,_mung,_boiled_in_unsalted_water_DBC
@@ -10697,17 +10759,15 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.01 cherries,_flesh_and_skin,_raw,_weighed_with_stones_FAT
  + 0.11 chestnuts,_kernel_only,_raw_GAT
  + 0.8 chicken,_meat,_average,_roasted_MCAC + 0.28 coconut,_desiccated_FAT
- + 0.17 coconut,_flesh_only,_fresh_FAT
- + 0 coconut_milk,_reduced_fat,_retail_BAV + 0 coconut_milk,_retail_BAV
- + 1.1 coconut_milk_BAV + 4 cod,_dried,_salted,_boiled_JAC
- + 0.91 cod,_flesh_only,_baked_JAC + 1.28 cod,_flesh_only,_grilled_JAC
- + 1.27 cod,_flesh_only,_steamed_JAC + 0.01 courgette,_raw_DGR
- + 0.04 couscous,_plain,_raw_AD + 5.5 crab,_canned_in_brine,_drained_JKC
- + 3.37 crab,_purchased_cooked_JKC + 0.02 cranberries,_frozen_FAT
- + 0.02 cranberries_FAT + 0.29 cream,_dairy,_extra_thick_(24%_fat)_BJC
- + 0.49 cream,_half,_fresh_BJC + 0.22 creme_fraiche,_full_fat_BJC
- + 0.36 creme_fraiche,_half_fat_BJC + 0.04 cucumber,_raw,_flesh_and_skin_DGR
- + 0.43 curly_kale,_raw_DGR
+ + 0.17 coconut,_flesh_only,_fresh_FAT + 1.1 coconut_milk_BAV
+ + 4 cod,_dried,_salted,_boiled_JAC + 0.91 cod,_flesh_only,_baked_JAC
+ + 1.28 cod,_flesh_only,_grilled_JAC + 1.27 cod,_flesh_only,_steamed_JAC
+ + 0.01 courgette,_raw_DGR + 0.04 couscous,_plain,_raw_AD
+ + 5.5 crab,_canned_in_brine,_drained_JKC + 3.37 crab,_purchased_cooked_JKC
+ + 0.02 cranberries,_frozen_FAT + 0.02 cranberries_FAT
+ + 0.29 cream,_dairy,_extra_thick_(24%_fat)_BJC + 0.49 cream,_half,_fresh_BJC
+ + 0.22 creme_fraiche,_full_fat_BJC + 0.36 creme_fraiche,_half_fat_BJC
+ + 0.04 cucumber,_raw,_flesh_and_skin_DGR + 0.43 curly_kale,_raw_DGR
  + 0.06 dates,_raw,_flesh_and_skin,_weighed_with_stones_FAT
  + 0.6 eel,_conger,_flesh_only,_grilled_JAC
  + 1.5 eggs,_chicken,_whole,_boiled_CA
@@ -10755,7 +10815,6 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.43 milk,_semi_skimmed,_pasteurised,_average_BAH
  + 0.44 milk,_skimmed,_pasteurised,_average_BAE
  + 0.56 milk,_soya,_non_dairy_alternative_to_milk,_sweetened,_fortified_BAV
- + 0 milk,_soya,_non_dairy_alternative_to_milk,_unsweetened,_fortified_BAV
  + 0.42 milk,_whole,_pasteurised,_average_BAK
  + 2.13625 mince_beef,_cooked_MBGC
  + 0.66 muesli,_swiss_style,_no_added_sugar_or_salt,_unfortified_AI_wg
@@ -10763,13 +10822,9 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.02 mulberries,_whole_fruit,_raw,_frozen_FAT
  + 0.02 mulberries,_whole_fruit,_raw_FAT + 4.01 mussels,_purchased_cooked_JMC
  + 0.01 nectarines,_flesh_and_skin,_weighed_with_stones_FAT
- + 5 noodles,_egg,_dried,_raw_AD + 0 oil,_coconut_OC + 0 oil,_olive_OC
- + 0 oil,_peanut_(groundnut)_OC + 0 oil,_rapeseed_OC + 0.02 oil,_sesame_OC
- + 0 oil,_sunflower_OC + 0 oil,_vegetable,_average_OC
+ + 5 noodles,_egg,_dried,_raw_AD + 0.02 oil,_sesame_OC
  + 10.64 olives,_green,_in_brine,_drained,_flesh_and_skin,_weighed_with_stones_FAT
- + 0.03 onions,_raw_DGR
- + 0 oranges,_flesh_only,_weighed_with_peel_and_pips_FAT
- + 2.99 pangasius,_flesh_only,_baked_JAC
+ + 0.03 onions,_raw_DGR + 2.99 pangasius,_flesh_only,_baked_JAC
  + 0.04 papaya,_raw,_flesh_only,_weighed_with_skin_and_pips_FAT
  + 0.12 passion_fruit,_flesh_and_pips,_weighed_with_skin_FAT
  + 0.02 pasta,_white,_dried,_raw_AD
@@ -10835,26 +10890,22 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 4 sardines,_canned_in_sunflower_oil,_drained_JCC
  + 3.15 sardines,_canned_in_tomato_sauce,_whole_contents_JCC
  + 1.74 sardines,_flesh_only,_grilled_JCC + 5.9 sauerkraut_DGR
- + 4.56666666667 sausage,_beef_avg_MI + 0 sausage,_pork_avg_MI
+ + 4.56666666667 sausage,_beef_avg_MI
  + 5.5 sausages,_vegetarian,_baked_grilled_VEG + 1.8 scallops,_steamed_JMC
  + 0.2 sesame_seeds_GAT + 0.1 shallots,_raw_DGR + 38.4 shrimps,_boiled_JKC
  + 9.8 shrimps,_canned_in_brine,_drained_JKC + 43.3 shrimps,_dried_JKC
- + 3.8 shrimps,_frozen_JKC + sodium_elastic_SubProblem_free_bound
- + sodium_elastic_SubProblem_neg_penalty_var
- + sodium_elastic_SubProblem_pos_penalty_var + 0.3 spinach,_baby,_raw_DGR
+ + 3.8 shrimps,_frozen_JKC + 0.3 spinach,_baby,_raw_DGR
  + 1.4 spinach,_mature,_raw_DGR + 0.2 spring_greens,_raw_DGR
  + 0.07 spring_onions,_bulbs_and_tops,_raw_DGR
  + 0.13 spring_onions,_bulbs_only,_raw_DGR + 0.03 squash,_acorn,_raw_DGR
- + 0.04 squash,_butternut,_raw_DGR + 0 squash,_pumpkin,_raw_DGR
- + 0.17 squash,_spaghetti,_raw_DGR + 9.4 squid,_dried_JMC
- + 0.02 star_fruit_FAT + 0.01 strawberries,_raw,_frozen_FAT
- + 0.01 strawberries,_raw_FAT + 0.03 sunflower_seeds,_toasted_GAT
- + 0.03 sunflower_seeds_GAT + 0 supplement
+ + 0.04 squash,_butternut,_raw_DGR + 0.17 squash,_spaghetti,_raw_DGR
+ + 9.4 squid,_dried_JMC + 0.02 star_fruit_FAT
+ + 0.01 strawberries,_raw,_frozen_FAT + 0.01 strawberries,_raw_FAT
+ + 0.03 sunflower_seeds,_toasted_GAT + 0.03 sunflower_seeds_GAT
  + 1.07309090909 sweet_potato,_raw,_flesh_only,_canned_DGR
- + 0.4 sweet_potato,_raw,_flesh_only_DGR
- + 0 sweetcorn,_kernels,_'on_the_cob',_raw,_weighed_with_core_DGR
- + 0.01 sweetcorn,_kernels,_raw_DGR + 1.7 swordfish,_flesh_only,_grilled_JCC
- + 0.06 tempeh_VEG + 0.12 tofu,_soya_bean,_steamed,_fried_VEG
+ + 0.4 sweet_potato,_raw,_flesh_only_DGR + 0.01 sweetcorn,_kernels,_raw_DGR
+ + 1.7 swordfish,_flesh_only,_grilled_JCC + 0.06 tempeh_VEG
+ + 0.12 tofu,_soya_bean,_steamed,_fried_VEG
  + 0.04 tofu,_soya_bean,_steamed_VEG + 0.04 tomatoes,_cherry,_raw_DGR
  + 0.02 tomatoes,_standard,_raw_DGR + 6.22 tortilla,_wheat,_soft_AF
  + 0.88 trout,_brown,_steamed_JCC + 0.93 trout,_rainbow,_flesh_only,_baked_JCC
@@ -10871,10 +10922,7 @@ sodium_elastic_SubProblem_Constraint: 0.14 almonds,_flaked_and_ground_GAT
  + 0.62 yogurt,_virtually_fat_free_diet,_fruit_BN
  + 0.71 yogurt,_virtually_fat_free_diet,_plain_BN
  + 0.58 yogurt,_whole_milk,_fruit_BN + 0.8 yogurt,_whole_milk,_plain_BN
- = 16100
-Bounds
--1610 <= sodium_elastic_SubProblem_free_bound <= 1610
--inf <= sodium_elastic_SubProblem_neg_penalty_var <= 0
+ <= 16100
 Binaries
 food_status_almonds,_flaked_and_ground_GAT
 food_status_almonds,_toasted_GAT
