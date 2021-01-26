@@ -5,4 +5,3 @@ pulp
 ipywidgets
 matplotlib
 mpld3
-math
