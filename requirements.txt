@@ -5,3 +5,4 @@ pulp
 ipywidgets
 matplotlib
 mpld3
+openpyxl
