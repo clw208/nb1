@@ -13156,7 +13156,6 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="nn">mpatches</span>
 <span class="kn">import</span> <span class="nn">mpld3</span>
-<span class="kn">import</span> <span class="nn">nbinteract</span> <span class="k">as</span> <span class="nn">nbi</span>
 <span class="n">ipython</span> <span class="o">=</span> <span class="n">get_ipython</span><span class="p">()</span>
 <span class="c1">#data_dir = os.path.join(&#39;..&#39;,&#39;nb1&#39;,&#39;Input&#39;)</span>
 </pre></div>
@@ -13984,38 +13983,7 @@ if(typeof(mpld3) !== "undefined" && mpld3._mpld3IsLoaded){
 </div>
 </div>
 
-  </div># HIDDEN
-# This needs to be programmed to be visible on the webpage.
-x = df_opt['Grams']*df_opt['optimization_value_GHG_1_trade'].tolist()
-y = df_opt['Grams'].tolist()
-#labels2 = df_opt['optimization_country_GHG_1_trade'].tolist()
-colordict = dict(zip(df_opt['optimization_country_GHG_1_trade'].tolist(),\
-                             cm.rainbow(np.linspace(0, 1, len(df_opt['optimization_country_GHG_1_trade'].tolist())))))
-newcol = []
-for k in df_opt['optimization_country_GHG_1_trade'].map(colordict).tolist():
-    newcol.append(matplotlib.colors.to_hex(k))  
-labels = df_opt['Food Item'].tolist()
-labels = [i.replace('dried, ','') for i in labels]
-labels = [i.replace(', raw','') for i in labels]
-labels = [i.replace(', toasted','') for i in labels]            
-fig, ax = plt.subplots(1,1,figsize = (10,8))
-scatter = ax.scatter(x,y,c=newcol, s=50,alpha=0.8)
-ax.grid(color='white', linestyle=':')
-ax.set_xlabel('Impacts per Food Item (kgCO2eq)',size = 12)
-ax.set_ylabel('Grams to be Consumed',size = 12)
-ax.set_title("Recommended Diet for %s days"%days.value, size=20)
-
-
-
-handles = []
-for k,v in colordict.items():
-    hand = plt.Rectangle((0,0),1,1,label=k,alpha=1,color=v)
-    handles.append(hand)
-labels2 = [h.get_label() for h in handles]
-plt.legend(handles,labels2, title = 'Source Country \n for Food Item',bbox_to_anchor=(0.8, 0.5),loc='best' )
-tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
-mpld3.plugins.connect(fig, tooltip)
-mpld3.display()
+  </div>
 
 
 
