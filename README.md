@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clw208/nb1/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clw208/nb1/master/?filepath=User_Inputs.ipynb)
 
 ### This is code to run a tool that does 2 things:
 
