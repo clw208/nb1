@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clw208/nb1/master)
+
 ### This is code to run a tool that does 2 things:
 
 #### 1. Build a database of food items and their nutrients, and calculates the potential environmental impacts for each item, specific to the country and month of consumption.
