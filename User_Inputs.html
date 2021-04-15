@@ -13452,10 +13452,10 @@ div#notebook {
         <span class="n">mpld3</span><span class="o">.</span><span class="n">plugins</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">tooltip</span><span class="p">)</span>
         <span class="n">mpld3</span><span class="o">.</span><span class="n">enable_notebook</span><span class="p">()</span>
         <span class="c1">#### OLD</span>
-        <span class="c1">#mpld3.save_html(fig,&#39;User_Inputs.html&#39;)</span>
+        <span class="n">mpld3</span><span class="o">.</span><span class="n">save_html</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span><span class="s1">&#39;User_Inputs.html&#39;</span><span class="p">)</span>
         <span class="c1">##### NEW</span>
         <span class="c1">#mpld3.to_html(fig,&#39;User_Inputs_FIG.html&#39;)</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="n">mpld3</span><span class="o">.</span><span class="n">fig_to_html</span><span class="p">(</span><span class="n">fig</span><span class="p">))</span>
+        <span class="c1">#print (mpld3.fig_to_html(fig))</span>
         <span class="c1">#############</span>
     <span class="k">return</span> <span class="n">df_opt</span>
 </pre></div>
