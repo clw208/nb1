@@ -17,4 +17,5 @@
 ## This website will build a personalized, low impact diet for an individual without running any code. https://clw208.github.io/nb1/User_Inputs.html
 
 
-#### Details of work included in the Journal of Industrial Ecology publication at this link:
+#### Details of this work are in the following publication:
+Walker C, Pfister S, Hellweg S. Methodology and optimization tool for a personalized low environmental impact and healthful diet specific to country and season. J Ind Ecol 2021;00:1-14. https://doi.org/10.1111/jiec.13131
