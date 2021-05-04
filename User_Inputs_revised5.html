@@ -13114,7 +13114,7 @@ div#notebook {
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><span style="font-family: Arial; font-weight:bold;font-size:2em;color:green;"> Build a personalized, low impact and healthful diet_rev5</p>
+<p><span style="font-family: Arial; font-weight:bold;font-size:2em;color:green;"> Build a personalized, low impact and healthful diet_rev6</p>
 
 </div>
 </div>
@@ -13478,6 +13478,7 @@ div#notebook {
         <span class="c1">#### OLD</span>
         <span class="c1">#mpld3.save_html(fig,&#39;User_Inputs.html&#39;)</span>
         <span class="c1">##### NEW</span>
+        <span class="n">mpld3</span><span class="o">.</span><span class="n">fig_to_html</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span>
         <span class="n">mpld3</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
         <span class="c1">#print (mpld3.fig_to_html(fig))</span>
         <span class="c1">#############</span>
@@ -13968,9 +13969,10 @@ div#notebook {
   </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><p> <span style="font-family: Arial; font-size:1em;color:black;"> *Sometimes the optimization tool will fail, and not be able to build a personalized diet. Usually, this is caused by two things:
-1) The selection of certain food items might make it difficult to meet the definition of a healthful diet by exceeding maximum allowed sodium or fat limits. In this case the tool will increase the maximum limits by 10% and run again. If it is still unsucessful, please re-evaluate the mass of the preferred food items.
-2) Requiring a vegan or vegetarian diet without allowing for supplements makes achieving the minimum necessary nutrients difficult. This tool sets maximum limits of how much of a food item can be selected in a diet to mimic a realistic diet composition (i.e. bread can't be provide all nutrients and energy). If an optimized diet is not possible given these intial limits, the limits are increased and the tool is automatically run again. If it continues to fail, a general low-impact, healthful diet is suggested.</p>
+<p><p> <span style="font-family: Arial; font-size:1.5em;color:black;"> *Sometimes the optimization tool will fail, and not be able to build a personalized diet. Usually, this is caused by two things:</p>
+<p><p> <span style="font-family: Arial; font-size:1em;color:black;"> 1) You selected certain food items that make it difficult to meet the definition of a healthful diet (i.e. exceeds maximum allowed sodium or fat limits). 
+In this case the tool will increase the maximum allowed limits by 10% and run again. If it still can't make an optimized diet, please reduce the desired mass of some particularly high salt or high fat foods you have selected (you will need to refresh the page and start over).</p>
+<p><p> <span style="font-family: Arial; font-size:1em;color:black;"> 2) Requesting a vegan or vegetarian diet without also allowing for supplements makes meeting the minimum necessary nutrients difficult. This tool sets a maximum limit of how much of a food item can be selected in a diet to mimic a realistic diet composition (i.e. one typical serving size of each food item is the maximum allowed per day). If an optimized diet is not possible with a daily serving size limit, the limits are interatively increased to a maximum of 2 serving sizes per day and the tool is automatically run again. If it continues to fail, a general low-impact, healthful diet is suggested, and you should consider including a supplement.</p>
 
 </div>
 </div>
