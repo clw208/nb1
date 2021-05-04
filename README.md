@@ -14,7 +14,7 @@
 * seasonal_landbio_updated (the biodiversity loss impacts for all countries that can potentially produce that item in that given month)
 
 
-## This website will build a personalized, low impact diet for an individual without running any code. https://clw208.github.io/nb1/User_Inputs.html
+## This website will build a personalized, low impact diet for an individual without needing to access code. https://clw208.github.io/nb1/User_Inputs.html
 
 
 #### Details of this work are in the following publication:
